@@ -3,7 +3,7 @@ body {
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   padding: 18vh 1rem;
-  text-align: center; }
+  text-align: left; }
 
 .banner .title h1 {
   font-size: 4vw;
@@ -12,10 +12,10 @@ body {
   display: block;
   /* background-color: #6dffbb; */
   position: fixed;
-  left: 2%;
+  left: 1.5%;
   top: 0%;
   height: 5vw;
-  width: 31%;
+  width: 31.5%;
   z-index: 0;
   background: rgba(109, 255, 187, 0.75); }
 
@@ -24,10 +24,10 @@ body {
   text-align: right;
   margin: auto;
   position: fixed;
-  right: 2%;
+  right: 1.5%;
   top: 0%;
   height: 5vw;
-  width: 65%;
+  width: 65.5%;
   z-index: 1;
   background: rgba(109, 255, 187, 0.75); }
 
