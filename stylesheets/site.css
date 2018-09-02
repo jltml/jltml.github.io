@@ -5,6 +5,13 @@ body {
   padding: 18vh 1rem;
   text-align: left; }
 
+.wrapper {
+  position: relative; }
+
+.blurlayer {
+  -webkit-filter: blur(5px);
+          filter: blur(5px); }
+
 .banner .title h1 {
   font-size: 4vw;
   text-align: left;
