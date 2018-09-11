@@ -17,7 +17,12 @@
   font-family: Avenir;
   src: url(./Avenir/AvenirLTStd-HeavyOblique.woff);
   font-weight: bold;
-  font-style: italic, oblique; }
+  font-style: oblique; }
+@font-face {
+  font-family: Avenir;
+  src: url(./Avenir/AvenirLTStd-HeavyOblique.woff);
+  font-weight: bold;
+  font-style: italic; }
 body {
   background-color: #6dffbb;
   color: #333;
