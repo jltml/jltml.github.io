@@ -50,7 +50,7 @@ p {
   position: fixed;
   left: 1.5%;
   top: 0%;
-  height: 9vmin;
+  height: 8vmin;
   width: 60vw;
   z-index: 0;
   background: rgba(109, 255, 187, 0.75);
@@ -64,7 +64,7 @@ p {
   position: fixed;
   right: 1.5%;
   top: 0%;
-  height: 9vmin;
+  height: 8vmin;
   width: 37vw;
   z-index: 1;
   background: rgba(109, 255, 187, 0.75); }
