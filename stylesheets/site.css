@@ -23,6 +23,13 @@
   src: url(./Avenir/AvenirLTStd-HeavyOblique.woff);
   font-weight: bold;
   font-style: italic; }
+@font-face {
+  font-family: Nitti;
+  src: url(./Nitti/nitti_light.woff); }
+@font-face {
+  font-family: Nitti;
+  src: url(./Nitti/nitti_medium.woff);
+  font-weight: bold; }
 body {
   background-color: #6dffbb;
   color: #333;
