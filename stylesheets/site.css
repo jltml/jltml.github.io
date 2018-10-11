@@ -1,3 +1,4 @@
+/* Avenir */
 @font-face {
   font-family: Avenir;
   src: url(./Avenir/AvenirLTStd-Book.woff); }
@@ -23,6 +24,7 @@
   src: url(./Avenir/AvenirLTStd-HeavyOblique.woff);
   font-weight: bold;
   font-style: italic; }
+/* Nitti */
 @font-face {
   font-family: Nitti;
   src: url(./Nitti/nitti_light.woff); }
@@ -30,6 +32,23 @@
   font-family: Nitti;
   src: url(./Nitti/nitti_medium.woff);
   font-weight: bold; }
+/* iA Writer Duospace */
+@font-face {
+  font-family: iAWriterDuospace;
+  src: url(./iAWriterDuospace/iAWriterDuospace-Regular.otf); }
+@font-face {
+  font-family: iAWriterDuospace;
+  src: url(./iAWriterDuospace/iAWriterDuospace-Bold.otf);
+  font-weight: bold; }
+@font-face {
+  font-family: iAWriterDuospace;
+  src: url(./iAWriterDuospace/iAWriterDuospace-BoldItalic.woff);
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: iAWriterDuospace;
+  src: url(./iAWriterDuospace/iAWriterDuospace-RegularItalic.woff);
+  font-style: italic; }
 body {
   background-color: #6dffbb;
   color: #333;
