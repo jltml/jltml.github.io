@@ -1,0 +1,6 @@
+<h1 id="raspberrytau42githubio-hosted-at-jltmlmejltmlme">raspberrytau42.github.io (hosted at <a href="jltml.me">jltml.me</a>)</h1>
+<p>### My Personal Wesbite</p>
+
+<p>Hi! So this is my personal website, which I finally got working after a few failed attempts. It's built using <a href="https://github.com/middleman/middleman">Middleman</a>, a rather brilliant static site generator. I use the [Middleman-Deploy] extension to host it on GitHub Pages (on a domain I bought from gandi.net). To start, I just kept modifying the default "Middleman Is Running" page that's generated upon first setup. I learned as I went (and still am learning), eventually ending up here. A special thank-you to <a href="https://github.com/boldfield">boldfield</a> for all of the help he's given me :)</p>
+
+<p>Thanks!</p>
