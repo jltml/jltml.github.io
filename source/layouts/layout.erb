@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
-
-<%= partial "/layouts/partials/head" %>
-<!-- Use the title from a page's frontmatter if it has one -->
-<title><%= current_page.data.title || "jacquesite" %></title>
-
+  <head>
+    <%= partial "/layouts/partials/head" %>
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title><%= current_page.data.title || "jacquesite" %></title>
+  </head>
   <body>
     <div class="banner">
       <header>
@@ -26,7 +26,4 @@
     </div>
     <%= yield %>
   </body>
-<footer>
-
-</footer>
 </html>
