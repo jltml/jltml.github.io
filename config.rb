@@ -63,6 +63,7 @@ activate :blog do |blog|
   blog.layout = "bloglayout"
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
+  # blog.permalink = "./{title}.html"
 end
 
 activate :blog do |blog|
@@ -71,6 +72,7 @@ activate :blog do |blog|
   blog.layout = "thoughtslayout"
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
+  # blog.permalink = "./{title}.html"
 end
 
 # Tells menu pages to use corresponding custom layout
@@ -81,3 +83,6 @@ page "/menu/*", :layout => "menulayout"
 activate :google_analytics do |ga|
   ga.tracking_id = 'UA-50288708-10' # Replace with your property ID.
 end
+
+# Activates director indexes
+activate :directory_indexes
