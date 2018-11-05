@@ -76,7 +76,6 @@ activate :blog do |blog|
 end
 
 # Tells menu pages to use corresponding custom layout
-page "/menu.html", :layout => "menulayout"
 page "/menu/*", :layout => "menulayout"
 
 # Google Analytics extension
