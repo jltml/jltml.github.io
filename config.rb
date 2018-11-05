@@ -83,5 +83,8 @@ activate :google_analytics do |ga|
   ga.tracking_id = 'UA-50288708-10' # Replace with your property ID.
 end
 
-# Activates director indexes
+# Activates directory indexes
 activate :directory_indexes
+
+# Tells the 404 page not to use direcory indexes
+page '/404.html', directory_index: false
