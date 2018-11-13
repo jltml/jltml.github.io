@@ -86,5 +86,6 @@ end
 # Activates directory indexes
 activate :directory_indexes
 
-# Tells the 404 page not to use direcory indexes
+# Tells pages not to use direcory indexes
 page '/404.html', directory_index: false
+page "/my-things.md", :directory_index => false
