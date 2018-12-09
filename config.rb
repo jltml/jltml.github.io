@@ -63,7 +63,7 @@ activate :blog do |blog|
   blog.layout = "bloglayout"
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
-  # blog.permalink = "./{title}.html"
+  blog.permalink = "{title}"
 end
 
 activate :blog do |blog|
@@ -72,7 +72,7 @@ activate :blog do |blog|
   blog.layout = "thoughtslayout"
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
-  # blog.permalink = "./{title}.html"
+  blog.permalink = "{title}"
 end
 
 # Tells menu pages to use corresponding custom layout
