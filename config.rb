@@ -51,7 +51,7 @@ activate :livereload
 # Middleman-Deploy
 activate :deploy do |deploy|
   deploy.deploy_method = :git
-  deploy.remote = 'https://github.com/raspberrytau42/raspberrytau42.github.io.git'
+  deploy.remote = 'https://github.com/jltml/jltml.github.io.git'
   deploy.branch = 'master'
   deploy.build_before = false
 end
