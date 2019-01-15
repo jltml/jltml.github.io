@@ -50,6 +50,7 @@
   src: url(./fonts/iAWriterDuospace/iAWriterDuospace-RegularItalic.woff);
   font-style: italic; }
 /* IBM Plex Sans */
+/* There are more files in /fonts/IBM-Plex-Sans, but they're not yet referenced here */
 @font-face {
   font-family: IBM-Plex-Sans;
   src: url(./fonts/IBM-Plex-Sans/IBMPlexSans-Regular.otf); }
@@ -156,7 +157,8 @@ p {
   height: 8vmin;
   width: 37vw;
   z-index: 1;
-  background: rgba(0, 255, 255, 0.75); }
+  background: rgba(0, 255, 255, 0.75);
+  white-space: nowrap; }
 
 a {
   color: rgba(0, 0, 0, 0.7); }
