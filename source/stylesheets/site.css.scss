@@ -24,6 +24,7 @@
   src: url(./fonts/Avenir/AvenirLTStd-HeavyOblique.woff);
   font-weight: bold;
   font-style: italic; }
+
 /* Nitti */
 @font-face {
   font-family: Nitti;
@@ -32,6 +33,7 @@
   font-family: Nitti;
   src: url(./fonts/Nitti/nitti_medium.woff);
   font-weight: bold; }
+
 /* iA Writer Duospace */
 @font-face {
   font-family: iAWriterDuospace;
@@ -49,7 +51,9 @@
   font-family: iAWriterDuospace;
   src: url(./fonts/iAWriterDuospace/iAWriterDuospace-RegularItalic.woff);
   font-style: italic; }
+
 /* IBM Plex Sans */
+/* There are more files in /fonts/IBM-Plex-Sans, but they're not yet referenced here */
 @font-face {
   font-family: IBM-Plex-Sans;
   src: url(./fonts/IBM-Plex-Sans/IBMPlexSans-Regular.otf); }
@@ -66,6 +70,7 @@
   src: url(./fonts/IBM-Plex-Sans/IBMPlexSans-BoldItalic.otf);
   font-weight: bold;
   font-style: italic; }
+
 /* Actual CSS */
 body {
   background-color: #00FFFF;
@@ -156,7 +161,8 @@ p {
   height: 8vmin;
   width: 37vw;
   z-index: 1;
-  background: rgba(0, 255, 255, 0.75); }
+  background: rgba(0, 255, 255, 0.75);
+  white-space: nowrap; }
 
 a {
   color: rgba(0, 0, 0, 0.7); }
