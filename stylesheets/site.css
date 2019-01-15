@@ -1,54 +1,55 @@
 /* Avenir */
 @font-face {
   font-family: Avenir;
-  src: url(./Avenir/AvenirLTStd-Book.woff); }
+  src: url(./fonts/Avenir/AvenirLTStd-Book.woff); }
 @font-face {
   font-family: Avenir;
-  src: url(./Avenir/AvenirLTStd-Heavy.woff);
+  src: url(./fonts/Avenir/AvenirLTStd-Heavy.woff);
   font-weight: bold; }
 @font-face {
   font-family: Avenir;
-  src: url(./Avenir/AvenirLTStd-BookOblique.woff);
+  src: url(./fonts/Avenir/AvenirLTStd-BookOblique.woff);
   font-style: italic; }
 @font-face {
   font-family: Avenir;
-  src: url(./Avenir/AvenirLTStd-BookOblique.woff);
+  src: url(./fonts/Avenir/AvenirLTStd-BookOblique.woff);
   font-style: oblique; }
 @font-face {
   font-family: Avenir;
-  src: url(./Avenir/AvenirLTStd-HeavyOblique.woff);
+  src: url(./fonts/Avenir/AvenirLTStd-HeavyOblique.woff);
   font-weight: bold;
   font-style: oblique; }
 @font-face {
   font-family: Avenir;
-  src: url(./Avenir/AvenirLTStd-HeavyOblique.woff);
+  src: url(./fonts/Avenir/AvenirLTStd-HeavyOblique.woff);
   font-weight: bold;
   font-style: italic; }
 /* Nitti */
 @font-face {
   font-family: Nitti;
-  src: url(./Nitti/nitti_light.woff); }
+  src: url(./fonts/Nitti/nitti_light.woff); }
 @font-face {
   font-family: Nitti;
-  src: url(./Nitti/nitti_medium.woff);
+  src: url(./fonts/Nitti/nitti_medium.woff);
   font-weight: bold; }
 /* iA Writer Duospace */
 @font-face {
   font-family: iAWriterDuospace;
-  src: url(./iAWriterDuospace/iAWriterDuospace-Regular.otf); }
+  src: url(./fonts/iAWriterDuospace/iAWriterDuospace-Regular.otf); }
 @font-face {
   font-family: iAWriterDuospace;
-  src: url(./iAWriterDuospace/iAWriterDuospace-Bold.otf);
+  src: url(./fonts/iAWriterDuospace/iAWriterDuospace-Bold.otf);
   font-weight: bold; }
 @font-face {
   font-family: iAWriterDuospace;
-  src: url(./iAWriterDuospace/iAWriterDuospace-BoldItalic.woff);
+  src: url(./fonts/iAWriterDuospace/iAWriterDuospace-BoldItalic.woff);
   font-weight: bold;
   font-style: italic; }
 @font-face {
   font-family: iAWriterDuospace;
-  src: url(./iAWriterDuospace/iAWriterDuospace-RegularItalic.woff);
+  src: url(./fonts/iAWriterDuospace/iAWriterDuospace-RegularItalic.woff);
   font-style: italic; }
+/* Actual CSS */
 body {
   background-color: #00FFFF;
   color: #333;
