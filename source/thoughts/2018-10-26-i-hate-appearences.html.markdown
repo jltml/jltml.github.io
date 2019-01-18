@@ -1,6 +1,6 @@
 ---
 
-title: i-hate-appearences
+title: i hate appearences
 date: 2018-10-26 15:33 UTC
 tags:
 
