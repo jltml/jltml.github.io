@@ -81,49 +81,6 @@ body {
 p {
   font-family: Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif; }
 
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  padding-top: 60px; }
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  -webkit-transition: 0.3s;
-  transition: 0.3s; }
-
-.sidenav a:hover {
-  color: #f1f1f1; }
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px; }
-
-#main {
-  -webkit-transition: margin-left .5s;
-  transition: margin-left .5s;
-  padding: 16px; }
-
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px; }
-
-  .sidenav a {
-    font-size: 18px; } }
 .wrapper {
   position: relative; }
 
@@ -136,7 +93,6 @@ p {
   text-align: left;
   margin: auto;
   display: block;
-  /* background-color: #6dffbb; */
   position: fixed;
   left: 1.5%;
   top: 0%;
@@ -145,7 +101,9 @@ p {
   z-index: 0;
   background: rgba(0, 255, 255, 0.75);
   white-space: nowrap;
-  overflow: visible; }
+  overflow: visible;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
 
 .banner .navigation h1 {
   font-size: 6vmin;
@@ -160,15 +118,14 @@ p {
   background: rgba(0, 255, 255, 0.75);
   white-space: nowrap; }
 
+.banner .navigation h1:hover {
+  color: rgba(76, 76, 76, 0.6); }
+
 a {
   color: rgba(0, 0, 0, 0.7); }
 
 a:focus, a:hover {
   color: rgba(76, 76, 76, 0.6); }
-
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem; }
 
 hr {
   display: block;
@@ -179,3 +136,45 @@ hr {
   border-style: inset;
   border-width: 1px;
   border-color: #000; }
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  right: 1.5%;
+  top: -30px;
+  z-index: 2;
+  background-color: inherit;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-align: right;
+  text-decoration: underline; }
+
+.sidenav hover {
+  color: rgba(76, 76, 76, 0.6); }
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 6vmin;
+  color: inherit;
+  display: block;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-align: right; }
+
+.sidenav a:hover {
+  color: rgba(76, 76, 76, 0.6); }
+
+#main {
+  -webkit-transition: margin-right .5s;
+  transition: margin-right .5s;
+  padding: 0px; }
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px; }
+
+  .sidenav a {
+    font-size: 18px; } }
