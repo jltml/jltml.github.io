@@ -1,21 +1,26 @@
-<div class="banner">
-  <header>
-    <div class="title">
-      <h1>
-        <a href="../../../../../">jack mapellentz</a>
-      </h1>
-    </div>
-    <div id="navigation" class="navigation">
-      <h1>
-        <span onclick="openNav()"> <u>menu</u></span>
-      </h1>
-    </div>
-    <div id="mySidenav" class="sidenav">
-      <h1>
-        <a href="javascript:void(0)"onclick="closeNav()"> close</a>
-        <%= partial "/layouts/partials/menuitems" %>
-        <br>
-      </h1>
-    </div>
-  </header>
+<div class="wrapper">
+  <div class="banner">
+    <header>
+      <div class="title">
+        <h1>
+          <a href="../../../../../">jack mapellentz</a>
+        </h1>
+      </div>
+      <div id="navigation" class="navigation">
+        <h1>
+          <span onclick="openNav()"> <u>menu</u></span>
+        </h1>
+      </div>
+      <div id="mySidenav" class="sidenav">
+        <h1>
+          <a href="javascript:void(0)"onclick="closeNav()"> close</a>
+          <%= partial "/layouts/partials/menuitems" %>
+          <br>
+        </h1>
+        <i>
+          <span id="lastModified"></span>
+        </i>
+      </div>
+    </header>
+  </div>
 </div>
