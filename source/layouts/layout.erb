@@ -1,29 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <%= partial "/layouts/partials/head" %>
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "jacquesite" %></title>
-  </head>
-  <body>
-    <div class="banner">
-      <header>
-        <div class="wrapper">
-          <div class="blurlayer">
-          </div>
-          <div class="title">
-            <h1>
-              <a href="../../../../../">jack mapellentz</a>
-            </h1>
-          </div>
-          <div class="navigation">
-            <h1>
-              <a href="../../../../../menu">menu</a>
-            </h1>
-          </div>
-        </div>
-      </header>
-    </div>
-    <%= yield %>
-  </body>
+<head>
+  <%= partial "/layouts/partials/head" %>
+  <!-- Use the title from a page's frontmatter if it has one -->
+  <title><%= current_page.data.title || "jacquesite" %></title>
+</head>
+
+<body>
+  <%= partial "/layouts/partials/banner" %>
+
+<div id="main">
+  <%= yield %>
+</div>
+
+<script>
+<%= partial "/layouts/partials/menuscripts" %>
+</script>
+
+</body>
 </html>

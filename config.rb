@@ -77,6 +77,7 @@ end
 
 # Tells menu pages to use corresponding custom layout
 page "/menu/*", :layout => "menulayout"
+page "/misc/sidenav/*", :layout => "menulayout"
 
 # Google Analytics extension
 activate :google_analytics do |ga|

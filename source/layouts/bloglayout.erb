@@ -8,20 +8,7 @@
   <body>
 
     <!-- Note: this is almost identical to the standard layout.erb. I tried nesting, but it broke the links -->
-    <div class="banner">
-      <header>
-          <div class="title">
-            <h1>
-              <a href="../../../../../">jack mapellentz</a>
-            </h1>
-          </div>
-          <div class="navigation">
-            <h1>
-              <a href="../../../../../menu">menu</a>
-            </h1>
-          </div>
-      </header>
-    </div>
+    <%= partial "/layouts/partials/banner" %>
 
     <div id="main" role="main">
       <h1><a href="../../../../../blog">blog</a></h1>
@@ -54,4 +41,9 @@
       </p>
     </aside>
   </body>
+
+  <script>
+  <%= partial "/layouts/partials/menuscripts" %>
+  </script>
+
 </html>
