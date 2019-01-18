@@ -23,22 +23,23 @@
 </head>
 
 <body>
+  <div class="wrapper">
   <div class="banner">
-  <header>
-    <div class="title">
-      <h1>
-        <a href="../../../../../">jack mapellentz</a>
-      </h1>
-    </div>
-    <div id="navigation" class="navigation">
-      <h1>
-        <span onclick="openNav()"> <u>menu</u></span>
-      </h1>
-    </div>
-    <div id="mySidenav" class="sidenav">
-      <h1>
-        <a href="javascript:void(0)"onclick="closeNav()"> close</a>
-        <a href="./../../">home</a>
+    <header>
+      <div class="title">
+        <h1>
+          <a href="../../../../../">jack mapellentz</a>
+        </h1>
+      </div>
+      <div id="navigation" class="navigation">
+        <h1>
+          <span onclick="openNav()"> <u>menu</u></span>
+        </h1>
+      </div>
+      <div id="mySidenav" class="sidenav">
+        <h1>
+          <a href="javascript:void(0)"onclick="closeNav()"> close</a>
+          <a href="./../../">home</a>
 
 <a href="./../../blog">blog</a>
 
@@ -58,10 +59,14 @@
 
 <a href="./../../about">about this site</a>
 
-        <br>
-      </h1>
-    </div>
-  </header>
+          <br>
+        </h1>
+        <i>
+          <span id="lastModified"></span>
+        </i>
+      </div>
+    </header>
+  </div>
 </div>
 
 
@@ -85,7 +90,7 @@
 <script>
 function openNav() {
   document.getElementById("mySidenav").setAttribute(
-       "style", "width: 30vmax; height: 100vmax");
+       "style", "width: 30vmax");
   document.getElementById("main").style.marginRight = "30vmax";
   document.getElementById("navigation").style.display = "none";
 }
@@ -94,6 +99,10 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("main").style.marginRight = "0";
   document.getElementById("navigation").style.display = "block";
+}
+
+onload = function(){
+  document.getElementById("lastModified").innerHTML = "wesbite last updated " + document.lastModified;
 }
 
 </script>

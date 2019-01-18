@@ -112,7 +112,7 @@
   <script>
   function openNav() {
   document.getElementById("mySidenav").setAttribute(
-       "style", "width: 30vmax; height: 100vmax");
+       "style", "width: 30vmax");
   document.getElementById("main").style.marginRight = "30vmax";
   document.getElementById("navigation").style.display = "none";
 }
@@ -121,6 +121,10 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("main").style.marginRight = "0";
   document.getElementById("navigation").style.display = "block";
+}
+
+onload = function(){
+  document.getElementById("lastModified").innerHTML = "wesbite last updated " + document.lastModified;
 }
 
   </script>
