@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+  <head>
+    <%= partial "/layouts/partials/head" %>
+    <title>jacquesite • articles<%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+
+    <style>
+    hr {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+        border-color: #5d4205;
+      }
+      p {
+        font-family: IBM-Plex-Serif, iAWriterDuospace, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+        background-color: #e7dec7;
+        color: #5d4205;
+        }
+      body, h1, h2, h3, a {
+        background-color: #e7dec7;
+        color: #5d4205;
+        font-family: IBM-Plex-Serif, iAWriterDuospace, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+      }
+      .banner .navigation h1 {
+        background-color: #e7dec7;
+        color: #5d4205;
+        font-family: IBM-Plex-Sans;
+      }
+      .banner .title h1 {
+        background-color: #e7dec7;
+        color: #5d4205;
+        font-family: IBM-Plex-Sans;
+      }
+      .banner .title a {
+        background-color: #e7dec7;
+        color: #5d4205;
+        font-family: IBM-Plex-Sans;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <%= partial "/layouts/partials/banner" %>
+
+    <div id="main" role="main">
+      <h1><a href="../../../../../literary-things/articles">articles</a></h1>
+      <hr>
+      <%= yield %>
+    </div>
+
+    <hr>
+
+    <aside>
+      <h3>Recent Articles</h3>
+      <p>
+        <% blog.articles[0...10].each do |article| %>
+          <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+        <% end %>
+      </p>
+
+      <h3>Tags</h3>
+      <p>
+        <% blog.tags.each do |tag, articles| %>
+          <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
+        <% end %>
+      </p>
+
+      <h3>By Year</h3>
+      <p>
+        <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+          <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
+        <% end %>
+      </p>
+    </aside>
+
+  </body>
+
+  <script>
+  <%= partial "/layouts/partials/menuscripts" %>
+  </script>
+
+</html>
