@@ -96,10 +96,7 @@ body {
   -webkit-transition: background-color .5s;
   transition: background-color .5s; }
 
-p {
-  font-family: Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif; }
-
-li {
+p, li {
   font-family: Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif; }
 
 .wrapper {
@@ -141,15 +138,12 @@ li {
   -webkit-transition: 0.5s;
   transition: 0.5s; }
 
-.banner .navigation h1:hover {
-  color: rgba(76, 76, 76, 0.6); }
-
 a {
   color: rgba(0, 0, 0, 0.7);
   -webkit-transition: 0.5s;
   transition: 0.5s; }
 
-a:focus, a:hover {
+.banner .navigation h1:hover, a:focus, a:hover {
   color: rgba(76, 76, 76, 0.6);
   -webkit-transition: 0.5s;
   transition: 0.5s; }
@@ -177,9 +171,6 @@ hr {
   transition: 0.5s;
   text-align: right;
   text-decoration: underline; }
-
-.sidenav hover {
-  color: rgba(76, 76, 76, 0.6); }
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
