@@ -16,7 +16,7 @@ tags: lungs
 • **December:** Everything just kept getting worse. I couldn’t breathe without being involuntarily forced into a forced expratory maneuver, which I’d taught myself to do (it involves compressing and squeezing all the air out of your lungs so as to wring out mucus blocking anything. When I first did if for her, my pulmonologist said that she’d never seen someone do it like that without being taught, and even then that it was super impressive)
 
 
-• **January:** I finally saw a pulmonologist, who soon diagnosed me with contracted bacterial bronchitis. I began a course of cefdinir (I think), as studies had shown that and one other antibiotic to be effective against the majority of cases of CBB.
+• **January:** I finally saw a pulmonologist, who soon diagnosed me with protracted bacterial bronchitis. I began a course of cefdinir (I think), as studies had shown that and one other antibiotic to be effective against the majority of cases of PBB.
 
 
 • **February:** The cefdinir had greatly improved me, but I slipped back when the three-week course ended, so…
