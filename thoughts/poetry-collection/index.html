@@ -115,17 +115,24 @@
   </body>
 
   <script>
-  function openNav() {
-  document.getElementById("mySidenav").setAttribute(
-      "style", "width: 100%");
-  document.getElementById("main").style.marginRight = "100%";
-  document.getElementById("navigation").style.display = "none";
+  var menuButton = document.querySelector("#menuButton");
+menuButton.addEventListener("click", showMenu, false);
+
+var sidenav = document.querySelector("#sidenav");
+sidenav.addEventListener("click", hideMenu, false);
+
+function showMenu(e) {
+    sidenav.classList.add("show");
+    sidenavEdge.classList.add("show");
+    menuButton.classList.add("hide");
 }
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginRight = "0";
-  document.getElementById("navigation").style.display = "block";
+function hideMenu(e) {
+    sidenav.classList.remove("show");
+    sidenavEdge.classList.remove("show");
+    menuButton.classList.remove("hide");
+    e.stopPropagation();
+    document.body.style.overflow = "auto";
 }
 
 function openEdge() {

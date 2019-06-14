@@ -33,12 +33,12 @@
         </div>
         <div id="navigation" class="navigation">
           <h1>
-            <span onclick="openNav()"> <u>menu</u></span>
+            <button id="menuButton">menu</button>
           </h1>
         </div>
-          <div id="mySidenav" class="sidenav">
+          <div id="sidenav" class="sidenav">
             <h1>
-              <a href="javascript:void(0)"onclick="closeNav()"> close</a>
+              <a href="javascript:void(0)"onclick="hideMenu()"> close</a>
               <a href="./../../../">home</a>
 
 <a href="./../../../blog">blog</a>
@@ -69,9 +69,9 @@
                 <a href="https://github.com/jltml/jltml.github.io/" target="blank"> <span id="lastModified"></span></a>
               </i>
           </div>
-          <div class="bottomEdge">
-          </div>
+          <div class="bottomEdge"></div>
         </div>
+        <div id="sidenavEdge"></div>
     </header>
 
 
@@ -86,17 +86,24 @@
 </div>
 
 <script>
-function openNav() {
-  document.getElementById("mySidenav").setAttribute(
-      "style", "width: 100%");
-  document.getElementById("main").style.marginRight = "100%";
-  document.getElementById("navigation").style.display = "none";
+var menuButton = document.querySelector("#menuButton");
+menuButton.addEventListener("click", showMenu, false);
+
+var sidenav = document.querySelector("#sidenav");
+sidenav.addEventListener("click", hideMenu, false);
+
+function showMenu(e) {
+    sidenav.classList.add("show");
+    sidenavEdge.classList.add("show");
+    menuButton.classList.add("hide");
 }
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginRight = "0";
-  document.getElementById("navigation").style.display = "block";
+function hideMenu(e) {
+    sidenav.classList.remove("show");
+    sidenavEdge.classList.remove("show");
+    menuButton.classList.remove("hide");
+    e.stopPropagation();
+    document.body.style.overflow = "auto";
 }
 
 function openEdge() {
