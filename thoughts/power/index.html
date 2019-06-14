@@ -112,8 +112,8 @@
   <script>
   function openNav() {
   document.getElementById("mySidenav").setAttribute(
-       "style", "width: 30vmax");
-  document.getElementById("main").style.marginRight = "30vmax";
+      "style", "width: 100%");
+  document.getElementById("main").style.marginRight = "100%";
   document.getElementById("navigation").style.display = "none";
 }
 
@@ -123,8 +123,14 @@ function closeNav() {
   document.getElementById("navigation").style.display = "block";
 }
 
-onload = function(){
-  document.getElementById("lastModified").innerHTML = "website last updated " + document.lastModified;
+function openEdge() {
+  document.getElementById("banner").style.background = "#FFFFFF";
+}
+
+onload = function() {
+  document.getElementById("lastModified").innerHTML = "updated " + document.lastModified;
+  document.getElementById("lastModified").setAttribute(
+      "style", "font-size: 3vmin");
 }
 
   </script>

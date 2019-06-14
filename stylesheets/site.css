@@ -87,7 +87,7 @@
   font-style: italic; }
 /* Actual CSS */
 body {
-  background-color: #00FFFF;
+  background-color: #FFFFFF;
   color: #333;
   font-family: IBM-Plex-Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   padding: 18vh 1rem;
@@ -105,7 +105,8 @@ p, li {
   right: 0%;
   top: 0%;
   height: 8vmin;
-  width: 100%; }
+  width: 100%;
+  background: cyan; }
 
 /* .banner:before {
   content: "";
@@ -128,7 +129,7 @@ p, li {
   height: 8vmin;
   width: 60vw;
   z-index: 2;
-  background: rgba(0, 255, 255, 0.75);
+  background: cyan;
   white-space: nowrap;
   overflow: visible;
   -webkit-transition: 0.5s;
@@ -144,7 +145,7 @@ p, li {
   height: 8vmin;
   width: 37vw;
   z-index: 3;
-  background: rgba(0, 255, 255, 0.75);
+  background: cyan;
   white-space: nowrap;
   -webkit-transition: 0.5s;
   transition: 0.5s; }
@@ -169,6 +170,15 @@ hr {
   border-width: 1px;
   border-color: #000; }
 
+.sidenavEdge {
+  height: 105%;
+  width: 1.5%;
+  position: fixed;
+  right: 0%;
+  top: -30px;
+  background-color: #000;
+  display: none; }
+
 .sidenav {
   height: 105%;
   width: 0;
@@ -176,12 +186,13 @@ hr {
   right: 1.5%;
   top: -30px;
   z-index: 2;
-  background-color: inherit;
+  background-color: #00FFFF;
   overflow-x: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   text-align: right;
-  text-decoration: underline; }
+  text-decoration: underline;
+  white-space: nowrap; }
 
 .sidenav a {
   padding: 8px 8px 8px 32px;

@@ -35,10 +35,10 @@
             <span onclick="openNav()"> <u>menu</u></span>
           </h1>
         </div>
-        <div id="mySidenav" class="sidenav">
-          <h1>
-            <a href="javascript:void(0)"onclick="closeNav()"> close</a>
-            <a href="./../../../">home</a>
+          <div id="mySidenav" class="sidenav">
+            <h1>
+              <a href="javascript:void(0)"onclick="closeNav()"> close</a>
+              <a href="./../../../">home</a>
 
 <a href="./../../../blog">blog</a>
 
@@ -62,13 +62,16 @@
 
 <a href="./../../../about">about this site</a>
 
-            <br>
-          </h1>
-            <i>
-              <a href="https://github.com/jltml/jltml.github.io/" target="blank"> <span id="lastModified"></span></a>
-            </i>
+              <br>
+            </h1>
+              <i>
+                <a href="https://github.com/jltml/jltml.github.io/" target="blank"> <span id="lastModified"></span></a>
+              </i>
+          </div>
+          <div class="sidenavEdge">
+            test
+          </div>
         </div>
-      </div>
     </header>
 
 
@@ -94,8 +97,8 @@
 <script>
 function openNav() {
   document.getElementById("mySidenav").setAttribute(
-       "style", "width: 30vmax");
-  document.getElementById("main").style.marginRight = "30vmax";
+      "style", "width: 100%");
+  document.getElementById("main").style.marginRight = "100%";
   document.getElementById("navigation").style.display = "none";
 }
 
@@ -105,8 +108,14 @@ function closeNav() {
   document.getElementById("navigation").style.display = "block";
 }
 
-onload = function(){
-  document.getElementById("lastModified").innerHTML = "website last updated " + document.lastModified;
+function openEdge() {
+  document.getElementById("banner").style.background = "#FFFFFF";
+}
+
+onload = function() {
+  document.getElementById("lastModified").innerHTML = "updated " + document.lastModified;
+  document.getElementById("lastModified").setAttribute(
+      "style", "font-size: 3vmin");
 }
 
 </script>
