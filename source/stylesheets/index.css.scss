@@ -1,3 +1,17 @@
+:root {
+  --color-background: #FFFFFF;
+  --color-body: #FFFFFF;
+  --color-a: #FFFFFF;
+  --color-loader: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: rgb(48, 48, 48);
+    --color-loader: #FFFFFF;
+  }
+}
+
 body {
   background: no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -9,32 +23,26 @@ body {
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
  }
- .banner, #sidenav, #sidenavEdge, .bottomEdge {
-   background: transparent;
- }
- .banner .title h1 {
-   background: transparent;
- }
- .banner .navigation h1 {
+ .banner, #sidenav, #sidenavEdge, .bottomEdge, .banner .title h1, .banner .navigation h1 {
    background: transparent;
  }
  body, h1, h2, h3, a {
-   color: #FFF;
+   color: var(--color-body);
  }
  a:hover, .banner .navigation h1:hover, #sidenav a:hover {
    color: #d3d3d3;
  }
 
  /* Loading screen */
- #loader-wrapper {
-     position: fixed;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-     z-index: 1000;
+#loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
  }
- #loader {
+  #loader {
   display: block;
   position: absolute;
   left: 50%;
@@ -45,11 +53,11 @@ body {
   height: 40px;
   border-radius: 100%;
   border: 3px solid transparent;
-  background-color: var(--color-body);
+  background-color: var(--color-loader);
   -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
   animation: sk-scaleout 1.0s infinite ease-in-out;
   z-index: 1001;
- }
+}
 
 // New spinner
  @-webkit-keyframes sk-scaleout {
