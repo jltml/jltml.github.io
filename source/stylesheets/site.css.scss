@@ -199,6 +199,13 @@ hr {
   background-color: var(--color-background-banner-bottomEdge);
 }
 
+#sidenavWrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
 #sidenavEdge {
   height: 105%;
   width: 1.5%;
@@ -217,18 +224,18 @@ hr {
 #sidenav {
   width: 100vw;
   position: fixed;
-  right: 1.5%;
   top: -30px;
   bottom: 0;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  right: 1.5%;
+  max-height: 105%;
+  overflow-y: scroll!important;
+  -webkit-overflow-scrolling: touch;
   z-index: 3;
   background-color: var(--color-background-banner);
   transition: 0.5s;
   text-align: right;
   text-decoration: underline;
   transform: translate(105%);
-  overflow-y: scroll;
 }
 
 #sidenav.show {

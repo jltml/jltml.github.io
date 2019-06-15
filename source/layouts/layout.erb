@@ -8,14 +8,11 @@
 
 <body>
   <%= partial "/layouts/partials/banner" %>
-
-<div id="main">
-  <%= yield %>
-</div>
-
-<script>
-<%= partial "/layouts/partials/menuscripts" %>
-</script>
-
+  <div id="main">
+    <%= yield %>
+  </div>
+  <script>
+  <%= partial "/layouts/partials/menuscripts" %>
+  </script>
 </body>
 </html>

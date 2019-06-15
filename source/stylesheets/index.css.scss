@@ -1,0 +1,26 @@
+body {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+ }
+ .banner, #sidenav, #sidenavEdge, .bottomEdge {
+   background: transparent;
+ }
+ .banner .title h1 {
+   background: transparent;
+ }
+ .banner .navigation h1 {
+   background: transparent;
+ }
+ body, h1, h2, h3, a {
+   color: #FFF;
+ }
+ a:hover, .banner .navigation h1:hover, #sidenav a:hover {
+   color: #d3d3d3;
+ }
