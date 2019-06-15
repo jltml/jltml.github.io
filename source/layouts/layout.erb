@@ -2,6 +2,11 @@
 <html>
 <head>
   <%= partial "/layouts/partials/head" %>
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
   <!-- Use the title from a page's frontmatter if it has one -->
   <title><%= current_page.data.title || "jacquesite" %></title>
 </head>
