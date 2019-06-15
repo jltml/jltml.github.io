@@ -36,10 +36,11 @@
             <button id="menuButton">menu</button>
           </h1>
         </div>
-          <div id="sidenav" class="sidenav">
-            <h1>
-              <a href="javascript:void(0)"onclick="hideMenu()"> close</a>
-              <a href="./../../../">home</a>
+          <div id="sidenavWrapper" class="sidenavWrapper">
+            <div id="sidenav" class="sidenav">
+              <h1>
+                <a href="javascript:void(0)"onclick="hideMenu()"> close</a>
+                <a href="./../../../">home</a>
 
 <a href="./../../../blog">blog</a>
 
@@ -63,20 +64,20 @@
 
 <a href="./../../../about">about this site</a>
 
-              <br>
-            </h1>
-              <i>
-                <a href="https://github.com/jltml/jltml.github.io/" target="blank"> <span id="lastModified"></span></a>
-              </i>
+                <br>
+              </h1>
+                <i>
+                  <a href="https://github.com/jltml/jltml.github.io/" target="blank"> <span id="lastModified"></span></a>
+                </i>
+              </div>
           </div>
           <div class="bottomEdge"></div>
         </div>
         <div id="sidenavEdge"></div>
     </header>
 
-
-<div id="main">
-  <head>
+  <div id="main">
+    <head>
   <title>jacquesite • articles</title>
   <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/literary-things/articles/feed.xml" />
   <link href="/stylesheets/articles.css" rel="stylesheet" />
@@ -200,10 +201,9 @@
   </p>
 </aside>
 
-</div>
-
-<script>
-var menuButton = document.querySelector("#menuButton");
+  </div>
+  <script>
+  var menuButton = document.querySelector("#menuButton");
 menuButton.addEventListener("click", showMenu, false);
 
 var sidenav = document.querySelector("#sidenav");
@@ -233,7 +233,6 @@ onload = function() {
       "style", "font-size: 3vmin");
 }
 
-</script>
-
+  </script>
 </body>
 </html>

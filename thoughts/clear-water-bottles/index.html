@@ -25,8 +25,8 @@
   <body>
 
     <!-- Note: this is almost identical to the standard layout.erb. I tried nesting, but it broke the links -->
-    <div class="banner">
       <header>
+      <div class="banner">
         <div class="title">
           <h1>
             <a href="../../../../../">jack mapellentz</a>
@@ -34,15 +34,14 @@
         </div>
         <div id="navigation" class="navigation">
           <h1>
-            <span onclick="openNav()"> <u>menu</u></span>
+            <button id="menuButton">menu</button>
           </h1>
         </div>
-        <div id="mySidenav" class="sidenav">
-          <h1>
-          <div id="closebtn" class="closebtn">
-            <a href="javascript:void(0)"onclick="closeNav()"> close</a>
-          </div>
-            <a href="./../../../">home</a>
+          <div id="sidenavWrapper" class="sidenavWrapper">
+            <div id="sidenav" class="sidenav">
+              <h1>
+                <a href="javascript:void(0)"onclick="hideMenu()"> close</a>
+                <a href="./../../../">home</a>
 
 <a href="./../../../blog">blog</a>
 
@@ -66,11 +65,18 @@
 
 <a href="./../../../about">about this site</a>
 
-            <br>
-          </h1>
+                <br>
+              </h1>
+                <i>
+                  <a href="https://github.com/jltml/jltml.github.io/" target="blank"> <span id="lastModified"></span></a>
+                </i>
+              </div>
+          </div>
+          <div class="bottomEdge"></div>
         </div>
-      </header>
-    </div>
+        <div id="sidenavEdge"></div>
+    </header>
+
 
     <div id="main" role="main">
       <h1><a href="../../../../../thoughts">thoughts</a></h1>
