@@ -35,45 +35,40 @@ body {
      z-index: 1000;
  }
  #loader {
-     display: block;
-     position: relative;
-     left: 50%;
-     top: 50%;
-     width: 150px;
-     height: 150px;
-     margin: -75px 0 0 -75px;
-     border-radius: 50%;
-     border: 3px solid transparent;
-     border-top-color: #3498db;
-
-     -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-     animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
-     z-index: 1001;
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -25px;
+  top: 50%;
+  margin-top: -50px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 3px solid transparent;
+  background-color: var(--color-body);
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+  z-index: 1001;
  }
 
- @-webkit-keyframes spin {
-     0%   {
-         -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-         -ms-transform: rotate(0deg);  /* IE 9 */
-         transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
-     }
-     100% {
-         -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-         -ms-transform: rotate(360deg);  /* IE 9 */
-         transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
-     }
+// New spinner
+ @-webkit-keyframes sk-scaleout {
+   0% { -webkit-transform: scale(0) }
+   100% {
+     -webkit-transform: scale(1.0);
+     opacity: 0;
+   }
  }
- @keyframes spin {
-     0%   {
-         -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-         -ms-transform: rotate(0deg);  /* IE 9 */
-         transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
-     }
-     100% {
-         -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-         -ms-transform: rotate(360deg);  /* IE 9 */
-         transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
-     }
+
+ @keyframes sk-scaleout {
+   0% {
+     -webkit-transform: scale(0);
+     transform: scale(0);
+   } 100% {
+     -webkit-transform: scale(1.0);
+     transform: scale(1.0);
+     opacity: 0;
+   }
  }
 
  #loader-wrapper .loader-section {
@@ -93,6 +88,7 @@ body {
  }
 
  /* Loaded styles */
+
  .loaded #loader-wrapper .loader-section.section-left {
      -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
          -ms-transform: translateX(-100%);  /* IE 9 */
