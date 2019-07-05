@@ -215,8 +215,10 @@ hr {
   top: -30px;
   bottom: 0;
   right: 1.5%;
-  max-height: 105%;
+  height: 105%;
+  margin-bottom: 1px;
   overflow-y: scroll !important;
+  overflow: scroll !important;
   -webkit-overflow-scrolling: touch;
   z-index: 3;
   background-color: var(--color-background-banner);
@@ -227,6 +229,13 @@ hr {
   -webkit-transform: translate(105%);
           transform: translate(105%); }
 
+/* @supports ((-webkit-backdrop-filter: initial) or (backdrop-filter: initial)) {
+    .banner, #sidenav, #sidenavEdge {
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        background-color: var(--color-background-banner);
+    }
+} */
 #sidenav.show {
   -webkit-transform: translate(0%);
           transform: translate(0%); }
