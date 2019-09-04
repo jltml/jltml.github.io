@@ -224,16 +224,13 @@ hr {
 }
 
 #sidenav {
-  width: 100vw;
   position: fixed;
-  top: -30px;
+  top: 0;
   bottom: 0;
   right: 1.5%;
-  height: 105%;
-  margin-bottom: 1px;
-  overflow-y: scroll!important;
-  overflow: scroll!important;
-  -webkit-overflow-scrolling: touch;
+  width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
   z-index: 3;
   background-color: var(--color-background-banner);
   transition: 0.5s;
