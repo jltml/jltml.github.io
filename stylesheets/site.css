@@ -211,7 +211,7 @@ hr {
 
 #sidenav {
   position: fixed;
-  top: 0;
+  top: -30px;
   bottom: 0;
   right: 1.5%;
   width: 100vw;
