@@ -1,15 +1,8 @@
 :root {
-  --color-background: #FFFFFF;
+  --color-background: rgb(48, 48, 48);
   --color-body: #FFFFFF;
   --color-a: #FFFFFF;
-  --color-loader: #000000;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: rgb(48, 48, 48);
-    --color-loader: #FFFFFF;
-  }
+  --color-loader: #FFFFFF;
 }
 
 body {
