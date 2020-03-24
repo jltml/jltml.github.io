@@ -1,13 +1,9 @@
 :root {
-  --color-background: #FFFFFF;
+  --color-background: #303030;
   --color-body: #FFFFFF;
   --color-a: #FFFFFF;
-  --color-loader: #000000; }
+  --color-loader: #FFFFFF; }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: #303030;
-    --color-loader: #FFFFFF; } }
 body {
   background: no-repeat center center fixed;
   background-size: cover;
