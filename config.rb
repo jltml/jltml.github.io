@@ -78,7 +78,7 @@ end
 
 activate :blog do |blog|
   blog.name = "articles"
-  blog.prefix = "literary-things/articles"
+  blog.prefix = "literature/articles"
   blog.layout = "articleslayout"
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
