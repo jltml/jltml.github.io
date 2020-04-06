@@ -8,20 +8,7 @@ hr {
     border-width: 1px;
     border-color: #FFF;
   }
-  p {
-    font-family: iAWriterDuospace, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-    background-color: red;
-    color: white;
-    }
-  body, h1, h2, h3, a {
-    background-color: red;
-    color: white;
-  }
-  .banner .navigation h1, .banner .title h1, .banner, .bottomEdge, #sidenav, #sidenavEdge {
-    background-color: red;
-    color: white;
-  }
-  .banner .title h1 {
+  p, body, h1, h2, h3, a, .banner .title h1, .banner .navigation h1, .banner .title h1, .banner, .navigation, .bottomEdge, #sidenav, #sidenav a, #sidenavEdge, #sidenavWrapper, #menuButton {
     background-color: red;
     color: white;
   }
