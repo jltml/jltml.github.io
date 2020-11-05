@@ -11,12 +11,12 @@
     <%= partial "/layouts/partials/banner" %>
 
     <div id="main" role="main">
-      <h1><a href="../../../../../literature/articles">articles</a></h1>
+      <h1><a href="../../../../../blog">blog</a></h1>
       <hr>
       <%= yield %>
     </div>
 
-    <hr>
+    <!-- <hr>
 
     <aside>
       <h3>Recent Articles</h3>
@@ -39,7 +39,7 @@
           <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
         <% end %>
       </p>
-    </aside>
+    </aside> -->
 
   </body>
 

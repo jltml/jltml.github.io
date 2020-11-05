@@ -1,9 +1,12 @@
+<!-- NO LONGER USED: see articleslayout.erb instead -->
+
 <!doctype html>
 <html>
   <head>
     <%= partial "/layouts/partials/head" %>
     <title>jacquesite • blog<%= ' - ' + current_article.title unless current_article.nil? %></title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+    <%= stylesheet_link_tag "articles" %>
   </head>
   <body>
 
@@ -16,9 +19,7 @@
       <%= yield %>
     </div>
 
-    <hr>
-
-    <aside>
+    <!-- <aside>
       <h3>Recent Articles</h3>
       <p>
         <% blog.articles[0...10].each do |article| %>
@@ -39,7 +40,7 @@
           <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
         <% end %>
       </p>
-    </aside>
+    </aside> -->
   </body>
 
   <script>

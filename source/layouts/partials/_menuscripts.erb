@@ -23,7 +23,23 @@ function openEdge() {
 }
 
 onload = function() {
-  document.getElementById("lastModified").innerHTML = "updated " + document.lastModified;
+  document.getElementById("lastModified").innerHTML = "last updated " + document.lastModified + ' (central time)';
   document.getElementById("lastModified").setAttribute(
       "style", "font-size: 3vmin");
 }
+
+$(function stopScoll() {
+
+    var fixed = document.getElementById('fixed'), overflow;
+
+    $(window).on('load resize', function() {
+
+    overflow = fixed.scrollHeight-$('#fixed').height();
+    });
+
+    fixed.on('touchmove', function() {
+
+    if (overflow) return true;
+    else return false;
+    });
+});

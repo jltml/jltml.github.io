@@ -3,6 +3,10 @@ pageable: true
 per_page: 10
 blog: blog
 ---
+<head>
+  <%= stylesheet_link_tag "articles" %>
+</head>
+
 <h1><a href="./../blog">blog</a></h1>
 
 <hr>
@@ -16,7 +20,13 @@ blog: blog
 <% end %>
 
 <% page_articles.each_with_index do |article, i| %>
-  <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
+  <h2>
+    <% if article.tags.include? "Citation" %>
+      <%= link_to 'Article: ' + article.title, article %> <span style='font-weight: normal;'>  •  <%= article.date.strftime('%b %e') + ', ' + article.date.strftime('%Y') %></span>
+    <% else %>
+      <%= link_to article.title, article %> <span style='font-weight: normal;'>  •  <%= article.date.strftime('%b %e') + ', ' + article.date.strftime('%Y') %></span>
+    <% end %>
+  </h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
   <!-- <%= article.body %> -->
@@ -30,7 +40,7 @@ blog: blog
 
 <hr>
 
-<aside>
+<aside class="blogFooter">
   <h3>Tags</h3>
   <p>
     <% blog.tags.each do |tag, articles| %>

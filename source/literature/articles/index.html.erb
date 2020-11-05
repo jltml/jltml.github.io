@@ -9,13 +9,16 @@ blog: articles
   <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
   <%= stylesheet_link_tag "articles" %>
 </head>
+
 <body>
 
 <div id="main" role="main">
   <h1><a href="../../../../../literary-things/articles">articles</a></h1>
   <hr>
+  <br>
+  <h1>All articles previously found here can now be found under the unified <a href="../../../../../blog">blog</a></h1>
 
-  <% if paginate && num_pages > 1 %>
+  <!-- <% if paginate && num_pages > 1 %>
     <p>Page <%= page_number %> of <%= num_pages %></p>
 
     <% if prev_page %>
@@ -24,11 +27,11 @@ blog: articles
   <% end %>
 
   <% page_articles.each_with_index do |article, i| %>
-    <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
+    <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2> -->
     <!-- use article.summary(250) if you have Nokogiri available to show just
          the first 250 characters -->
     <!-- <%= article.body %> -->
-  <% end %>
+  <!-- <% end %>
 
   <% if paginate %>
     <% if next_page %>
@@ -52,4 +55,4 @@ blog: articles
       <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
     <% end %>
   </p>
-</aside>
+</aside> -->

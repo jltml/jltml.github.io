@@ -1,94 +1,15 @@
-/* Avenir */
-@font-face {
-  font-family: Avenir;
-  src: url(./fonts/Avenir/AvenirLTStd-Book.woff); }
-@font-face {
-  font-family: Avenir;
-  src: url(./fonts/Avenir/AvenirLTStd-Heavy.woff);
-  font-weight: bold; }
-@font-face {
-  font-family: Avenir;
-  src: url(./fonts/Avenir/AvenirLTStd-BookOblique.woff);
-  font-style: italic; }
-@font-face {
-  font-family: Avenir;
-  src: url(./fonts/Avenir/AvenirLTStd-BookOblique.woff);
-  font-style: oblique; }
-@font-face {
-  font-family: Avenir;
-  src: url(./fonts/Avenir/AvenirLTStd-HeavyOblique.woff);
-  font-weight: bold;
-  font-style: oblique; }
-@font-face {
-  font-family: Avenir;
-  src: url(./fonts/Avenir/AvenirLTStd-HeavyOblique.woff);
-  font-weight: bold;
-  font-style: italic; }
+@import "fonts.css";
 
-/* Nitti */
-@font-face {
-  font-family: Nitti;
-  src: url(./fonts/Nitti/nitti_light.woff); }
-@font-face {
-  font-family: Nitti;
-  src: url(./fonts/Nitti/nitti_medium.woff);
-  font-weight: bold; }
+/* respondive design things */
+/* Media Queries: Tablet Landscape */
+@media screen and (min-width: 1024px) {
+    #main, { width:75%; margin: 0 auto; }
+}
 
-/* iA Writer Duospace */
-@font-face {
-  font-family: iAWriterDuospace;
-  src: url(./fonts/iAWriterDuospace/iAWriterDuospace-Regular.otf); }
-@font-face {
-  font-family: iAWriterDuospace;
-  src: url(./fonts/iAWriterDuospace/iAWriterDuospace-Bold.otf);
-  font-weight: bold; }
-@font-face {
-  font-family: iAWriterDuospace;
-  src: url(./fonts/iAWriterDuospace/iAWriterDuospace-BoldItalic.woff);
-  font-weight: bold;
-  font-style: italic; }
-@font-face {
-  font-family: iAWriterDuospace;
-  src: url(./fonts/iAWriterDuospace/iAWriterDuospace-RegularItalic.woff);
-  font-style: italic; }
-
-/* IBM Plex Sans */
-/* There are more files in /fonts/IBM-Plex-Sans, but they're not yet referenced here */
-@font-face {
-  font-family: IBM-Plex-Sans;
-  src: url(./fonts/IBM-Plex-Sans/IBMPlexSans-Regular.otf); }
-@font-face {
-  font-family: IBM-Plex-Sans;
-  src: url(./fonts/IBM-Plex-Sans/IBMPlexSans-Bold.otf);
-  font-weight: bold; }
-@font-face {
-  font-family: IBM-Plex-Sans;
-  src: url(./fonts/IBM-Plex-Sans/IBMPlexSans-Italic.otf);
-  font-style: italic; }
-@font-face {
-  font-family: IBM-Plex-Sans;
-  src: url(./fonts/IBM-Plex-Sans/IBMPlexSans-BoldItalic.otf);
-  font-weight: bold;
-  font-style: italic; }
-
-/* IBM Plex Serif */
-/* There are more files in /fonts/IBM-Plex-Serif, but they're not yet referenced here */
-@font-face {
-  font-family: IBM-Plex-Serif;
-  src: url(./fonts/IBM-Plex-Serif/IBMPlexSerif-Regular.otf); }
-@font-face {
-  font-family: IBM-Plex-Serif;
-  src: url(./fonts/IBM-Plex-Serif/IBMPlexSerif-Bold.otf);
-  font-weight: bold; }
-@font-face {
-  font-family: IBM-Plex-Serif;
-  src: url(./fonts/IBM-Plex-Serif/IBMPlexSerif-Italic.otf);
-  font-style: italic; }
-@font-face {
-  font-family: IBM-Plex-Serif;
-  src: url(./fonts/IBM-Plex-Serif/IBMPlexSerif-BoldItalic.otf);
-  font-weight: bold;
-  font-style: italic; }
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 1024px) {
+    #main { width:100%; }
+}
 
 /* Actual CSS */
 
@@ -136,6 +57,7 @@ p, li {
   height: 8vmin;
   width: 100%;
   background: var(--color-background-banner);
+  backdrop-filter: blur(5px);
 }
 
 .banner .title h1 {
@@ -149,6 +71,7 @@ p, li {
   height: 8vmin;
   width: 60vw;
   z-index: 4;
+  backdrop-filter: blur(5px);
   background: var(--color-background-banner);
   color: var(--color-body);
   white-space: nowrap;
@@ -166,6 +89,7 @@ p, li {
   height: 8vmin;
   width: 37vw;
   z-index: 2;
+  backdrop-filter: blur(5px);
   background: var(--color-background-banner);
   color: var(--color-body);
   white-space: nowrap;
