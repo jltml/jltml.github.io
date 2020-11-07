@@ -38,13 +38,16 @@ hr {
     color: var(--color-body);
     font-family: var(--font-family);
   }
+  #sidenav {
+    background-color: var(--color-background);
+  }
   .banner, .bottomEdge, #sidenavEdge {
     background: transparent;
   }
   .banner .navigation h1 {
    background: var(--color-background-banner);
-    color: var(--color-body);
-    font-family: IBM-Plex-Sans;
+   color: var(--color-body);
+   font-family: IBM-Plex-Sans;
   }
   .banner .title h1, .banner .title a, .sidenav, .sidenav a {
     background: var(--color-background-banner);
