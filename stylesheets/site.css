@@ -149,6 +149,7 @@ hr {
   overflow-x: hidden;
   z-index: 3;
   background-color: var(--color-background-banner);
+  opacity: 100%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   text-align: right;
