@@ -24,14 +24,12 @@ p {
   color: white;
   /* text-indent: 30px; */
   }
-body, h1, h2, h3, a {
+
+body, h1, h2, h3, a, #sidenav, #sidenav h1, #sidenav i, #sidenav a, #sidenavEdge, #menuButton, .banner, .banner .title, .banner .navigation, .banner .navigation h1, .banner .title h1 {
   background-color: black;
   color: white;
 }
-.banner, #sidenav, #sidenavEdge {
-  background-color: black;
-}
-.banner, .banner .title, .banner .navigation, .banner .navigation h1, .banner .title h1 {
-  background-color: black;
-  color: white;
+
+a:hover, body a:hover, #sidenav a:hover {
+  color: #808080;
 }

@@ -1,5 +1,6 @@
 ---
-blog: articles
+blog: blog
+title: literature, etc.
 ---
 
 <!doctype html>
@@ -13,40 +14,46 @@ blog: articles
     <h2>
       Things I've Written
     </h2>
+      <div style="text-indent: 30px;">
+        <h3>
+          <a href="./../blog"> Articles, Essays, Poems & Other Blog Posts </a>
+        </h3>
+        <p>
+            <% page_articles.each_with_index do |article, i| %>
+            <li><%= link_to article.title, article %> <span> • <%= article.date.strftime('%b %e %Y') %></span></li>
+            <!-- use article.summary(250) if you have Nokogiri available to show just
+                 the first 250 characters -->
+            <!-- <%= article.body %> -->
+          <% end %>
+        </p>
 
-      <h3>
-        <a href="./../blog"> Articles, Essays, & Other Blog Posts </a>
-      </h3>
-      <p>
-          <% page_articles.each_with_index do |article, i| %>
-          <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e %Y') %></span></li>
-          <!-- use article.summary(250) if you have Nokogiri available to show just
-               the first 250 characters -->
-          <!-- <%= article.body %> -->
-        <% end %>
-      </p>
-
-      <h3>
-        For Contests
-      </h3>
-      <p>
-        <li> <a href="http://strib.mn/1batDml" target="blank"><i><i>Power of We</i></i></a> contest by United Way & the StarTribune (runner-up) <br>
-        <li> <a href="http://thefriends.org/wp-content/uploads/2015/04/Jack-Mapel-Lentz_2015_Letters-about-Literature.pdf" target="blank"><i><i>Letters About Literature</i></i></a> contest by the Library of Congress (tied for 2nd place at state level) <br>
-      </p>
+        <h3>
+          For Contests
+        </h3>
+        <p>
+          <li> <a href="http://strib.mn/1batDml" target="blank"><i><i>Power of We</i></i></a> contest by United Way & the StarTribune (runner-up) <br>
+          <li> <a href="http://thefriends.org/wp-content/uploads/2015/04/Jack-Mapel-Lentz_2015_Letters-about-Literature.pdf" target="blank"><i><i>Letters About Literature</i></i></a> contest by the Library of Congress (tied for 2nd place at state level) <br>
+        </p>
+      </div>
 
     <h2>
       My Favorite Books
     </h2>
-    <p>
-      1. <a href="http://www.johngreenbooks.com/the-fault-in-our-stars" target="blank"><i>The Fault in Our Stars</i></a> by John Green <br>
-      2. <a href="https://www.pottermore.com/" target="blank"><i>Harry Potter</i> series</a> by JK Rowling<br>
-      3. <a href="http://anthonydoerr.com/books/all-the-light-we-cannot-see/" target="blank"><i>All the Light We Cannot See</i></a> by Anthony Doerr <br>
-      4. <a href="http://www.rainbowrowell.com/eleanor-park/" target="blank"><i>Eleanor & Park</i></a> by Rainbow Rowell / <a href="http://www.johngreenbooks.com/paper-towns/" target="blank"><i>Paper Towns</i></a> by John Green (tie) <br>
-      5. <a href="http://tedsanders.net/the-keepers/" target="blank"><i>Keepers</i> series</a> by Ted Sanders <br>
-      6. <a href="https://www.celesteng.com/little-fires-everywhere/" target="blank"><i>Little Fires Everywhere</i></a> by Celeste Ng <br>
-      7. <a href="http://www.johngreenbooks.com/turtles-all-the-way-down-book/" target="blank"><i>Turtles All The Way Down</i></a> by John Green <br>
-    </p>
+    <div style="margin-left: 30px;">
+      <p>
+        1. <a href="http://www.johngreenbooks.com/the-fault-in-our-stars" target="blank"><i>The Fault in Our Stars</i></a> by John Green <br>
+        2. <a href="https://www.pottermore.com/" target="blank"><i>Harry Potter</i> series</a> by JK Rowling<br>
+        3. <a href="http://anthonydoerr.com/books/all-the-light-we-cannot-see/" target="blank"><i>All the Light We Cannot See</i></a> by Anthony Doerr <br>
+        4. <a href="http://www.rainbowrowell.com/eleanor-park/" target="blank"><i>Eleanor & Park</i></a> by Rainbow Rowell / <a href="http://www.johngreenbooks.com/paper-towns/" target="blank"><i>Paper Towns</i></a> by John Green (tie) <br>
+        5. <a href="http://tedsanders.net/the-keepers/" target="blank"><i>Keepers</i> series</a> by Ted Sanders <br>
+        6. <a href="https://www.celesteng.com/little-fires-everywhere/" target="blank"><i>Little Fires Everywhere</i></a> by Celeste Ng <br>
+        7. <a href="http://www.johngreenbooks.com/turtles-all-the-way-down-book/" target="blank"><i>Turtles All The Way Down</i></a> by John Green <br>
+      </p>
+    </div>
 
+    <h2>
+      Books I've Read ↓
+    </h2>
     <%= partial "/layouts/partials/goodreads" %>
 
   </body>
