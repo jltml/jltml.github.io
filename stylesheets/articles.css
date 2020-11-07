@@ -27,7 +27,8 @@ hr {
 p {
   font-family: var(--font-family);
   background-color: var(--color-background);
-  color: var(--color-body); }
+  color: var(--color-body);
+  text-indent: 30px; }
 
 body, h1, h2, h3, a {
   background-color: var(--color-background);
