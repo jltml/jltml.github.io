@@ -1,0 +1,11 @@
+<!-- Basically just tacks on florence css to the default layout -->
+
+<% wrap_layout :layout do %>
+  <head>
+    <%= stylesheet_link_tag "florence" %>
+  </head>
+  <article>
+    <%= yield %>
+    <a href="javascript:history.back()" style="text-decoration: none;">←</a>
+  </article>
+<% end %>
