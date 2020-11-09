@@ -47,6 +47,7 @@ p, li {
   left: 0%;
   right: 0%;
   top: 0%;
+  display: block;
   height: 8vmin;
   width: 100%;
   background: var(--color-background-banner);
