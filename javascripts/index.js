@@ -15,7 +15,7 @@ function initialBackground() {
    $('body').css('background-image', 'url(./../images/backgrounds/small/' + randomImage + ')');
   });
   $('.blur').css({'backdrop-filter': 'blur(10px)'});
-  originalLoaded = false;
+  console.log("small background loaded");
 }
 
 window.addEventListener('DOMContentLoaded', (event) => {
@@ -23,11 +23,10 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
 
 function fullBackground() {
-  $('body').css({'background-image': 'url(./../images/backgrounds/full/' + randomImage + ')'});
-  $('.blur').css({'backdrop-filter': 'blur(0px)'});
+  $('<img/>').attr('src', './../images/backgrounds/full/' + randomImage).on('load', function() {
+   $(this).remove(); // prevent memory leaks as @benweet suggested
+   $('body').css({'background-image': 'url(./../images/backgrounds/full/' + randomImage + ')'});
+   $('.blur').css({'backdrop-filter': 'blur(0px)'});
+   console.log("full background loaded");
+});
 }
-
- /* = $(function() {
-    $('body').css({'background-image': 'url(./../images/backgrounds/full/' + images[Math.floor(Math.random() * images.length)] + ')'});
-    $('.blur').css({'backdrop-filter': 'blur(0px)'});
-}); */
