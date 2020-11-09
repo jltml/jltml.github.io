@@ -28,6 +28,7 @@ function fullBackground() {
    $('body').css({'background-image': 'url(./../images/backgrounds/full/' + randomImage + ')'});
    $('.blur').css({'transition': 'all 0.25s ease-in-out'});
    $('.blur').css({'backdrop-filter': 'blur(0px)'});
+   $('.tinyLoader').css({'transition': 'all 0.25s ease-in-out'});
    $('.tinyLoader').css({'display': 'none'});
    console.log("full background loaded");
   });
