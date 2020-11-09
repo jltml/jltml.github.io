@@ -26,7 +26,7 @@ function fullBackground() {
   $('<img/>').attr('src', './../images/backgrounds/full/' + randomImage).on('load', function() {
    $(this).remove(); // prevent memory leaks as @benweet suggested
    $('body').css({'background-image': 'url(./../images/backgrounds/full/' + randomImage + ')'});
-   $('.blur').css({'transition': 'opacity 1s ease-in-out;'})
+   $('.blur').css({'transition': 'all 1s ease-in-out;'})
    $('.blur').css({'backdrop-filter': 'blur(0px)'});
    console.log("full background loaded");
 });
