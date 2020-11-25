@@ -67,24 +67,6 @@ activate :blog do |blog|
   blog.permalink = "{title}"
 end
 
-activate :blog do |blog|
-  blog.name = "thoughts"
-  blog.prefix = "thoughts"
-  blog.layout = "thoughtslayout"
-  blog.tag_template = "tag.html"
-  blog.calendar_template = "calendar.html"
-  blog.permalink = "{title}"
-end
-
-activate :blog do |blog|
-  blog.name = "articles"
-  blog.prefix = "literature/articles"
-  blog.layout = "articleslayout"
-  blog.tag_template = "tag.html"
-  blog.calendar_template = "calendar.html"
-  blog.permalink = "{title}"
-end
-
 # Tells menu & other pages to use corresponding custom layout
 page "/menu/*", :layout => "menulayout"
 page "/misc/sidenav/*", :layout => "menulayout"

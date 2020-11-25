@@ -3,9 +3,10 @@
 <% wrap_layout :layout do %>
   <head>
     <%= stylesheet_link_tag "florence" %>
+    <%= javascript_include_tag "blog" %>
   </head>
   <article>
     <%= yield %>
-    <a href="javascript:history.back()" style="text-decoration: none;">←</a>
+    <a href="../../../../../blog" class='js-back' style="text-decoration: none;">←</a>
   </article>
 <% end %>

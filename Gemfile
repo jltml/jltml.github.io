@@ -9,3 +9,4 @@ gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 gem "middleman-blog", "~> 4.0"
 gem 'middleman-google-analytics', '~> 3.0'
 gem 'nokogiri'
+gem 'sq_mini_racer', '~> 0.3.1', platforms: :ruby
