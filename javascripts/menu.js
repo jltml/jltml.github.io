@@ -14,7 +14,6 @@ function hideMenu(e) {
     sidenav.classList.remove("show");
     sidenavEdge.classList.remove("show");
     menuButton.classList.remove("hide");
-    e.stopPropagation();
     document.body.style.overflow = "auto";
 }
 
@@ -28,6 +27,7 @@ onload = function() {
       "style", "font-size: 3vmin");
 }
 
+/*
 $(function stopScoll() {
 
     var fixed = document.getElementById('fixed'), overflow;
@@ -43,3 +43,4 @@ $(function stopScoll() {
     else return false;
     });
 });
+*/

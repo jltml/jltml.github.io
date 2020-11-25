@@ -7,6 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="/stylesheets/site.css" rel="stylesheet" />
 <script src="/javascripts/site.js"></script>
+<script src="/javascripts/menu.js"></script>
 <script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -26,6 +27,7 @@
     <link href="/stylesheets/articles.css" rel="stylesheet" />
     <title>jacquesite • articles - A Sliver of the Past</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
+    <script src="/javascripts/blog.js"></script>
   </head>
   <body>
 
@@ -42,7 +44,7 @@
           </h1>
         </div>
           <div id="sidenavWrapper" class="sidenavWrapper">
-            <div id="sidenav" class="sidenav">
+            <div id="sidenav">
               <h1>
                 <a href="javascript:void(0)"onclick="hideMenu()"> close</a>
                 <a href="./../../../">home</a>
@@ -103,7 +105,7 @@
 
 <p>All in all, hearing from these past Cadets gave me a new sense of place. Only now have I fully realized the importance of appreciating those who’ve walked the halls before me… and while I know that not all questions can be answered, it’s clear that the school’s every nook and cranny hides a story waiting to be dusted off, brought forth into light, and told. From the few that I explored in the making of this article, I came to understand that, while St. Thomas Academy will always ebb and flow and adapt to changing times, its foundation, having withstood generation after generation, is truly timeless.</p>
 
-      <a href="javascript:history.back()" style="text-decoration: none;">←</a>
+      <a href="../../../../../blog" class='js-back' style="text-decoration: none;">←</a>
     </div>
 
     <!-- <hr>
@@ -145,53 +147,7 @@
   </body>
 
   <script>
-  var menuButton = document.querySelector("#menuButton");
-menuButton.addEventListener("click", showMenu, false);
-
-var sidenav = document.querySelector("#sidenav");
-sidenav.addEventListener("click", hideMenu, false);
-
-function showMenu(e) {
-    sidenav.classList.add("show");
-    sidenavEdge.classList.add("show");
-    menuButton.classList.add("hide");
-}
-
-function hideMenu(e) {
-    sidenav.classList.remove("show");
-    sidenavEdge.classList.remove("show");
-    menuButton.classList.remove("hide");
-    e.stopPropagation();
-    document.body.style.overflow = "auto";
-}
-
-function openEdge() {
-  document.getElementById("banner").style.background = "#FFFFFF";
-}
-
-onload = function() {
-  document.getElementById("lastModified").innerHTML = "last updated " + document.lastModified + ' (central time)';
-  document.getElementById("lastModified").setAttribute(
-      "style", "font-size: 3vmin");
-}
-
-/*
-$(function stopScoll() {
-
-    var fixed = document.getElementById('fixed'), overflow;
-
-    $(window).on('load resize', function() {
-
-    overflow = fixed.scrollHeight-$('#fixed').height();
-    });
-
-    fixed.on('touchmove', function() {
-
-    if (overflow) return true;
-    else return false;
-    });
-}); */
-
+  <script src="/javascripts/menu.js"></script>
   </script>
 
 </html>

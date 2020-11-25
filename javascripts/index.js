@@ -11,7 +11,7 @@ var randomImage = images[Math.floor(Math.random() * images.length)];
 
 function initialBackground() {
   $('<img/>').attr('src', './../images/backgrounds/small/' + randomImage).on('load', function() {
-   $(this).remove(); // prevent memory leaks
+   $(this).remove(); // prevent memory leaks, from StackOverflow
    $('body').css('background-image', 'url(./../images/backgrounds/small/' + randomImage + ')');
   });
   $('.blur').css({'backdrop-filter': 'blur(10px)'});

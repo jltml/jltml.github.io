@@ -7,6 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="/stylesheets/site.css" rel="stylesheet" />
 <script src="/javascripts/site.js"></script>
+<script src="/javascripts/menu.js"></script>
 <script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -26,6 +27,7 @@
     <link href="/stylesheets/articles.css" rel="stylesheet" />
     <title>jacquesite • articles - Ode to the Cities 97 Sampler</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
+    <script src="/javascripts/blog.js"></script>
   </head>
   <body>
 
@@ -42,7 +44,7 @@
           </h1>
         </div>
           <div id="sidenavWrapper" class="sidenavWrapper">
-            <div id="sidenav" class="sidenav">
+            <div id="sidenav">
               <h1>
                 <a href="javascript:void(0)"onclick="hideMenu()"> close</a>
                 <a href="./../../../">home</a>
@@ -101,7 +103,7 @@
 
 <p>By now, I know well enough that, when all’s said and done, memories are sometimes the only things we’re left with. As you have most likely discerned, I lament the loss of such a musical staple… but is it really gone? Who knows; in the future, maybe it’ll come back. All in all, I’m simply grateful that I ever had the chance to experience its era. I’m grateful for its charitable aspect and the countless lives impacted. I’m grateful for all the incredibly talented artists that performed at Studio C, and the masterpieces they’ve created. But, above all, I’m grateful for the way that the <em>Cities 97 Sampler</em> has shaped my musical taste, and, by extension, me, for music is embedded within my consciousness. I think that I can say without doubt that without the <em>Sampler</em> I would be a noticeably different person. It’s the little things that keep us afloat in this crazy, beautiful river of life. I remind you: realize and acknowledge them while they’re still among you; when they flow away, recall how much you loved them.</p>
 
-      <a href="javascript:history.back()" style="text-decoration: none;">←</a>
+      <a href="../../../../../blog" class='js-back' style="text-decoration: none;">←</a>
     </div>
 
     <!-- <hr>
@@ -143,53 +145,7 @@
   </body>
 
   <script>
-  var menuButton = document.querySelector("#menuButton");
-menuButton.addEventListener("click", showMenu, false);
-
-var sidenav = document.querySelector("#sidenav");
-sidenav.addEventListener("click", hideMenu, false);
-
-function showMenu(e) {
-    sidenav.classList.add("show");
-    sidenavEdge.classList.add("show");
-    menuButton.classList.add("hide");
-}
-
-function hideMenu(e) {
-    sidenav.classList.remove("show");
-    sidenavEdge.classList.remove("show");
-    menuButton.classList.remove("hide");
-    e.stopPropagation();
-    document.body.style.overflow = "auto";
-}
-
-function openEdge() {
-  document.getElementById("banner").style.background = "#FFFFFF";
-}
-
-onload = function() {
-  document.getElementById("lastModified").innerHTML = "last updated " + document.lastModified + ' (central time)';
-  document.getElementById("lastModified").setAttribute(
-      "style", "font-size: 3vmin");
-}
-
-/*
-$(function stopScoll() {
-
-    var fixed = document.getElementById('fixed'), overflow;
-
-    $(window).on('load resize', function() {
-
-    overflow = fixed.scrollHeight-$('#fixed').height();
-    });
-
-    fixed.on('touchmove', function() {
-
-    if (overflow) return true;
-    else return false;
-    });
-}); */
-
+  <script src="/javascripts/menu.js"></script>
   </script>
 
 </html>

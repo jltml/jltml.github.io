@@ -7,6 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="/stylesheets/site.css" rel="stylesheet" />
 <script src="/javascripts/site.js"></script>
+<script src="/javascripts/menu.js"></script>
 <script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -26,6 +27,7 @@
     <link href="/stylesheets/articles.css" rel="stylesheet" />
     <title>jacquesite • articles - A Swimmingly Splendid Show (ViSTA’s The Little Mermaid)</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
+    <script src="/javascripts/blog.js"></script>
   </head>
   <body>
 
@@ -42,7 +44,7 @@
           </h1>
         </div>
           <div id="sidenavWrapper" class="sidenavWrapper">
-            <div id="sidenav" class="sidenav">
+            <div id="sidenav">
               <h1>
                 <a href="javascript:void(0)"onclick="hideMenu()"> close</a>
                 <a href="./../../../">home</a>
@@ -93,7 +95,7 @@
 
 <p>When all of these aspects are combined, I find it nearly impossible <em>not</em> to love <em>The Little Mermaid</em>. Honestly, its only pitfall might be the lack of intense emotions à la <em>Les Miserables</em> or <em>Little Women</em> - but it easily surpasses this setback through pure charm. It manages to entertain every single audience member, regardless of age, thanks to the immense efforts of the entire company. All in all, the show went, shall I say, <em>swimmingly</em>.</p>
 
-      <a href="javascript:history.back()" style="text-decoration: none;">←</a>
+      <a href="../../../../../blog" class='js-back' style="text-decoration: none;">←</a>
     </div>
 
     <!-- <hr>
@@ -135,53 +137,7 @@
   </body>
 
   <script>
-  var menuButton = document.querySelector("#menuButton");
-menuButton.addEventListener("click", showMenu, false);
-
-var sidenav = document.querySelector("#sidenav");
-sidenav.addEventListener("click", hideMenu, false);
-
-function showMenu(e) {
-    sidenav.classList.add("show");
-    sidenavEdge.classList.add("show");
-    menuButton.classList.add("hide");
-}
-
-function hideMenu(e) {
-    sidenav.classList.remove("show");
-    sidenavEdge.classList.remove("show");
-    menuButton.classList.remove("hide");
-    e.stopPropagation();
-    document.body.style.overflow = "auto";
-}
-
-function openEdge() {
-  document.getElementById("banner").style.background = "#FFFFFF";
-}
-
-onload = function() {
-  document.getElementById("lastModified").innerHTML = "last updated " + document.lastModified + ' (central time)';
-  document.getElementById("lastModified").setAttribute(
-      "style", "font-size: 3vmin");
-}
-
-/*
-$(function stopScoll() {
-
-    var fixed = document.getElementById('fixed'), overflow;
-
-    $(window).on('load resize', function() {
-
-    overflow = fixed.scrollHeight-$('#fixed').height();
-    });
-
-    fixed.on('touchmove', function() {
-
-    if (overflow) return true;
-    else return false;
-    });
-}); */
-
+  <script src="/javascripts/menu.js"></script>
   </script>
 
 </html>

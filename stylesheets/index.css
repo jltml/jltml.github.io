@@ -57,6 +57,7 @@ a:hover, .banner .navigation h1:hover, #sidenav a:hover {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
+
 @keyframes load8 {
   0% {
     -webkit-transform: rotate(0deg);

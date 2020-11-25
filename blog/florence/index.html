@@ -9,6 +9,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="/stylesheets/site.css" rel="stylesheet" />
 <script src="/javascripts/site.js"></script>
+<script src="/javascripts/menu.js"></script>
 <script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -52,7 +53,7 @@
           </h1>
         </div>
           <div id="sidenavWrapper" class="sidenavWrapper">
-            <div id="sidenav" class="sidenav">
+            <div id="sidenav">
               <h1>
                 <a href="javascript:void(0)"onclick="hideMenu()"> close</a>
                 <a href="./../../../">home</a>
@@ -88,6 +89,7 @@
   <div id="main">
       <head>
     <link href="/stylesheets/florence.css" rel="stylesheet" />
+    <script src="/javascripts/blog.js"></script>
   </head>
   <article>
     <body>
@@ -110,58 +112,10 @@
   </p>
 </body>
 
-    <a href="javascript:history.back()" style="text-decoration: none;">←</a>
+    <a href="../../../../../blog" class='js-back' style="text-decoration: none;">←</a>
   </article>
 
   </div>
-  <script>
-  var menuButton = document.querySelector("#menuButton");
-menuButton.addEventListener("click", showMenu, false);
-
-var sidenav = document.querySelector("#sidenav");
-sidenav.addEventListener("click", hideMenu, false);
-
-function showMenu(e) {
-    sidenav.classList.add("show");
-    sidenavEdge.classList.add("show");
-    menuButton.classList.add("hide");
-}
-
-function hideMenu(e) {
-    sidenav.classList.remove("show");
-    sidenavEdge.classList.remove("show");
-    menuButton.classList.remove("hide");
-    e.stopPropagation();
-    document.body.style.overflow = "auto";
-}
-
-function openEdge() {
-  document.getElementById("banner").style.background = "#FFFFFF";
-}
-
-onload = function() {
-  document.getElementById("lastModified").innerHTML = "last updated " + document.lastModified + ' (central time)';
-  document.getElementById("lastModified").setAttribute(
-      "style", "font-size: 3vmin");
-}
-
-/*
-$(function stopScoll() {
-
-    var fixed = document.getElementById('fixed'), overflow;
-
-    $(window).on('load resize', function() {
-
-    overflow = fixed.scrollHeight-$('#fixed').height();
-    });
-
-    fixed.on('touchmove', function() {
-
-    if (overflow) return true;
-    else return false;
-    });
-}); */
-
-  </script>
+<script src="/javascripts/menu.js"></script>
 </body>
 </html>
