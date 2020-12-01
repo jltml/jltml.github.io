@@ -23,5 +23,5 @@ And thank you, too, for visiting! I hope you have a lovely time :)
 <br>
 <li> <a href="./../menu">old menu</a>
 <br>
-<li> <a href="./misc/menudebug">menu debugging</a>
+<li> <a href="./../misc/menudebug">menu debugging</a>
 </p>

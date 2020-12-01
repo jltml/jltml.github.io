@@ -5,7 +5,7 @@
 configure :development do
   activate :disqus do |d|
     # setting to `nil` will stop Disqus loading
-    d.shortname = nil
+    d.shortname = "jltml"
   end
 end
 
@@ -62,7 +62,7 @@ page '/README.md', layout: false
 # end
 
 # Middleman LiveReload
-activate :livereload
+# activate :livereload
 
 # Middleman-Deploy
 activate :deploy do |deploy|
