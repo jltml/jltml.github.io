@@ -27,27 +27,39 @@ hr {
     border-style: inset;
     border-width: 1px;
     border-color: var(--color-body);
-  }
-  p {
-    font-family: var(--font-family);
-    background-color: var(--color-background);
-    color: var(--color-body);
-    text-indent: 30px;
-    }
-  body, h1, h2, h3, a {
-    background-color: var(--color-background);
-    color: var(--color-body);
-    font-family: var(--font-family);
-  }
-  #sidenav, #sidenav a {
-    background-color: var(--color-background);
-    font-family: IBM-Plex-Sans;
-  }
-  .banner, .bottomEdge, #sidenavEdge {
-    background: transparent;
-  }
-  .banner .title h1, .banner .title a, .banner .navigation h1 {
-    background: var(--color-background-banner);
-    color: var(--color-body);
-    font-family: IBM-Plex-Sans;
-  }
+}
+p {
+  font-family: var(--font-family);
+  background-color: var(--color-background);
+  color: var(--color-body);
+  text-indent: 30px;
+}
+body, h1, h2, h3, a {
+  background-color: var(--color-background);
+  color: var(--color-body);
+  font-family: var(--font-family);
+}
+#sidenav, #sidenav a {
+  background-color: var(--color-background);
+  font-family: IBM-Plex-Sans;
+}
+.banner, .bottomEdge, #sidenavEdge {
+  background: transparent;
+}
+.banner .title h1, .banner .title a, .banner .navigation h1 {
+  background: var(--color-background-banner);
+  color: var(--color-body);
+  font-family: IBM-Plex-Sans;
+}
+#bottomThings a {
+  white-space: nowrap;
+  font-family: IBM-Plex-Sans;
+  opacity: 0.5;
+}
+#disqusButton {
+  transition-duration: 1s;
+}
+.buttonFlip {
+  transform: rotateX(180deg);
+  transition-duration: 1s;
+}

@@ -1,12 +1,10 @@
-<!-- Basically just tacks on florence css to the default layout -->
+<!-- Basically just tacks on florence css to the articles layout -->
 
-<% wrap_layout :layout do %>
+<% wrap_layout :articleslayout do %>
   <head>
     <%= stylesheet_link_tag "florence" %>
-    <%= javascript_include_tag "blog" %>
   </head>
   <article>
     <%= yield %>
-    <a href="../../../../../blog" class='js-back' style="text-decoration: none;">←</a>
   </article>
 <% end %>

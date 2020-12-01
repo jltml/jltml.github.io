@@ -1,6 +1,21 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
+# Middleman-Disqus extension
+configure :development do
+  activate :disqus do |d|
+    # setting to `nil` will stop Disqus loading
+    d.shortname = nil
+  end
+end
+
+configure :build do
+  activate :disqus do |d|
+    # using a different shortname for production builds
+    d.shortname = "jltml"
+  end
+end
+
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end

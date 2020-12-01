@@ -169,6 +169,7 @@ hr {
   text-align: right;
   text-decoration: underline;
   transform: translate(105%);
+  overscroll-behavior: contain;
 }
 
 #sidenav a {
