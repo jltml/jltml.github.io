@@ -14,7 +14,6 @@ function hideMenu(e) {
     sidenav.classList.remove("show");
     sidenavEdge.classList.remove("show");
     menuButton.classList.remove("hide");
-    document.body.style.overflow = "auto";
 }
 
 function openEdge() {

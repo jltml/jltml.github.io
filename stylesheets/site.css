@@ -164,7 +164,9 @@ hr {
   text-align: right;
   text-decoration: underline;
   -webkit-transform: translate(105%);
-          transform: translate(105%); }
+          transform: translate(105%);
+  -ms-scroll-chaining: none;
+      overscroll-behavior: contain; }
 
 #sidenav a {
   padding: 8px 8px 8px 32px;

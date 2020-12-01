@@ -47,3 +47,18 @@ body, h1, h2, h3, a {
   background: var(--color-background-banner);
   color: var(--color-body);
   font-family: IBM-Plex-Sans; }
+
+#bottomThings a {
+  white-space: nowrap;
+  font-family: IBM-Plex-Sans;
+  opacity: 0.5; }
+
+#disqusButton {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s; }
+
+.buttonFlip {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s; }
