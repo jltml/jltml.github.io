@@ -62,3 +62,7 @@ body, h1, h2, h3, a {
           transform: rotateX(180deg);
   -webkit-transition-duration: 1s;
           transition-duration: 1s; }
+
+.disqus {
+  display: inline-block;
+  width: 100%; }
