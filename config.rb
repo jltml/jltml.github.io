@@ -47,7 +47,7 @@ page '/README.md', layout: false
 # end
 
 # Middleman LiveReload
-# activate :livereload
+activate :livereload
 
 # Middleman-Deploy
 activate :deploy do |deploy|

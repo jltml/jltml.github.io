@@ -56,14 +56,16 @@ body, h1, h2, h3, a {
   font-family: IBM-Plex-Sans;
   opacity: 0.5;
 }
-#disqusButton {
+#commentoButton {
   transition-duration: 1s;
 }
 .buttonFlip {
   transform: rotateX(180deg);
   transition-duration: 1s;
 }
-.disqus {
-  display: inline-block;
-  width: 100%;
+.commentoWrapper {
+  position: static;
+  display: block;
+  top: 0;
+  right: 0;
 }

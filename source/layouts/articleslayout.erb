@@ -18,19 +18,20 @@
       <div id="bottomThings">
         <a href="../../../../../blog" class='js-back' style="text-decoration: none;">←</a>
         <span style="float: right;">
-          <div id="disqusButton">
-            <a href="javascript:toggleDisqus();" style="text-decoration: none;">comments ↓</a>
+          <div id="commentoButton">
+            <a href="javascript:togglecommento();" style="text-decoration: none;">comments ↓</a>
           </div>
         </span>
       </div>
-      <div class="disqus" style="display: none;">
-        <!-- comments go here -->
+      <div class="commentoWrapper">
         I'm working on comments right now... I tried adding Disqus but turns out it tracks you like crazy and even then wouldn't work on iOS. So stay tuned for now...
+        <script defer src="http://jltml-commento.herokuapp.com/js/commento.js"></script>
+        <div id="commento"></div>
       </div>
       <script>
-        function toggleDisqus() {
-          $(".disqus").slideToggle("slow");
-          $("#disqusButton").toggleClass("buttonFlip");
+        function togglecommento() {
+          $(".commentoWrapper").slideToggle("slow");
+          $("#commentoButton").toggleClass("buttonFlip");
         }
       </script>
     </div>
