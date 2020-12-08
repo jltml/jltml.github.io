@@ -63,9 +63,28 @@ body, h1, h2, h3, a {
   transform: rotateX(180deg);
   transition-duration: 1s;
 }
-.commentoWrapper {
-  position: static;
-  display: block;
-  top: 0;
-  right: 0;
+.commentoOuterWrapper {
+  margin-top: 20px;
+  background-color: #26221c;
+  border-radius: 15px;
+}
+.commentoInnerWrapper {
+  padding: 20px;
+}
+.commento-card *, #commento a, #commento a *, #commento p, #commento p *, #commento label {
+  color: #f9f6ef;
+  background-color: #26221c;
+}
+.commento-logged-container a {
+  white-space: nowrap;
+}
+.commento-comments * {
+  border-top-style: none!important;
+  border-left-color: #f9f6ef!important;
+  background-color: #332d26!important;
+  padding-right: .2vw;
+}
+.commento-logo-container * {
+  background-color: #3B352B!important;
+  border-radius: 15px;
 }
