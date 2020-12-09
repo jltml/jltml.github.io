@@ -77,6 +77,9 @@ body, h1, h2, h3, a {
 .commento-logged-container a {
   white-space: nowrap; }
 
+.commento-anonymous-checkbox-container {
+  display: none; }
+
 /*
 .commento-card *, #commento a, #commento a *, #commento p, #commento p *, #commento label {
   color: #f9f6ef;
