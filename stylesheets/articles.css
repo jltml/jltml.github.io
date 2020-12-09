@@ -74,13 +74,13 @@ body, h1, h2, h3, a {
 .commento-root a, .commento-root p {
   background-color: inherit; }
 
+.commento-logged-container a {
+  white-space: nowrap; }
+
 /*
 .commento-card *, #commento a, #commento a *, #commento p, #commento p *, #commento label {
   color: #f9f6ef;
   background-color: #26221c;
-}
-.commento-logged-container a {
-  white-space: nowrap;
 }
 .commento-comments * {
   border-top-style: none!important;
