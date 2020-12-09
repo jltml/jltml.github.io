@@ -21,7 +21,7 @@ function openEdge() {
 }
 
 onload = function() {
-  document.getElementById("lastModified").innerHTML = "last updated " + document.lastModified + ' (central time)';
+  document.getElementById("lastModified").innerHTML = "last updated " + document.lastModified;
   document.getElementById("lastModified").setAttribute(
       "style", "font-size: 3vmin");
 }
