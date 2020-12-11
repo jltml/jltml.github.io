@@ -25,11 +25,11 @@ p {
   /* text-indent: 30px; */
   }
 
-body, h1, h2, h3, a, #sidenav, #sidenav h1, #sidenav i, #sidenav a, #sidenavEdge, #menuButton, .banner, .banner .title, .banner .navigation, .banner .navigation h1, .banner .title h1, .banner .title h1 a {
+body, h1, h2, h3, a, #sidenav, #sidenav h1, #sidenav i, #sidenav a, #sidenavEdge, a#menuButton, .banner, .banner .title, .banner .navigation, .banner .navigation h1, .banner .title h1, .banner .title h1 a {
   background-color: black;
   color: white;
 }
 
-a:hover, body a:hover, #sidenav a:hover {
+a:hover, body a:hover, #sidenav a:hover, .banner .navigation h1:hover, a#menuButton:hover, .banner .title a:hover {
   color: #808080;
 }

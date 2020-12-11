@@ -1,10 +1,9 @@
-var menuButton = document.querySelector("#menuButton");
-menuButton.addEventListener("click", showMenu, false);
-
 /*
 var sidenav = document.querySelector("div#sidenav:not(.exclude)");
 sidenav.addEventListener("click", hideMenu, false);
 */
+
+var menuButton = document.querySelector("#menuButton");
 
 function showMenu(e) {
     sidenav.classList.add("show");

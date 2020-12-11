@@ -106,10 +106,10 @@ a {
   transition: 0.5s;
   }
 
-.banner .navigation h1:hover, a:focus, a:hover {
+a:focus, a:hover, .banner .navigation h1:hover, #sidenav a:hover, a#menuButton:hover, .banner .title a:hover {
   color: var(--color-hover);
-  transition: 0.5s;
-  }
+  transition: color 0.5s;
+}
 
 hr {
   display: block;
@@ -183,11 +183,7 @@ hr {
   overflow: auto;
 }
 
-#sidenav a:hover {
-  color: var(--color-hover);
-}
-
-#menuButton {
+a#menuButton {
   position: fixed;
   top: -.25%;
   right: 1.5%;
@@ -195,7 +191,7 @@ hr {
   color: var(--color-body);
   border: none;
   padding: 0;
-  font: inherit;
+  font-family: IBM-Plex-Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   text-decoration: underline;
   transition: transform .3s cubic-bezier(0, .52, 0, 1);
   }
@@ -220,5 +216,5 @@ hr {
 
 #commento {
   display: block;
-  
+
 }

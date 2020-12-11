@@ -35,7 +35,7 @@ body {
    color: var(--color-body);
  }
 
- a:hover, .banner .navigation h1:hover, #sidenav a:hover {
+a:focus, a:hover, .banner .navigation h1:hover, #sidenav a:hover, a#menuButton:hover, .banner .title a:hover {
    color: #d3d3d3;
  }
 
