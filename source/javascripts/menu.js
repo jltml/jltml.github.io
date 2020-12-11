@@ -1,8 +1,10 @@
 var menuButton = document.querySelector("#menuButton");
 menuButton.addEventListener("click", showMenu, false);
 
-var sidenav = document.querySelector("#sidenav");
+/*
+var sidenav = document.querySelector("div#sidenav:not(.exclude)");
 sidenav.addEventListener("click", hideMenu, false);
+*/
 
 function showMenu(e) {
     sidenav.classList.add("show");
@@ -24,6 +26,16 @@ onload = function() {
   document.getElementById("lastModified").innerHTML = "last updated " + document.lastModified;
   document.getElementById("lastModified").setAttribute(
       "style", "font-size: 3vmin");
+}
+
+function toggleProfiles() {
+  $(".menu-profiles").slideToggle("slow");
+  $(".default-menu-items").slideToggle("slow");
+}
+
+function toggleProfilesInstagram() {
+  $(".menu-profiles").slideToggle("slow");
+  $(".menu-profiles-instagram").slideToggle("slow");
 }
 
 /*
