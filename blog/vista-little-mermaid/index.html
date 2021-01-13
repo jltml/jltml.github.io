@@ -33,15 +33,15 @@
   <body>
 
       <header>
-      <div class="banner">
-        <div class="title">
+      <div class="banner" id="banner">
+        <div class="title" id="banner">
           <h1>
-            <a href="../../../../../">jack mapellentz</a>
+            <a id="banner" href="../../../../../">jack mapellentz</a>
           </h1>
         </div>
-        <div id="navigation" class="navigation">
+        <div id="navigation" id="banner" class="navigation">
           <h1>
-            <a href="javascript:showMenu()" id="menuButton">menu</a>
+            <a href="javascript:showMenu()" id="menuButton" id="banner">menu</a>
           </h1>
         </div>
           <div id="sidenavWrapper" class="sidenavWrapper">
@@ -116,8 +116,10 @@
 
 
     <div id="main" role="main">
-      <h1><a href="../../../../../blog">blog</a></h1>
-      <hr>
+      <div id="blog-header">
+        <h1><a href="../../../../../blog">blog</a></h1><span> • May  7, 2019</span>
+      </div>
+      <hr class="blog-header-hr">
       <h1 id="a-swimmingly-splendid-show-vistas-the-little-mermaid">A Swimmingly Splendid Show: ViSTA’s <em>The Little Mermaid</em></h1>
 
 <h2 id="by-jack-mapellentz-22">by Jack MapelLentz '22</h2>
@@ -142,17 +144,36 @@
       </div>
       <div class="commentoOuterWrapper" style="display: none;">
         <div class="commentoInnerWrapper">
-        <script defer="" src="https://jltml-commento.herokuapp.com/js/commento.js"></script>
+          <div class="commento-notice">
+            <p>
+              <b>A note about comments.</b>
+              Comments on this site are, at the moment, kind of jerry-rigged and probably not the most secure. None of this should really matter, but I just wanted to let you know to be safe. <a style="font-weight: 100;" class="commento-notice-learn-more-link">Click here to learn more.</a>
+
+              <span style="display: none;" class="commento-notice-learn-more">To be specific: I didn't want to pay to host them, so I installed Commento on Heroku and set up CloudFlare to get SSL to work (Heroku charges for SSL certificates). However, while the connection between your computer and CloudFlare is secure, the connection between CloudFlare and Heroku isn't. Theoretically I think someone could sneak something into the URL, or something. Again, I'm a random person who has like 4 friends, so none of this should ever be an issue. Clicking the button below will load the external Commento script.</span>
+            </p>
+            <h1 class="commento-load">
+              <a>load comments</a>
+            </h1>
+          </div>
         <div id="commento"></div>
         </div>
-      </div>
-      <script>
-        function togglecommento() {
-          $(".commentoOuterWrapper").slideToggle("slow");
-          $("#commentoButton").toggleClass("buttonFlip");
-        }
-      </script>
-    </div>
+        <script>
+          $("a.commento-notice-learn-more-link").click(function(){
+            $(".commento-notice-learn-more").show();
+            $(".commento-notice-learn-more-link").hide();
+          });
+          $("h1.commento-load").click(function(){
+            $.getScript("https://jltml-commento.herokuapp.com/js/commento.js");
+            $(".commento-notice").slideUp("slow");
+            $("#commento").slideDown("slow");
+          });
 
+          function togglecommento() {
+            $(".commentoOuterWrapper").slideToggle("slow");
+            $("#commentoButton").toggleClass("buttonFlip");
+          }
+        </script>
+      </div>
+    </div>
   </body>
 </html>

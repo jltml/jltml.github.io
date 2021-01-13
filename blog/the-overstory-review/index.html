@@ -33,15 +33,15 @@
   <body>
 
       <header>
-      <div class="banner">
-        <div class="title">
+      <div class="banner" id="banner">
+        <div class="title" id="banner">
           <h1>
-            <a href="../../../../../">jack mapellentz</a>
+            <a id="banner" href="../../../../../">jack mapellentz</a>
           </h1>
         </div>
-        <div id="navigation" class="navigation">
+        <div id="navigation" id="banner" class="navigation">
           <h1>
-            <a href="javascript:showMenu()" id="menuButton">menu</a>
+            <a href="javascript:showMenu()" id="menuButton" id="banner">menu</a>
           </h1>
         </div>
           <div id="sidenavWrapper" class="sidenavWrapper">
@@ -116,8 +116,10 @@
 
 
     <div id="main" role="main">
-      <h1><a href="../../../../../blog">blog</a></h1>
-      <hr>
+      <div id="blog-header">
+        <h1><a href="../../../../../blog">blog</a></h1><span> • Nov  7, 2019</span>
+      </div>
+      <hr class="blog-header-hr">
       <h1 id="mini-book-review-the-overstory-by-richard-powers">Mini Book Review: <em>The Overstory</em> by Richard Powers</h1>
 
 <p>Alright, so this one is interesting. It’s entirely about trees — at the beginning, before everything comes together and they all wind up utterly intertwined, the characters seem completely unrelated and independent save for some random connection to trees. It’s almost as well-written as <em>All the Light We Cannot See</em>, probably the most beautiful book I’ve ever read (and a fellow recipient of the Pulitzer Prize). But the key word is almost. Where <em>ATLWCS</em>’s sentences float among the clouds, even in the stormiest times, Richard Powers’s in <em>The Overstory</em> flip-flop between abstract philosophy and brutal honesty. And some can’t decide which subset they belong in. Regardless, though, there’s certainly something to be learned from the novel. Actually, there are far too many things to count that one could learn. Barbra Kingsolver, in <em>The New York Times</em>, calls the book “a gigantic fable of genuine truths,” which is a perfect description. Perhaps that’s why it’s the quote featured on its cover. Anyway, I had a hard time understanding it while in the midst of the the story, but this is absolutely a fable, albeit a multifaceted and lengthy one. Between the numerous moments of unshielded anger, small victories, and inexplicable defeat, we inch closer to an explanation as to why of all things humans would so ruthlessly destroy such complex and beautiful beings — beings that, some characters argue, are no less consciously alive than we are. This explanation, though, seems too complex to be put into words — in actuality, it’s probably closer to an understanding as opposed to any linear explanation. We can’t explain why we’re so powerless to stop ourselves from cutting these incredible things to the ground. Just like how we can’t explain how we know, deep down, that in the long run these trees will be just fine, while we will not. But we can only seek to understand and comprehend its infinite repercussions. Compared to a tree, though, that’s quite a small infinity.</p>
@@ -138,17 +140,36 @@
       </div>
       <div class="commentoOuterWrapper" style="display: none;">
         <div class="commentoInnerWrapper">
-        <script defer="" src="https://jltml-commento.herokuapp.com/js/commento.js"></script>
+          <div class="commento-notice">
+            <p>
+              <b>A note about comments.</b>
+              Comments on this site are, at the moment, kind of jerry-rigged and probably not the most secure. None of this should really matter, but I just wanted to let you know to be safe. <a style="font-weight: 100;" class="commento-notice-learn-more-link">Click here to learn more.</a>
+
+              <span style="display: none;" class="commento-notice-learn-more">To be specific: I didn't want to pay to host them, so I installed Commento on Heroku and set up CloudFlare to get SSL to work (Heroku charges for SSL certificates). However, while the connection between your computer and CloudFlare is secure, the connection between CloudFlare and Heroku isn't. Theoretically I think someone could sneak something into the URL, or something. Again, I'm a random person who has like 4 friends, so none of this should ever be an issue. Clicking the button below will load the external Commento script.</span>
+            </p>
+            <h1 class="commento-load">
+              <a>load comments</a>
+            </h1>
+          </div>
         <div id="commento"></div>
         </div>
-      </div>
-      <script>
-        function togglecommento() {
-          $(".commentoOuterWrapper").slideToggle("slow");
-          $("#commentoButton").toggleClass("buttonFlip");
-        }
-      </script>
-    </div>
+        <script>
+          $("a.commento-notice-learn-more-link").click(function(){
+            $(".commento-notice-learn-more").show();
+            $(".commento-notice-learn-more-link").hide();
+          });
+          $("h1.commento-load").click(function(){
+            $.getScript("https://jltml-commento.herokuapp.com/js/commento.js");
+            $(".commento-notice").slideUp("slow");
+            $("#commento").slideDown("slow");
+          });
 
+          function togglecommento() {
+            $(".commentoOuterWrapper").slideToggle("slow");
+            $("#commentoButton").toggleClass("buttonFlip");
+          }
+        </script>
+      </div>
+    </div>
   </body>
 </html>
