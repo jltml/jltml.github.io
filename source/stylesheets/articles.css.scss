@@ -18,10 +18,22 @@
   }
 }
 
-h1, h2, #main h1 a {
+h1, h2, #main h1 a, #main span {
   font-family: IBM-Plex-Sans, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
 }
 
+#main #blog-header {
+  padding: 0;
+  margin: 0;
+}
+#main #blog-header, #main #blog-header h1 {
+  display: inline-block;
+  white-space: nowrap;
+}
+#main #blog-header span {
+  font-size: 1.5em;
+  font-weight: 300;
+}
 hr {
     display: block;
     margin-top: 0.5em;
@@ -31,6 +43,9 @@ hr {
     border-style: inset;
     border-width: 1px;
     border-color: var(--color-body);
+}
+hr.blog-header-hr {
+  margin-top: 0;
 }
 p {
   font-family: var(--font-family);
@@ -55,6 +70,9 @@ body, h1, h2, h3, a {
   color: var(--color-body);
   font-family: IBM-Plex-Sans;
 }
+#blog-header {
+  white-space: nowrap;
+}
 #bottomThings a {
   white-space: nowrap;
   font-family: IBM-Plex-Sans;
@@ -75,6 +93,24 @@ body, h1, h2, h3, a {
 .commentoInnerWrapper {
   padding: 20px;
 }
+.commento-notice, .commento-notice * {
+  color: black;
+  background-color: white;
+  font-family: IBM-Plex-Sans, sans-serif;
+  text-indent: 0;
+}
+
+.commento-notice h1.commento-load {
+  text-align: center;
+}
+
+.commento-notice h1.commento-load a {
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
 .commento-root a, .commento-root p {
   background-color: inherit;
 }

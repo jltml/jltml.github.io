@@ -29,9 +29,6 @@ title: blog
       <%= link_to article.title, article %> <span style='font-weight: normal;'>  •  <%= article.date.strftime('%b %e') + ', ' + article.date.strftime('%Y') %></span>
     <% end %>
   </h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <!-- <%= article.body %> -->
 <% end %>
 
 <% if paginate %>

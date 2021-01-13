@@ -1,14 +1,22 @@
 @import "fonts.css";
 
 /* respondive design things */
-/* Media Queries: Tablet Landscape */
+/* Media Queries: laptops, tablet Landscape */
 @media screen and (min-width: 1024px) {
-    #main, { width:75%; margin: 0 auto; }
+    #main {
+      width: 50%;
+      margin: 0 auto;
+    }
+    #main p {
+      font-size: 20px;
+    }
 }
 
-/* Media Queries: Tabled Portrait */
+/* Media Queries: phones, tablet portrait, etc */
 @media screen and (max-width: 1024px) {
-    #main { width:100%; }
+    #main {
+      width: 100%;
+    }
 }
 
 /* Actual CSS */
@@ -216,5 +224,4 @@ a#menuButton {
 
 #commento {
   display: block;
-
 }

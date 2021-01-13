@@ -70,6 +70,33 @@
   src: url(./fonts/IBM-Plex-Sans/IBMPlexSans-BoldItalic.otf);
   font-weight: bold;
   font-style: italic; }
+@font-face {
+  font-family: IBM-Plex-Sans;
+  src: url(./fonts/IBM-Plex-Sans/IBMPlexSans-Light.otf);
+  font-weight: 300; }
+@font-face {
+  font-family: IBM-Plex-Sans;
+  src: url(./fonts/IBM-Plex-Sans/IBMPlexSans-LightItalic.otf);
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: IBM-Plex-Sans;
+  src: url(./fonts/IBM-Plex-Sans/IBMPlexSans-ExtraLight.otf);
+  font-weight: 200; }
+@font-face {
+  font-family: IBM-Plex-Sans;
+  src: url(./fonts/IBM-Plex-Sans/IBMPlexSans-ExtraLightItalic.otf);
+  font-weight: 200;
+  font-style: italic; }
+@font-face {
+  font-family: IBM-Plex-Sans;
+  src: url(./fonts/IBM-Plex-Sans/IBMPlexSans-Thin.otf);
+  font-weight: 100; }
+@font-face {
+  font-family: IBM-Plex-Sans;
+  src: url(./fonts/IBM-Plex-Sans/IBMPlexSans-ThinItalic.otf);
+  font-weight: 100;
+  font-style: italic; }
 
 /* IBM Plex Serif */
 /* There are more files in /fonts/IBM-Plex-Serif, but they're not yet referenced here */

@@ -12,3 +12,9 @@ hr {
     background-color: red;
     color: white;
   }
+  @media (prefers-color-scheme: dark) {
+    p, body, h1, h2, h3, a, .banner .title h1, .banner .navigation h1, .banner .title h1, .banner, .navigation, .bottomEdge, #sidenav, #sidenav a, #sidenavEdge, #sidenavWrapper, #menuButton {
+      background-color: maroon;
+      color: white;
+    }
+  }
