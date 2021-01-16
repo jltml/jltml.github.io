@@ -53,7 +53,7 @@ p {
   color: var(--color-body);
   text-indent: 30px;
 }
-body, h1, h2, h3, a {
+body, a, h1, h2, h3, h4, h5, h6 {
   background-color: var(--color-background);
   color: var(--color-body);
   font-family: var(--font-family);
@@ -68,10 +68,57 @@ body, h1, h2, h3, a {
 .banner .title h1, .banner .title a, .banner .navigation h1 {
   background: var(--color-background-banner);
   color: var(--color-body);
-  font-family: IBM-Plex-Sans;
+  font-family: IBM-Plex-Sans, sans-serif;
 }
 #blog-header {
   white-space: nowrap;
+}
+.blog-article-link {
+  display: inline-block;
+  white-space: nowrap;
+  background-color: inherit;
+  z-index: 0;
+}
+.blog-article-link * {
+  font-family: IBM-Plex-Sans, sans-serif;
+  background-color: inherit;
+  text-decoration: none;
+}
+.blog-article-link-title {
+  background-color: inherit;
+  border-radius: 5px;
+}
+.blog-article-link-etc {
+  font-weight: 200;
+  font-style: normal;
+  font-size: .75em;
+}
+.blog-article-link-etc * {
+  position: relative;
+  z-index: -1;
+}
+.blog-article-link-date {
+  color: var(--color-background);
+  background-color: var(--color-body);
+  opacity: 80%;
+  font-weight: 300;
+  font-style: normal;
+  padding: 0px 7px;
+  margin-right: 4px;
+  border-radius: 15px;
+  font-size: calc(1em * .75);
+  vertical-align: middle;
+}
+.blog-article-link-tag {
+  color: var(--color-background);
+  background-color: var(--color-body);
+  opacity: 50%;
+  font-weight: 300;
+  font-style: normal;
+  padding: 0px 7px;
+  border-radius: 15px;
+  font-size: calc(1em * .75);
+  vertical-align: middle;
 }
 #bottomThings a {
   white-space: nowrap;
@@ -109,6 +156,10 @@ body, h1, h2, h3, a {
   background-color: black;
   color: white;
   border-radius: 10px;
+}
+
+.commento-notice h1.commento-load a:hover {
+  color: rgba(217, 212, 204, 0.7);
 }
 
 .commento-root a, .commento-root p {

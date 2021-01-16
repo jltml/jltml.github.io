@@ -22,13 +22,19 @@ title: blog
 <% end %>
 
 <% page_articles.each_with_index do |article, i| %>
-  <h2>
-    <% if article.tags.include? "Citation" %>
-      <%= link_to 'Article: ' + article.title, article %> <span style='font-weight: normal;'>  •  <%= article.date.strftime('%b %e') + ', ' + article.date.strftime('%Y') %></span>
-    <% else %>
-      <%= link_to article.title, article %> <span style='font-weight: normal;'>  •  <%= article.date.strftime('%b %e') + ', ' + article.date.strftime('%Y') %></span>
-    <% end %>
+  <h2 class="blog-article-link">
+      <span class=blog-article-link-title><%= link_to article.title, article %></span>
+      <br>
+      <span class='blog-article-link-etc'>
+        <span class='blog-article-link-date'>
+          <%= article.date.strftime('%b %e') + ', ' + article.date.strftime('%Y') %>
+        </span>
+        <% article.tags.each do |tag, i| %>
+          <%= link_to "#{tag}", tag_path(tag), :class => 'blog-article-link-tag' %>
+        <% end %>
+        </span>
   </h2>
+  <br>
 <% end %>
 
 <% if paginate %>
@@ -39,7 +45,7 @@ title: blog
 
 <hr>
 
-<aside class="blogFooter">
+<aside class="blog-footer">
   <h3>Tags</h3>
   <p>
     <% blog.tags.each do |tag, articles| %>

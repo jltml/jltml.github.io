@@ -3,7 +3,7 @@
   <head>
     <%= partial "/layouts/partials/head" %>
     <%= stylesheet_link_tag "articles" %>
-    <title>jacquesite • articles<%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <title><%= current_article.title + ' - ' unless current_article.nil? %>jack mapellentz • blog</title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
     <%= javascript_include_tag "blog" %>
   </head>
@@ -30,7 +30,7 @@
           <div class="commento-notice">
             <p>
               <b>A note about comments.</b>
-              Comments on this site are, at the moment, kind of jerry-rigged and probably not the most secure. None of this should really matter, but I just wanted to let you know to be safe. <a style="font-weight: 100;" class="commento-notice-learn-more-link">Click here to learn more.</a>
+              Comments on this site are, at the moment, kind of jerry-rigged and probably not the most secure. None of this should really matter, but I just wanted to let you know to be safe. <a style="font-weight: 100;" class="commento-notice-learn-more-link">Learn more.</a>
 
               <span style="display: none;" class="commento-notice-learn-more">To be specific: I didn't want to pay to host them, so I installed Commento on Heroku and set up CloudFlare to get SSL to work (Heroku charges for SSL certificates). However, while the connection between your computer and CloudFlare is secure, the connection between CloudFlare and Heroku isn't. Theoretically I think someone could sneak something into the URL, or something. Again, I'm a random person who has like 4 friends, so none of this should ever be an issue. Clicking the button below will load the external Commento script.</span>
             </p>
