@@ -123,7 +123,7 @@ GEM
     sassc (2.4.0)
       ffi (~> 1.9)
     servolux (0.13.0)
-    sq_mini_racer (0.3.1.0.2)
+    sq_mini_racer (0.3.1.0.3)
     temple (0.8.2)
     thor (1.0.1)
     thread_safe (0.3.6)
@@ -150,4 +150,4 @@ DEPENDENCIES
   wdm (~> 0.1)
 
 BUNDLED WITH
-   2.1.4
+   2.2.5
