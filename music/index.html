@@ -1,12 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-<meta name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="The personal website of Jack MapelLentz, est. 2018." />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript" ></script>
 <link href="/stylesheets/site.css" rel="stylesheet" />
 <script src="/javascripts/site.js"></script>
+<script src="/javascripts/menu.js"></script>
 <script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -17,82 +19,155 @@
 </script>
 <link rel='icon' type='image/x-icon' href='./../favicon.ico' />
 <link rel="apple-touch-icon" href="./../images/iphoneicon">
+<meta name="supported-color-schemes" content="light dark">
+<!-- responsive design stuff-->
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
 
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <title>jacquesite</title>
-  </head>
-  <body>
-    <div class="banner">
-      <header>
-        <div class="wrapper">
-          <div class="blurlayer">
-          </div>
-          <div class="title">
-            <h1>
-              <a href="../../../../../">jack mapellentz</a>
-            </h1>
-          </div>
-          <div class="navigation">
-            <h1>
-              <a href="../../../../../menu">menu</a>
-            </h1>
-          </div>
+  <div id="loader-wrapper">
+    <!-- <div id="loader"></div> -->
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+  <!-- Use the title from a page's frontmatter if it has one -->
+  <!-- <title>jack mapellentz</title> -->
+  <title>jack mapellentz</title>
+</head>
+
+<div class="blur">
+</div>
+
+<body>
+    <header>
+      <div class="banner" id="banner">
+        <div class="title" id="banner">
+          <h1>
+            <a id="banner" href="../../../../../">jack mapellentz</a>
+          </h1>
         </div>
-      </header>
+        <div id="navigation" id="banner" class="navigation">
+          <h1>
+            <a href="javascript:showMenu()" id="menuButton" id="banner">menu</a>
+          </h1>
+        </div>
+          <div id="sidenavWrapper" class="sidenavWrapper">
+            <div id="sidenav">
+              <h1>
+                <div class="default-menu-items">
+
+  <a href="javascript:void(0)"onclick="hideMenu()">close</a>
+
+  <a href="./../../../">home</a>
+
+  <a href="./../../../blog">blog</a>
+
+  <a href="./../../../literature">literature, etc</a>
+
+  <a href="./../../../music">music</a>
+
+  <a href="./../../../videos">videos</a>
+
+  <a href="javascript:toggleProfiles()" class="exclude">profiles</a>
+
+</div>
+
+  <div class="menu-profiles" style="display: none;">
+
+    <a href="javascript:toggleProfiles()">close</a>
+
+    <a href="javascript:toggleProfilesInstagram()">instagram</a>
+
+    <a href="https://en.wikipedia.org/wiki/User:Jltml" target="blank">wikipedia</a>
+
+    <a href="https://github.com/jltml/" target="blank">github</a>
+
+    <a href="https://music.apple.com/profile/jltml" target="_blank">apple music</a>
+
+    <a href="https://open.spotify.com/user/jltml" target="_blank">spotify</a>
+
+  </div>
+
+    <div class="menu-profiles-instagram" style="display: none;">
+
+      <a href="javascript:toggleProfilesInstagram()">close</a>
+
+      <a href="https://www.instagram.com/jackmapellentz/" target="blank">main</a>
+
+      <a href="https://www.instagram.com/jackmapellentz2/" target="blank">etc</a>
+
+      <a href="https://www.instagram.com/photos.by.jack/" target="blank">photography</a>
+
     </div>
+
+<div class="default-menu-items">
+
+  <a href="https://status.jltml.me" target="blank">status</a>
+
+  <a href="./../../../misc">miscellaneous</a>
+
+</div>
+
+                <br>
+              </h1>
+                <i>
+                  <a href="https://github.com/jltml/jltml.github.io/" target="blank"> <span id="lastModified"></span></a>
+                </i>
+              </div>
+          </div>
+          <div class="bottomEdge"></div>
+        </div>
+        <div id="sidenavEdge"></div>
+        <script src="/javascripts/menu.js"></script>
+    </header>
+
+  <div id="main">
     <!doctype html>
 <html>
   <body>
-    <div id="main" role="main">
-
       <h1>
-        things i've listened to
+        music I've made
       </h1>
-      <h2>
-        apple music
-      </h2>
+      <p>
+        I've started making music of my own (which is (really hopefully) something I'd like to hopefully keep doing). If you're seeing this here, congrats — I really haven't told very many people. Should you be inerested and/or curious, you can find me on Bandcamp <a href="https://midnightpass.bandcamp.com">here</a>.
+      </p>
+      <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=1235289601/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://midnightpass.bandcamp.com/track/seam">Seam by Midnight Pass</a></iframe>
+      <br>
+      <hr>
+      <h1>
+        good music by other people (my playlists, etc)
+      </h1>
       <h3>
-        playlists
+        <a href="https://music.apple.com/profile/jltml" target="_blank">me on apple music</a> • <a href="https://open.spotify.com/user/jltml?si=hX_oIO0oQv-9Gvq0rs9SSg" target="_blank">me on spotify</a>
       </h3>
       <br>
-      <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/go-do-something/pl.u-RR37FxgRpLy"></iframe>
-      <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/songs-to-spin-fidget-spinners-to/pl.a011e3f214ac4ffe8b614cb904addf70"></iframe>
-      <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/favourties/pl.u-b697uLzDx6k"></iframe>
-      <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/listlist-001-idk/pl.u-leqGtxZbl1W"></iframe>
-      <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/listlist-002-dr-mrs-vandertrampp/pl.u-BpJespXLl8A"></iframe>
-      <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/listlist-003-calamity-serenity/pl.u-vvdMt1BN7dk"></iframe>
-      <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/listlist-004-tangled-mess/pl.u-LRKBukm8VMN"></iframe>
-      <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/listlist-005-best-friend-i-think-i-love-you/pl.u-PPKVukVj7YG"></iframe>
-      <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/listlist-006-oh-wait-nevemind-i-guess-ill-just-keep/pl.u-vvA6t1BN7dk"></iframe>
-      <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/la-classe-de-fran%C3%A7ais/pl.u-RrDVtxgRpLy"></iframe>
-      <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/christmas-by-jack/pl.u-LRBdtkm8VMN"></iframe>
-      <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/all-of-2018-sorted-by-plays/pl.u-AZ69T7LzY0E"></iframe>
+      <div id='applemusicembeds'>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/replay-2019/pl.rp-9xxLIgvj279"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/list14-a-provisional-hope-suddenly-mostly/pl.u-YWryfxb6Yd3"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/list13-intermission/pl.u-PJxDIkVj7YG"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/list12-the-same-and-the-sometimes/pl.u-ZPvoFzPJEb1"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/list11-maybe-someday/pl.u-PJWEIkVj7YG"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/list10-in-circles/pl.u-BM06FpXLl8A"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/list9-memories-to-be-made/pl.u-BMdjipXLl8A"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/list8-from-nowhere/pl.u-RgaWUxgRpLy"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/listlist-007-a-teetering-hope/pl.u-RrENFxgRpLy"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/listlist-006-oh-wait-nevemind-i-guess-ill-just-keep/pl.u-vvA6t1BN7dk"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/listlist-005-best-friend-i-think-i-love-you/pl.u-PPKVukVj7YG"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/listlist-004-tangled-mess/pl.u-LRKBukm8VMN"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/listlist-003-calamity-serenity/pl.u-vvdMt1BN7dk"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/listlist-002-dr-mrs-vandertrampp/pl.u-BpJespXLl8A"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/listlist-001-idk/pl.u-leqGtxZbl1W"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/favourties/pl.u-b697uLzDx6k"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/instagram-song-recommendations/pl.u-Rgr2cxgRpLy"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/songs-to-spin-fidget-spinners-to/pl.a011e3f214ac4ffe8b614cb904addf70"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/go-do-something/pl.u-RR37FxgRpLy"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/christmas-by-jack/pl.u-LRBdtkm8VMN"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/all-of-2018-sorted-by-plays/pl.u-AZ69T7LzY0E"></iframe>
+      </div>
       <br>
-
-      <h2>
-        spotify
-      </h2>
-      <a href="https://open.spotify.com/user/jltml?si=hX_oIO0oQv-9Gvq0rs9SSg" target="_blank">My Spotify Profile</a>
-      <br>
-
-      <h2>
-        my most listened-to artists
-      </h2>
-      <i>updated 2018-12-22<i>
-      <br>
-      <img src="./../images/music/songs1.jpeg" style="width:45vh;height:97.5vh;">
-      <img src="./../images/music/songs2.jpeg" style="width:45vh;height:97.5vh;">
-      <img src="./../images/music/songs3.jpeg" style="width:45vh;height:97.5vh;">
-      <img src="./../images/music/songs4.jpeg" style="width:45vh;height:97.5vh;">
-      <img src="./../images/music/songs5.jpeg" style="width:45vh;height:97.5vh;">
-      <img src="./../images/music/songs6.jpeg" style="width:45vh;height:97.5vh;">
-      <img src="./../images/music/songs7.jpeg" style="width:45vh;height:97.5vh;">
-      <img src="./../images/music/songs8.jpeg" style="width:45vh;height:97.5vh;">
-      <img src="./../images/music/songs9.jpeg" style="width:45vh;height:97.5vh;">
-
-    </div>
   </body>
 </html>
 
-  </body>
+  </div>
+</body>
 </html>

@@ -1,1 +1,1 @@
-// This is where it all goes :)
+var checkScrollSpeed=function(e){function o(){n=null,c=0}e=e||{};var n,l,r,c,s=e.delay||50;return o(),function(){return l=window.scrollY,null!=n&&(c=l-n),n=l,clearTimeout(r),r=setTimeout(o,s),c}}(),prevScrollpos=window.pageYOffset;window.onscroll=function(){var e=window.pageYOffset;$("#sidenav").hasClass("show")||(prevScrollpos>e&&Math.abs(checkScrollSpeed())>5||e<=0||window.innerHeight+window.scrollY>=document.body.offsetHeight?$("#banner").fadeIn():prevScrollpos<e&&$("#banner").fadeOut(),prevScrollpos=e)};
