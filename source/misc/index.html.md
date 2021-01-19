@@ -25,5 +25,3 @@ And thank you, too, for visiting! I hope you have a lovely time :)
 <br>
 <li> <a href="./../misc/menudebug">menu debugging</a>
 </p>
-
-*testing an updat
