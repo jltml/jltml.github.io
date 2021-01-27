@@ -10,12 +10,12 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     autoprefixer-rails (9.8.6.5)
       execjs
-    backports (3.20.1)
+    backports (3.20.2)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.1.7)
+    concurrent-ruby (1.1.8)
     contracts (0.13.0)
     dotenv (2.7.6)
     em-websocket (0.5.2)
@@ -125,7 +125,7 @@ GEM
     servolux (0.13.0)
     sq_mini_racer (0.3.1.0.3)
     temple (0.8.2)
-    thor (1.0.1)
+    thor (1.1.0)
     thread_safe (0.3.6)
     tilt (2.0.10)
     tzinfo (1.2.9)
@@ -150,4 +150,4 @@ DEPENDENCIES
   wdm (~> 0.1)
 
 BUNDLED WITH
-   2.2.5
+   2.2.7
