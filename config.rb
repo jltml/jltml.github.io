@@ -82,3 +82,9 @@ activate :directory_indexes
 page '/404.html', directory_index: false
 page "/my-things.md", :directory_index => false
 page "/README.md", :directory_index => false
+
+# See https://github.com/plasticine/middleman-imageoptim for all config options
+activate :imageoptim do |options|
+  # Image extensions to attempt to compress
+  options.image_extensions = %w(.png .jpg .gif .svg .jpeg)
+end
