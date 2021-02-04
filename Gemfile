@@ -13,4 +13,4 @@ gem 'sq_mini_racer', '~> 0.3.1', platforms: :ruby
 # gem 'middleman-imageoptim', :git => 'https://github.com/alexsanderson/middleman-imageoptim', :branch => 'master'
 # gem 'image_optim'
 # gem 'image_optim_pack'
-gem "middleman-minify-html"
+gem "middleman-minify-html", ">= 3.4.1"
