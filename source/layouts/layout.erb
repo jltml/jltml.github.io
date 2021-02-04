@@ -2,14 +2,8 @@
 <html>
 <head>
   <%= partial "/layouts/partials/head" %>
-  <div id="loader-wrapper">
-    <!-- <div id="loader"></div> -->
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
-  </div>
   <!-- Use the title from a page's frontmatter if it has one -->
-  <!-- <title><%= current_page.data.title || "jack mapellentz" %></title> -->
-  <title>jack mapellentz<%= ' • ' + current_page.data.title unless current_page.data.title.nil? %></title>
+  <title><%=current_page.data.title + ' • ' unless current_page.data.title.nil? %>Jack MapelLentz</title>
 </head>
 
 <div class="blur">

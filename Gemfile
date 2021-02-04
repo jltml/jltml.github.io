@@ -10,4 +10,7 @@ gem "middleman-blog", "~> 4.0"
 gem 'middleman-google-analytics', '~> 3.0'
 gem 'nokogiri'
 gem 'sq_mini_racer', '~> 0.3.1', platforms: :ruby
-gem "middleman-imageoptim", '~> 0.3.0'
+# gem 'middleman-imageoptim', :git => 'https://github.com/alexsanderson/middleman-imageoptim', :branch => 'master'
+# gem 'image_optim'
+# gem 'image_optim_pack'
+gem "middleman-minify-html"
