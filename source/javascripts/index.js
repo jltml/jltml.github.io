@@ -10,11 +10,12 @@ var images = ['water1.jpg', 'water2.jpg', 'bridge.jpg', 'siestasunset1.jpg', 'pa
 var randomImage = images[Math.floor(Math.random() * images.length)];
 
 function initialBackground() {
-  $('<img/>').attr('src', './../images/backgrounds/small/' + randomImage).on('load', function() {
+  $('<img/>').attr('src', './../files/images/backgrounds/small/' + randomImage).on('load', function() {
    $(this).remove(); // prevent memory leaks, from StackOverflow
-   $('body').css('background-image', 'url(./../images/backgrounds/small/' + randomImage + ')');
+   $('body').css('background-image', 'url(./../files/images/backgrounds/small/' + randomImage + ')');
   });
   $('.blur').css({'backdrop-filter': 'blur(10px)'});
+  $('.blur').css({'-webkit-backdrop-filter': 'blur(10px)'});
   console.log("small background loaded");
 }
 
@@ -23,12 +24,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
 
 function fullBackground() {
-  $('<img/>').attr('src', './../images/backgrounds/full/' + randomImage).on('load', function() {
+  $('<img/>').attr('src', './../files/images/backgrounds/full/' + randomImage).on('load', function() {
    $(this).remove(); // prevent memory leaks
-   $('body').css({'background-image': 'url(./../images/backgrounds/full/' + randomImage + ')'});
-   $('.blur').css({'transition': 'all 0.25s ease-in-out'});
+   $('body').css({'background-image': 'url(./../files/images/backgrounds/full/' + randomImage + ')'});
    $('.blur').css({'backdrop-filter': 'blur(0px)'});
-   $('.tinyLoader').css({'transition': 'all 0.25s ease-in-out'});
+   $('.blur').css({'-webkit-backdrop-filter': 'blur(0px)'});
    $('.tinyLoader').css({'display': 'none'});
    console.log("full background loaded");
   });
