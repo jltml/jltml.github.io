@@ -1,7 +1,7 @@
 ---
 
 title: Ode to the Cities 97 Sampler
-date: 2019-05-04 00:00 UTC
+date: 2019-05-04
 tags: Citation
 
 ---

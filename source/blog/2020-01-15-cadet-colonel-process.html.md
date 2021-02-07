@@ -1,7 +1,7 @@
 ---
 
 title: Selecting the Cadet Colonel
-date: 2020-01-15 01:06 UTC
+date: 2020-01-15
 tags: Citation
 
 ---

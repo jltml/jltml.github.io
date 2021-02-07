@@ -1,7 +1,7 @@
 ---
 
 title: “endless time”
-date: 2020-05-04 08:00 UTC
+date: 2020-05-04
 tags: poetry
 layout: florencelayout
 

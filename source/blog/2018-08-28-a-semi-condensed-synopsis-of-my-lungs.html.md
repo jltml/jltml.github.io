@@ -1,7 +1,7 @@
 ---
 
 title: A semi-condensed synopsis of my lungs
-date: 2018-08-28 22:25 UTC
+date: 2018-08-28
 tags: lungs
 
 ---

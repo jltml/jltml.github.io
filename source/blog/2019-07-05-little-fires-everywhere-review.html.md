@@ -1,7 +1,7 @@
 ---
 
 title: "Mini Book Review: Little Fires Everywhere"
-date: 2019-07-05 15:35 UTC
+date: 2019-07-05
 tags: mini book reviews, books
 
 ---

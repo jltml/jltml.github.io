@@ -23,8 +23,8 @@ body {
    right: 0;
    top: 0;
    bottom: 0;
-   transition: backdrop-filter .5s;
-   transition: -webkit-backdrop-filter .5s;
+   backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
  }
 
  .banner, #sidenav, #sidenavEdge, .bottomEdge, .banner .title h1, .banner .navigation h1 {

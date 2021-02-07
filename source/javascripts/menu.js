@@ -9,12 +9,16 @@ function showMenu(e) {
     sidenav.classList.add("show");
     sidenavEdge.classList.add("show");
     menuButton.classList.add("hide");
+    // Workaround because I can't get z-index to work :( please fix this someday
+    $('.blog-article-link-etc *').css({'z-index': '-1'});
 }
 
 function hideMenu(e) {
     sidenav.classList.remove("show");
     sidenavEdge.classList.remove("show");
     menuButton.classList.remove("hide");
+    // Workaround because I can't get z-index to work :( please fix this someday
+    $('.blog-article-link-etc *').css({'z-index': '1'});
 }
 
 function openEdge() {

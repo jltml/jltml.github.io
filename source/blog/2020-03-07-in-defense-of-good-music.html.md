@@ -1,7 +1,7 @@
 ---
 
 title: In Defense of Good Music
-date: 2020-03-07 01:07 UTC
+date: 2020-03-07
 tags: Citation
 
 ---

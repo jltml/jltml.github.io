@@ -34,6 +34,8 @@ page '/README.md', layout: false
 #   end
 # end
 
+Time.zone = "Central Time (US & Canada)"
+
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
@@ -68,6 +70,7 @@ activate :blog do |blog|
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
   blog.permalink = "{title}"
+  blog.default_extension = ".md"
 end
 
 # Tells menu & other pages to use corresponding custom layout
