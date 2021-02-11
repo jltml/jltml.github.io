@@ -44,7 +44,7 @@ configure :build do
     prefix.browsers = "last 2 versions"
   end
   activate :minify_css
-  activate :minify_javascript
+  # activate :minify_javascript
   activate :minify_html
   # activate :imageoptim do |options|
   #   options.verbose = true
