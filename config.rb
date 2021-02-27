@@ -83,7 +83,7 @@ page '/misc/sidenav/*', layout: 'menulayout'
 #   ga.tracking_id = 'UA-50288708-10' # Replace with your property ID.
 # end
 
-# Activates directory indexes
+# Activates directory indexes (pretty URLs)
 activate :directory_indexes
 
 # Tells pages not to use direcory indexes

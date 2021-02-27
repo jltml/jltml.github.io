@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'middleman', :git => 'https://github.com/middleman/middleman.git', :branch => 'master'
+gem 'middleman'
 gem 'middleman-autoprefixer', '~> 2.7'
 gem 'tzinfo-data', platforms: %i[mswin mingw jruby]
 gem 'wdm', '~> 0.1', platforms: %i[mswin mingw]
