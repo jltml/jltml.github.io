@@ -10,7 +10,7 @@ title: blog
   <%= javascript_include_tag "blog" %>
 </head>
 
-<h1><a href="./../blog">blog</a></h1>
+<h1><a href="/blog">blog</a></h1>
 
 <hr>
 
@@ -27,7 +27,7 @@ title: blog
       <h2 class=blog-article-link-title><%= link_to article.title, article %></h2>
       <span class='blog-article-link-etc'>
         <span class='blog-article-link-date'>
-          <%= link_to "#{article.date.strftime('%b %e') + ', ' + article.date.strftime('%Y')}", './blog/' + article.date.strftime('%Y') %>
+          <%= link_to "#{article.date.strftime('%b %e') + ', ' + article.date.strftime('%Y')}", '/blog/' + article.date.strftime('%Y') %>
         </span>
         <% article.tags.each do |tag, i| %>
           <%= link_to "#{tag}", tag_path(tag), :class => 'blog-article-link-tag' %>

@@ -6,7 +6,7 @@ tags: projects
 
 ---
 
-tl;dr: it's [this](http://jltml.me/whose-land-is-it){:target="_blank"}
+*tl;dr: it's [this](http://jltml.me/whose-land-is-it){:target="_blank"}*
 
 A couple days ago, I quickly cobbled together a new website, inspired by [Jonatan Heyman](https://heyman.info){:target="_blank"}'s [whatismyzip.com](https://whatismyzip.com){:target="_blank"}. I'd thought — what if you could immediately load a page and see whose land you're on (like how you can on whatismyzip with ZIP codes)? And so, after discovering that JavaScript is Not That Much Fun, I put together [this](http://jltml.me/whose-land-is-it){:target="_blank"} page, which does exactly that. It looks *very* bad right now, but hopefully I'll get it to look better here soon (though it does support dark mode? honestly people everyone should; it's not hard). Anyway, it pretty much just uses your location to:
 
