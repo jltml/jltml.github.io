@@ -4,6 +4,7 @@ title: “fade/blinks”
 date: 2020-03-01
 tags: poetry
 layout: florencelayout
+disable_title: true
 
 ---
 

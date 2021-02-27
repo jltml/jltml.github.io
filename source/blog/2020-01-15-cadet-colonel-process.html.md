@@ -6,8 +6,6 @@ tags: Citation
 
 ---
 
-# Selecting the Cadet Colonel
-
 ## *or: A Recent History of the Selection Process*
 
 ## by Jack MapelLentz '22

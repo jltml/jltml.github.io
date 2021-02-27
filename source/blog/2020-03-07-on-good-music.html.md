@@ -1,12 +1,10 @@
 ---
 
-title: In Defense of Good Music
+title: On Good Music
 date: 2020-03-07
 tags: Citation
 
 ---
-
-# In Defense of Good Music
 
 ## by Jack MapelLentz '22
 

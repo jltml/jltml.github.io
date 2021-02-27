@@ -16,6 +16,7 @@
         <h1><a href="../../../../../blog">blog</a></h1><span> • <%= current_article.date.strftime('%b %e') + ', ' + current_article.date.strftime('%Y') %></span>
       </div>
       <hr class="blog-header-hr">
+      <h1><%= current_page.data.title unless current_page.data.disable_title == true %></h1>
       <%= yield %>
       <div id="bottomThings">
         <a href="../../../../../blog" class='js-back' style="text-decoration: none;">←</a>

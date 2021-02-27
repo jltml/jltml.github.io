@@ -3,6 +3,7 @@
 title: "Mini Book Review: The Overstory"
 date: 2019-11-07
 tags: mini book reviews, books
+disable_title: true
 
 ---
 

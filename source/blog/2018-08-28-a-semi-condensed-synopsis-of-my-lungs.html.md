@@ -6,8 +6,6 @@ tags: lungs
 
 ---
 
-# A semi-condensed synopsis of my lungs
-
 ### I recently wrote an email to someone summarizing my whole experience (re: my lungs), which I've been meaning to do for a while. Here it is.
 
 • **Early November:** I got some sort of [rather minimal] cold, which took me a while to recover from, as has always been the case for me (as a little kid, I used to pretty much never go to preschool: when other kids got sick for two days I’d be out for a week). Except when I got better from the cold itself, I continued coughing and wheezing.

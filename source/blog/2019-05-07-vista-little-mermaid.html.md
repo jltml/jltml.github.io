@@ -3,6 +3,7 @@
 title: A Swimmingly Splendid Show (ViSTA’s The Little Mermaid)
 date: 2019-05-07
 tags: Citation
+disable_title: true
 
 ---
 

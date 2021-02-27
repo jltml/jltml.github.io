@@ -6,8 +6,6 @@ tags: Citation
 
 ---
 
-# A Sliver of the Past
-
 ## *or:* A Rather Protracted Exploration of a Few Changes in St. Thomas Academy’s History
 
 ## by Jack MapelLentz ’22
