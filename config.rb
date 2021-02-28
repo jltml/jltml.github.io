@@ -78,11 +78,6 @@ end
 page '/menu/*', layout: 'menulayout'
 page '/misc/sidenav/*', layout: 'menulayout'
 
-# Google Analytics extension — removed from this website because of incompatibility with latest Middleman & Ruby 3.0.0 (previous tag in _head.erb commented out and gem removed)
-# activate :google_analytics do |ga|
-#   ga.tracking_id = 'UA-50288708-10' # Replace with your property ID.
-# end
-
 # Activates directory indexes (pretty URLs)
 activate :directory_indexes
 

@@ -13,7 +13,15 @@
 
     <div id="main" role="main">
       <div id="blog-header">
-        <h1><a href="/blog">blog</a></h1><span> • <%= current_article.date.strftime('%b %e') + ', ' + current_article.date.strftime('%Y') %></span>
+        <h1><a href="/blog">blog</a></h1>
+        <span class='blog-article-link-etc'>
+          <span class='blog-article-link-date'>
+            <%= link_to "#{current_article.date.strftime('%b %e') + ', ' + current_article.date.strftime('%Y')}", '/blog/' + current_article.date.strftime('%Y') %>
+          </span>
+          <% current_article.tags.each do |tag, i| %>
+            <%= link_to "#{tag}", tag_path(tag), :class => 'blog-article-link-tag' %>
+          <% end %>
+          </span>
       </div>
       <hr class="blog-header-hr">
       <h1><%= current_page.data.title unless current_page.data.disable_title == true %></h1>

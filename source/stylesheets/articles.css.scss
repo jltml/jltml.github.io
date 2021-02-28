@@ -18,7 +18,7 @@
   }
 }
 
-h1, h2, #main h1 a, #main span {
+h1, h2, #main h1 a, #main span, #main #blog-header .blog-article-link-etc * {
   font-family: IBM-Plex-Sans, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
 }
 
@@ -30,8 +30,13 @@ h1, h2, #main h1 a, #main span {
   display: inline-block;
   white-space: nowrap;
 }
-#main #blog-header span {
-  font-size: 1.5em;
+#main #blog-header .blog-article-link-etc a {
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+}
+#main #blog-header .blog-article-link-date, #main #blog-header .blog-article-link-tags {
+  margin-left: 5px;
   font-weight: 300;
 }
 hr {
@@ -116,14 +121,6 @@ body, a, h1, h2, h3, h4, h5, h6 {
   border-radius: inherit;
   text-decoration: none;
 }
-/*
-.blog-article-link-date-header {
-  margin-right: 0;
-}
-.blog-article-link-date-header a {
-  font-size: .5em;
-
-} */
 .blog-article-link-tag {
   color: var(--color-background);
   background-color: var(--color-body);
