@@ -8,6 +8,7 @@ title: blog
 <head>
   <%= stylesheet_link_tag "articles" %>
   <%= javascript_include_tag "blog" %>
+  <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Jack's Blog" %>
 </head>
 
 <h1><a href="/blog">blog</a></h1>
@@ -59,4 +60,8 @@ title: blog
       <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
     <% end %>
   </p>
+
+  <h3>
+    <%= link_to "RSS (Atom) Feed", "#{blog.options.prefix.to_s}/feed.xml" %>
+  </h3>
 </aside>
