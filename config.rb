@@ -85,3 +85,7 @@ activate :directory_indexes
 page '/404.html', directory_index: false
 page '/my-things.md', directory_index: false
 page '/README.md', directory_index: false
+
+# Page redirects
+redirect "/link/historyday2021", to: "https://youtu.be/szNL9dTI1FA"
+redirect "/link/wish", to: "https://www.giftster.com/gift/lkg7O/"
