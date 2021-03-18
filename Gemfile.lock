@@ -26,8 +26,8 @@ GEM
     eventmachine (1.2.7)
     execjs (2.7.0)
     fast_blank (1.0.0)
-    fastimage (2.2.2)
-    ffi (1.14.2)
+    fastimage (2.2.3)
+    ffi (1.15.0)
     ffi-rzmq (2.0.7)
       ffi-rzmq-core (>= 1.0.7)
     ffi-rzmq-core (1.0.7)
@@ -42,7 +42,7 @@ GEM
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    kramdown (2.3.0)
+    kramdown (2.3.1)
       rexml
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -97,12 +97,15 @@ GEM
     middleman-minify-html (3.4.1)
       htmlcompressor (~> 0.2.0)
       middleman-core (>= 3.2)
+    middleman-syntax (3.2.0)
+      middleman-core (>= 3.2)
+      rouge (~> 3.2)
     mini_portile2 (2.5.0)
     minitest (5.14.4)
     net-sftp (3.0.0)
       net-ssh (>= 5.0.0, < 7.0.0)
     net-ssh (6.1.0)
-    nokogiri (1.11.1)
+    nokogiri (1.11.2)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     padrino-helpers (0.13.3.4)
@@ -112,7 +115,6 @@ GEM
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
     parallel (1.20.1)
-    prettier (1.5.2)
     ptools (1.4.2)
     public_suffix (4.0.6)
     racc (1.5.2)
@@ -122,7 +124,9 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    redcarpet (3.5.1)
     rexml (3.2.4)
+    rouge (3.26.0)
     sassc (2.4.0)
       ffi (~> 1.9)
     servolux (0.13.0)
@@ -140,17 +144,19 @@ PLATFORMS
 
 DEPENDENCIES
   builder (~> 3.0)
-  ffi-rzmq
-  middleman
+  ffi-rzmq (~> 2.0, >= 2.0.7)
+  middleman (~> 4.3, >= 4.3.11)
   middleman-autoprefixer (~> 2.7)
   middleman-blog (~> 4.0)
   middleman-deploy (~> 2.0.0.pre.alpha)
   middleman-livereload (~> 3.4.3)
-  middleman-minify-html
-  nokogiri
-  prettier (~> 1.5, >= 1.5.2)
+  middleman-minify-html (~> 3.4, >= 3.4.1)
+  middleman-syntax (~> 3.2)
+  nokogiri (~> 1.11, >= 1.11.1)
+  redcarpet (~> 3.5, >= 3.5.1)
+  rouge (~> 3.26)
   tzinfo-data
   wdm (~> 0.1)
 
 BUNDLED WITH
-   2.2.9
+   2.2.14

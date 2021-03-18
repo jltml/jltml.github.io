@@ -85,3 +85,8 @@ activate :directory_indexes
 page '/404.html', directory_index: false
 page '/my-things.md', directory_index: false
 page '/README.md', directory_index: false
+
+# Sets markdown engine and does stuff for code highlighting
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true, :smartypants => true, :strikethrough => true, :highlight => true
+activate :syntax # middleman-syntax
