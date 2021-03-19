@@ -59,7 +59,7 @@ activate :livereload
 activate :deploy do |deploy|
   deploy.deploy_method = :git
   deploy.remote = 'https://github.com/jltml/jltml.github.io.git'
-  deploy.branch = 'master'
+  deploy.branch = 'gh-pages'
   deploy.build_before = false
 end
 
