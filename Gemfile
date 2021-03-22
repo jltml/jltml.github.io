@@ -1,14 +1,17 @@
 source 'https://rubygems.org'
 
-gem 'middleman', '~> 4.3', '>= 4.3.11'
-# gem 'middleman', git: 'https://github.com/middleman/middleman.git', branch: 'master'
+if RUBY_VERSION == "3.0.0"
+  gem 'middleman', git: 'https://github.com/middleman/middleman.git', branch: 'master'
+  gem 'middleman-blog', git: 'https://github.com/middleman/middleman-blog.git', branch: 'master'
+else
+  gem 'middleman', '~> 4.3', '>= 4.3.11'
+  gem 'middleman-blog', '~> 4.0'
+end
 gem 'middleman-autoprefixer', '~> 2.7'
 gem 'tzinfo-data', platforms: %i[mswin mingw jruby]
 gem 'wdm', '~> 0.1', platforms: %i[mswin mingw]
 gem 'middleman-livereload', '~> 3.4.3'
 gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
-gem 'middleman-blog', '~> 4.0'
-# gem 'middleman-blog', git: 'https://github.com/middleman/middleman-blog.git', branch: 'master'
 # gem 'middleman-google-analytics', '~> 3.0'
 gem 'nokogiri', '~> 1.11', '>= 1.11.1'
 # gem 'sq_mini_racer', '~> 0.3.1', platforms: :ruby

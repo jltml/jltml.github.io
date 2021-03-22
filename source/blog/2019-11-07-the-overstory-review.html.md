@@ -1,6 +1,6 @@
 ---
 
-title: "Mini Book Review: The Overstory"
+title: "Mini Book Review: <i>The Overstory</i>"
 date: 2019-11-07
 tags: mini book reviews, books
 disable_title: true

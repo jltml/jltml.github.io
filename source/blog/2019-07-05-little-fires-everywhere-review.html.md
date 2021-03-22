@@ -1,6 +1,6 @@
 ---
 
-title: "Mini Book Review: Little Fires Everywhere"
+title: "Mini Book Review: <i>Little Fires Everywhere</i>"
 date: 2019-07-05
 tags: mini book reviews, books
 disable_title: true
