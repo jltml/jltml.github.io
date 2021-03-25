@@ -54,6 +54,8 @@ GEM
       kramdown (>= 2.3.0)
       middleman-cli (= 4.3.11)
       middleman-core (= 4.3.11)
+    middleman-alias (0.0.17)
+      middleman-core (>= 3.3)
     middleman-autoprefixer (2.10.1)
       autoprefixer-rails (~> 9.1)
       middleman-core (>= 3.3.3)
@@ -146,6 +148,7 @@ DEPENDENCIES
   builder (~> 3.0)
   ffi-rzmq (~> 2.0, >= 2.0.7)
   middleman (~> 4.3, >= 4.3.11)
+  middleman-alias
   middleman-autoprefixer (~> 2.7)
   middleman-blog (~> 4.0)
   middleman-deploy (~> 2.0.0.pre.alpha)
