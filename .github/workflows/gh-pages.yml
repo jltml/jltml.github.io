@@ -12,10 +12,10 @@ jobs:
     steps:
       - uses: actions/checkout@master
       # ----------------------------------------------------Ruby
-      - name: Install Ruby
-        uses: actions/setup-ruby@v1
+      - uses: ruby/setup-ruby@v1
         with:
-          version: 2.6.x
+          ruby-version: 2.6.6
+          bundler-cache: true
       - name: Ruby Version
         run: |
           ruby -v
@@ -43,7 +43,6 @@ jobs:
       #    bundle exec rake webpack:build:production
       - name: Build Middleman Site
         run: |
-          export TERM=xterm
           bundle exec middleman build
       # ----------------------------------------------------Deploy
       - name: Deploy to Github Pages
