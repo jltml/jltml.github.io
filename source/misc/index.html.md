@@ -24,4 +24,6 @@ And thank you, too, for visiting! I hope you have a lovely time :)
 <li> <a href="./../menu">old menu</a>
 <br>
 <li> <a href="./../misc/menudebug">menu debugging</a>
+<br>
+<li> just put this here for testing GitHub Actions
 </p>
