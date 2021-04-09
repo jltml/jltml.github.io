@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 if RUBY_VERSION == "3.0.0"
-  gem 'middleman', git: 'https://github.com/middleman/middleman.git', branch: 'master'
+  gem 'middleman', '>= 4.3.11', git: 'https://github.com/middleman/middleman.git', branch: 'master'
   gem 'middleman-blog', git: 'https://github.com/middleman/middleman-blog.git', branch: 'master'
 else
   gem 'middleman', '~> 4.3', '>= 4.3.11'
