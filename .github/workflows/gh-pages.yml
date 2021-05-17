@@ -53,5 +53,5 @@ jobs:
         if: success()
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          PUBLISH_BRANCH: build-test
+          PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./build
