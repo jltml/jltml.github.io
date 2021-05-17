@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-if RUBY_VERSION == "3.0.0"
+if Gem::Version.new(RUBY_VERSION) >= Gem::Version.new("3.0.0")
   gem 'middleman', git: 'https://github.com/middleman/middleman.git', branch: 'master'
   gem 'middleman-blog', git: 'https://github.com/middleman/middleman-blog.git', branch: 'master'
 else

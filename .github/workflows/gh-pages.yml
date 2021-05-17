@@ -23,6 +23,11 @@ jobs:
         run: |
           gem update bundler
           bundle install --jobs 4 --retry 3
+      - name: Install Libzmq
+        run: |
+          echo "deb http://download.opensuse.org/repositories/network:/messaging:/zeromq:/release-stable/Debian_9.0/ ./" >> /etc/apt/sources.list
+          wget https://download.opensuse.org/repositories/network:/messaging:/zeromq:/release-stable/Debian_9.0/Release.key -O- | sudo apt-key add
+          apt-get install libzmq3-dev
       #- name: Test Ruby Dependencies
       #  run: |
       #    bundle exec rake -T
