@@ -10,7 +10,7 @@ disable_title: true
 
 # “fade/blinks”
 
-<pre>
+<pre style="white-space: pre-wrap;">
 If I ever realize that this is not real, does it fade out slowly? Or is it just
 
 longer
