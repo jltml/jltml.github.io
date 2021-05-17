@@ -1,5 +1,5 @@
 # Based on https://github.com/middleman/middleman/issues/2289
-name: Auto Deploy to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -53,5 +53,5 @@ jobs:
         if: success()
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
+          PUBLISH_BRANCH: build-test
           PUBLISH_DIR: ./build
