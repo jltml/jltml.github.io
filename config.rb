@@ -56,12 +56,12 @@ end
 activate :livereload
 
 # Middleman-Deploy
-activate :deploy do |deploy|
-  deploy.deploy_method = :git
-  deploy.remote = 'https://github.com/jltml/jltml.github.io.git'
-  deploy.branch = 'build'
-  deploy.build_before = false
-end
+# activate :deploy do |deploy|
+#   deploy.deploy_method = :git
+#   deploy.remote = 'https://github.com/jltml/jltml.github.io.git'
+#   deploy.branch = 'build'
+#   deploy.build_before = false
+# end
 
 # Middleman-Blog extension
 activate :blog do |blog|
