@@ -24,7 +24,7 @@ and he can see the sand and the reflection —
 the light in little lines across the ripples they left behind —
 and all at the same time
 it’s beautiful, wondrous even
-and he’s looking at the waves and the gradient the way the sunlight floats aloft
+and he’s looking at the waves and the gradient; the way the sunlight floats aloft
 and thinking about how distance isn’t really the distance…
 time, my love, it’s time
 

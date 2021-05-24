@@ -34,3 +34,7 @@ body, h1, h2, h3, a, #sidenav, #sidenav h1, #sidenav i, #sidenav a, #sidenavEdge
 a:hover, body a:hover, #sidenav a:hover, .banner .navigation h1:hover, a#menuButton:hover, .banner .title a:hover {
   color: #808080;
 }
+
+.blog-article-link-etc * {
+    background-color: #FDF7ED;
+}
