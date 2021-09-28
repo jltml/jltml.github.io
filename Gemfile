@@ -13,7 +13,7 @@ gem 'wdm', '~> 0.1', platforms: %i[mswin mingw]
 gem 'middleman-livereload', '~> 3.4.3'
 # gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 # gem 'middleman-google-analytics', '~> 3.0'
-gem 'nokogiri', '~> 1.11', '>= 1.11.4'
+gem 'nokogiri', '~> 1.12'
 # gem 'sq_mini_racer', '~> 0.3.1', platforms: :ruby
 # gem 'middleman-imageoptim', :git => 'https://github.com/alexsanderson/middleman-imageoptim', :branch => 'master'
 # gem 'image_optim'
