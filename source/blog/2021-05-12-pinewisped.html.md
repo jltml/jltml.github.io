@@ -10,7 +10,7 @@ disable_title: true
 
 # "pinewisped"
 
-<pre style="white-space: pre-wrap;">
+<pre class="scroll-x">
 in my dreams
 there’s this lake
 and i can’t picture it, but i swear it’s the most beautiful thing i’ve ever seen

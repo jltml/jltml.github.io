@@ -2,7 +2,7 @@
 <html>
   <head>
     <%= partial "/layouts/partials/head" %>
-    <%= stylesheet_link_tag "articles" %>
+    <%= stylesheet_link_tag "articles-bw" %>
     <title><%=current_page.data.title + ' • Blog • ' unless current_page.data.title.nil? %>Jack MapelLentz</title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Jack's Blog" %>
     <%= javascript_include_tag "blog" %>

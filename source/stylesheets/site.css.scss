@@ -72,43 +72,44 @@ p, li {
   width: 100%;
   background: var(--color-background-banner);
   backdrop-filter: blur(5px);
-}
 
-.banner .title h1 {
-  font-size: 6vmin;
-  text-align: left;
-  margin: auto;
-  display: block;
-  position: fixed;
-  left: 1.5%;
-  top: 0%;
-  height: 8vmin;
-  width: 60vw;
-  z-index: 4;
-  backdrop-filter: blur(5px);
-  background: var(--color-background-banner);
-  color: var(--color-body);
-  white-space: nowrap;
-  overflow: visible;
-  transition: 0.5s;
-}
+  .title h1 {
+    font-size: 6vmin;
+    text-align: left;
+    margin: auto;
+    display: block;
+    position: fixed;
+    left: 1.5%;
+    top: 0%;
+    height: 8vmin;
+    width: 60vw;
+    z-index: 4;
+    backdrop-filter: blur(5px);
+    background: var(--color-background-banner);
+    color: var(--color-body);
+    white-space: nowrap;
+    overflow: visible;
+    transition: 0.5s;
+  }
 
-.banner .navigation h1 {
-  font-size: 6vmin;
-  text-align: right;
-  margin: auto;
-  position: fixed;
-  right: 1.5%;
-  top: 0%;
-  height: 8vmin;
-  width: 37vw;
-  z-index: 2;
-  backdrop-filter: blur(5px);
-  background: var(--color-background-banner);
-  color: var(--color-body);
-  white-space: nowrap;
-  transition: 0.5s;
- }
+  .navigation h1 {
+    font-size: 6vmin;
+    text-align: right;
+    margin: auto;
+    position: fixed;
+    right: 1.5%;
+    top: 0%;
+    height: 8vmin;
+    width: 37vw;
+    z-index: 2;
+    backdrop-filter: blur(5px);
+    background: var(--color-background-banner);
+    color: var(--color-body);
+    white-space: nowrap;
+    transition: 0.5s;
+   }
+
+}
 
 a {
   color: var(--color-a);
@@ -179,17 +180,16 @@ hr {
   text-decoration: underline;
   transform: translate(105%);
   overscroll-behavior: contain;
-}
-
-#sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 6vmin;
-  color: var(--color-body);
-  display: block;
-  transition: 0.5s;
-  text-align: right;
-  overflow: auto;
+  a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 6vmin;
+    color: var(--color-body);
+    display: block;
+    transition: 0.5s;
+    text-align: right;
+    overflow: auto;
+  }
 }
 
 a#menuButton {

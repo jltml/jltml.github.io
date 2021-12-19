@@ -42,12 +42,6 @@ a:focus, a:hover, .banner .navigation h1:hover, #sidenav a:hover, a#menuButton:h
  }
 
 // tiny loading icon while full background image loads
-.tinyLoader,
-.tinyLoader:after {
-  border-radius: 50%;
-  width: 10em;
-  height: 10em;
-}
 .tinyLoader {
   font-size: 2px;
   position: fixed;
@@ -64,6 +58,12 @@ a:focus, a:hover, .banner .navigation h1:hover, #sidenav a:hover, a#menuButton:h
   -webkit-animation: load8 1.1s infinite linear;
   animation: load8 1.1s infinite linear;
   transition: display .5s;
+
+  &, &:after {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+  }
 }
 @-webkit-keyframes load8 {
   0% {

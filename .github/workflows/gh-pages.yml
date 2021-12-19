@@ -14,7 +14,7 @@ jobs:
       # ----------------------------------------------------Ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6.6
+          ruby-version: 3.0.3
           bundler-cache: true
       - name: Ruby Version
         run: |

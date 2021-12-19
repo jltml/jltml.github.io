@@ -10,7 +10,7 @@ disable_title: true
 
 # “endless time”
 
-<pre>
+<pre class="scroll-x">
 When I see the neighbors
 with their TVs’ fake families and careless comfort fallacies
 
