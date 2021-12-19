@@ -21,4 +21,4 @@ gem "middleman-syntax", "~> 3.2"
 gem "redcarpet", "~> 3.5", ">= 3.5.1"
 gem "rouge", "~> 3.26"
 gem "middleman-alias", "~> 0.0.17"
-gem "standard", group: [:development, :test]
+gem "standard", group: [:development]
