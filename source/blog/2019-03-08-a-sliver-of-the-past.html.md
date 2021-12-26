@@ -1,7 +1,7 @@
 ---
 
 title: A Sliver of the Past
-date: 2019-03-08
+date: 2019-03-08 00:00
 tags: Citation
 
 ---

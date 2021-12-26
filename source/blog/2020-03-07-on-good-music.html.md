@@ -1,7 +1,7 @@
 ---
 
 title: On Good Music
-date: 2020-03-07
+date: 2020-03-07 00:00
 tags: Citation
 
 ---
