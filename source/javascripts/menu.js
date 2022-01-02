@@ -26,7 +26,25 @@ function openEdge() {
 }
 
 onload = function() {
-  document.getElementById("lastModified").innerHTML = "last updated " + document.lastModified;
+  let dateLastModified = new Date(document.lastModified);
+  document.getElementById("lastModified").innerHTML = "last updated " + dateLastModified.toLocaleDateString(
+    'en-us',
+    {
+      weekday: "long",
+      year: "numeric",
+      month: "long",
+      day: "numeric"
+    }
+  ) + ' at ' + dateLastModified.toLocaleTimeString(
+    'en-us',
+    {
+      timeZone: "US/Central",
+      hour12: true,
+      hour: "numeric",
+      minute: "numeric",
+      seconds: "numeric"
+    }
+  );
   document.getElementById("lastModified").setAttribute(
       "style", "font-size: 3vmin");
 }
