@@ -12,18 +12,7 @@ And thank you, too, for visiting! I hope you have a lovely time :)
 *-jack*
 
 ## random links & other things
-<p>
-<li> <a href="mailto:things@jltml.me" target="_top">add something to my to-do list</a> <i>the subject is the task's title and the email content is its description</i>
-<br>
-<li> <a href="/misc/dashboard" target="_top">experimental html dashboard</a> <i>google maps doesn't work</i>
-<br>
-<li> <a href="./games" target="_top">embedded games</a> <i>max asked me to do this</i>
-<br>
-<li> <a href="./my-things" target="_top">my things</a>
-<br>
-<li> <a href="./../menu">old menu</a>
-<br>
-<li> <a href="./../misc/menudebug">menu debugging</a>
-<br>
-<li> just put this here for testing GitHub Actions
-</p>
+- [site status](https://status.jltml.me)
+- <a href="mailto:things@jltml.me" target="_top">add something to my to-do list</a> <i>the subject is the task's title and the email content is its description</i>
+- [old menu](./../menu)
+- [random gradient generator](/misc/gradient) *I'm not sure why this is here?*
