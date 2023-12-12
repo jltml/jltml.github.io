@@ -6,6 +6,8 @@ tags: projects
 
 ---
 
+*2023 update: this is for the Java Edition of Minecraft, but you can now run Bedrock servers like this too! See [this repository](https://github.com/itzg/docker-minecraft-bedrock-server) — it functions much the same way as the below.*
+
 My first tutorial! How exciting. I kind of doubt that anyone will read this. Nonetheless, it would've been helpful to have, so here I go:
 
 ## What you'll need
@@ -20,22 +22,22 @@ I used a Raspberry Pi 4 with 8GB of RAM to be safe — but when running `htop` I
 
 Also, an Ethernet connection is almost definitely a good idea — that’s probably something you won’t want to skimp on. I don’t know, maybe if you have some super-fast connection and you’ve got awesome WiFi with no interference, that might be fine, but I’m definitely sticking with a wired connection given our paltry upload speeds (and for ping purposes, too).
 
-As for the MicroSD card: I had no idea what I’d need, so I was kind of crazy and [got one that’s 128GB](https://www.target.com/p/sandisk-microsdxc-card-128gb-for-nintendo-switch/-/A-78140794). It’s been great, but I’ve also since realized that because of the way the Pi’s filesystem works, bootable backups will be massive (unless I’m missing something, which I probably am?). I’ve used, like, nothing, so you definitely don’t need one so massive. Even 16GB would probably be barely utilized. I’m not sure about the necessity of fast read-and-write speeds, so I defaulted to getting a relatively fast one — for example, [Micro Center’s MicroSD cards](https://www.microcenter.com/product/485234/micro-center-64gb-microsdxc-class-10--uhs-1-flash-memory-card) are ridiculously cheap but also (on paper, at least) very slow, so I avoided them. They could definitely work — I just have no idea.
+As for the MicroSD card: I had no idea what I’d need, so I totally overshot and [got one that’s 128GB](https://www.target.com/p/sandisk-microsdxc-card-128gb-for-nintendo-switch/-/A-78140794). It’s been great, but I’ve also since realized that because of the way the Pi’s filesystem works, bootable backups will be massive (unless I’m missing something, which I probably am?). I’ve used, like, nothing of that storage, so you definitely don’t need one so huge. Even 16GB would probably be barely-utilized. I’m not sure about the necessity of fast read-and-write speeds, so I defaulted to getting a relatively fast one — for example, [Micro Center’s MicroSD cards](https://www.microcenter.com/product/485234/micro-center-64gb-microsdxc-class-10--uhs-1-flash-memory-card) are ridiculously cheap but also (on paper, at least) very slow, so I avoided them. They could definitely work — I just have no idea.
 
 ## Getting started
 
 Ok, so first you’ll have to flash the Pi’s software. And right off the bat we have a lesson I learned: use a 64-bit OS! I was [very confused](https://github.com/itzg/docker-minecraft-server/issues/508#issuecomment-797082423) as to why I couldn’t set my server to use more than 2GB of RAM without it failing, but turns out there’s a [whole Wikipedia page about it](https://en.wikipedia.org/wiki/2_GB_limit). I used the [beta 64-bit Raspberry Pi OS](https://www.raspberrypi.org/forums/viewtopic.php?t=275370), which you can [download by clicking here](https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2020-08-24/2020-08-20-raspios-buster-arm64.zip) (download will start immediately). Also, you’ll need the Raspberry Pi Imager app: [download a copy here](https://www.raspberrypi.org/software/), or if you use Homebrew, install it with `brew install --cask raspberry-pi-imager`. Once the OS is downloaded, you *don’t have to unzip it* — just launch the RPi Imager and click “choose OS” and scroll down to select “custom OS.” Select the `.zip` file, select your MicroSD card (insert it if you haven’t already), and then write the image.
 
-When all of that is done, the application will automatically eject the MicroSD card. Just remove it and plug it back in to remount it — we’ll need to edit something. Because the Pi 4 has MicroHDMI ports, and I couldn’t find the adapter to normal HDMI, I had to figure out a different way to enable SSH [footnote: for those of you who don’t know, `ssh` is a way to remotely connect to another computer — it stands for “secure shell.”] (it’s turned off by default)… turns out it’s quite simple. All you have to do is create an empty file called `ssh` on the MicroSD card — to do this, launch Terminal (I’m on a Mac… sorry Windows people; I have like no idea how your stuff works…) and type `cd ` — that’s cd with a space after it. Then, just drag your MicroSD card’s icon from your Desktop onto the Terminal window — it’ll fill in the path. You should have something like this (the `$` is just to make it clear that it’s a shell/Terminal command — that’s not part of the command, so don’t type it in)
+When all of that is done, the application will automatically eject the MicroSD card. Just remove it and plug it back in to remount it — we’ll need to edit something. Because the Pi 4 has MicroHDMI ports, and I couldn’t find the adapter to normal HDMI, I had to figure out a different way to enable SSH [footnote: for those of you who don’t know, `ssh` is a way to remotely connect to another computer — it stands for “secure shell.”] (it’s turned off by default)… turns out it’s quite simple. All you have to do is create an empty file called `ssh` on the MicroSD card — to do this, launch Terminal (I’m on a Mac… sorry Windows people; I have like no idea how your stuff works…) and type `cd ` — that’s cd with a space after it. Then, just drag your MicroSD card’s icon from your Desktop onto the Terminal window — it’ll fill in the path. You should have something like this:
 
 ```shell
-$ cd Volumes/path/to/your/drive
+cd Volumes/path/to/your/drive
 ```
 
 in which the `/path/to/your/drive` part will obviously be different. Then hit return, and you should be in the MicroSD card’s directory. Now, the command to create the empty file called `ssh`:
 
 ```shell
-$ touch ssh
+touch ssh
 ```
 
 You should be all good to go now! Eject the MicroSD card, put it in the Pi, connect your Ethernet, and plug in the power supply! SSH should be automatically enabled.
@@ -43,7 +45,7 @@ You should be all good to go now! Eject the MicroSD card, put it in the Pi, conn
 Ok, but now we have to actually connect. That’s also pretty straightforward! I used [Fing](https://www.fing.com) to find my Pi’s IP address — using the desktop app is likely easiest, since the iPhone app can no longer identify devices by MAC address as well. Find the Raspberry Pi, click on it, and get its IP address. Then, SSH into it:
 
 ```shell
-$ ssh pi@192.168.0.x
+ssh pi@192.168.0.x
 ```
 
 in which `x` will be replaced by your Pi’s specific number. Some routers use different numbering schemes, but I think most are `192.168` etc. The `pi` refers to the username, which is by default pi.
@@ -51,7 +53,7 @@ in which `x` will be replaced by your Pi’s specific number. Some routers use d
 If you’ve got the IP address right, it will ask you for a password — the default is `raspberry`. Once you’re in, you’ll want to change that right away (it will tell you how onscreen). After you’ve done that, you can adjust other localisation settings by running
 
 ```shell
-$ sudo raspi-config
+sudo raspi-config
 ```
 
 ## Docker things
@@ -59,24 +61,24 @@ $ sudo raspi-config
 Alright, so you’re all logged in and everything now! Congrats. Time for the actual server stuff: we’ll be using the absolutely awesome [docker-minecraft-server by itzg](https://github.com/itzg/docker-minecraft-server). Docker is a platform for creating containerized apps/environments/stuff, so you can do multiple things on one computer without worrying about one thing messing the other things up. Clearly I’m not super proficient with it. [But here, you can read more.](https://en.wikipedia.org/wiki/Docker_(software)) Anyway, we’ll need to install Docker to start. Run these two commands:
 
 ```shell
-$ curl -fsSL https://get.docker.com -o get-docker.sh
-$ sudo sh get-docker.sh
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
 ```
 
 and Docker will install! Then add yourself to the user group so you don’t have to run everything with `sudo`, then restart the Pi to make that go into effect:
 
 ```shell
-$ sudo usermod -aG docker pi
-$ sudo reboot
+sudo usermod -aG docker pi
+sudo reboot
 ```
 
 You’ll have to wait a minute, then `ssh` again, like before (`ssh pi@[your IP]`). Next, we need to install `docker-compose`, which makes it much easier to restart your server and stuff — instead of having to type in all your configuration every time you start it, `docker-compose` will use a [YAML](https://github.com/itzg/docker-minecraft-server/blob/master/examples/docker-compose-autopause.yml) file, which is so much easier to read and just generally way better. More commands (I used [this guide](https://sanderh.dev/setup-Docker-and-Docker-Compose-on-Raspberry-Pi/)):
 
 ```shell
-$ sudo apt-get install -y libffi-dev libssl-dev
-$ sudo apt-get install -y python3 python3-pip
-$ sudo apt-get remove python-configparser
-$ sudo pip3 -v install docker-compose
+sudo apt-get install -y libffi-dev libssl-dev
+sudo apt-get install -y python3 python3-pip
+sudo apt-get remove python-configparser
+sudo pip3 -v install docker-compose
 ```
 
 ## Server time
@@ -84,14 +86,14 @@ $ sudo pip3 -v install docker-compose
 Ah, finally, time for the actual server. Ok, so to begin, let’s make a directory (folder) for our server, so we can keep everything in one place:
 
 ```shell
-$ mkdir minecraft-server
-$ cd minecraft-server
+mkdir minecraft-server
+cd minecraft-server
 ```
 
 `mkdir` is “make directory,” and `cd` is “change directory.” Next, make  (and edit) a file called `docker-compose.yml` — that’s the one with all the configuration stuff:
 
 ```shell
-$ nano docker-compose.yml
+nano docker-compose.yml
 ```
 
 You’ll now be in `nano`, a command-line text editor. You can copy and paste the following into `nano`:

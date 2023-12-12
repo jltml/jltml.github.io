@@ -10,6 +10,8 @@ disable_title: true
 
 # “fade/blinks”
 
+<p style="font-style: italic; font-size: 12pt; text-indent: 0; color: rgb(120, 120, 120)">(scroll horizontally if the first line cuts off)<p>
+
 <pre style="overflow-x: scroll;">
 If I ever realize that this is not real, does it fade out slowly? Or is it just
 

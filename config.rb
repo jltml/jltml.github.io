@@ -81,9 +81,8 @@ page "/misc/sidenav/*", layout: "menulayout"
 # Activates directory indexes (pretty URLs)
 activate :directory_indexes
 
-# Tells pages not to use direcory indexes
+# Tells pages not to use directory indexes
 page "/404.html", directory_index: false
-page "/my-things.md", directory_index: false
 page "/README.md", directory_index: false
 
 # Sets markdown engine and does stuff for code highlighting

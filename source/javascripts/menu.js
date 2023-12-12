@@ -44,7 +44,7 @@ onload = function() {
       minute: "numeric",
       seconds: "numeric"
     }
-  );
+  ) + ' CT';
   document.getElementById("lastModified").setAttribute(
       "style", "font-size: 3vmin");
 }
