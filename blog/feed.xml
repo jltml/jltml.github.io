@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jack's Blog</title>
+  <subtitle>The projects and other things of Jack MapelLentz</subtitle>
+  <id>https://jltml.me/blog</id>
+  <link href="https://jltml.me/blog"/>
+  <link href="https://jltml.me/blog/feed.xml" rel="self"/>
+  <updated>2023-05-10T04:14:00+00:00</updated>
+  <author>
+    <name>Jack MapelLentz</name>
+  </author>
+  <entry>
+    <title>The High Cost of Cheap Meat: Vegetarianism, Gandhi, and Humanity's Meat Problem</title>
+    <link rel="alternate" href="https://jltml.me/blog/the-high-cost-of-cheap-meat/"/>
+    <id>https://jltml.me/blog/the-high-cost-of-cheap-meat/</id>
+    <published>2023-05-10T04:14:00+00:00</published>
+    <updated>2023-12-19T20:48:30+00:00</updated>
+    <author>
+      <name>Jack MapelLentz</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;Note: I wrote this as a paper for a class, so if it reads a bit academic-y-ly, that&amp;rsquo;d be why.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A couple months ago, I passed through Chicago when I had a layover between trains on the way home. Walking from Union Station towards the Loop, I realized I was at the base of the Sears Tower. I looked up towards the sky, but instead of drawing any far-off horizon, the skyscraper just faded away: today, its spire perched well above the clouds. The scale of the thing is nearly incomprehensible.&lt;/p&gt;
+
+&lt;p&gt;Humans are famously bad at grasping the true scale of large numbers, though the state of our world is measured by ever-increasing quantities. Yet even among them, those involving something utterly commonplace stand out: eating meat. In 2021, people ate around 330 million metric tons of meat, or nearly 500 million if you include fish. Those numbers are beyond imagination &amp;mdash; they fade into the clouds. By mass, that&amp;rsquo;s about 1,635 Sears Towers of animals &amp;mdash; or 2,477 with fish.&lt;/p&gt;
+
+&lt;p&gt;Even if it&amp;rsquo;s possible to visualize a single Sears Tower of meat, imagining &lt;em&gt;sixteen hundred&lt;/em&gt; of those breaks one&amp;rsquo;s mental scale all over again. But eating is firmly at the bottom of Maslow&amp;rsquo;s hierarchy of needs, and few think about it. Fewer still stop to ask: wait, is this a good idea? All the while, the industry grows larger. Today, &lt;a href="https://www.statista.com/statistics/237644/global-meat-production-since-1990/"&gt;42.8 kilograms of meat are produced per person&lt;/a&gt;, about double as much as in 1960. The world&amp;rsquo;s population increased 2.6 times in that same span. Population is increasing exponentially, and meat consumption is increasing exponentially &lt;em&gt;on top of that&lt;/em&gt;. But wait &amp;mdash; is this a good idea? It&amp;rsquo;s increasingly clear that this exponential growth is unsustainable: the current state of global meat production consumes vast tracts of land and huge amounts of energy, degrades the environment both local and global, is the source of rampant suffering both animal and human, and a whole lot more. And the industry, and all these problems, are growing only larger by the day. With such a behemoth &amp;mdash; a whole sector of the economy &amp;mdash; what&amp;rsquo;s to be done?&lt;/p&gt;
+
+&lt;p&gt;A rather unlikely character provides some uniquely-positioned insights into this question that lies at the intersection of morality and practicality: radical peacemaker and Father of India Mohandas Gandhi. The story of Gandhi&amp;rsquo;s life is in many ways a story of the question and all the baggage with which it comes: what &lt;em&gt;is&lt;/em&gt; the right idea? Gandhi is most-known for devoting his life to the fight for civil rights in South Africa and India, but his passions were by no means confined to that cause alone. Always &amp;lsquo;experimenting&amp;rsquo; with the truth, as aptly described by his &lt;a href="https://en.wikipedia.org/wiki/The_Story_of_My_Experiments_with_Truth"&gt;autobiography&amp;rsquo;s subtitle&lt;/a&gt;, he left no stone of introspection unturned, constantly seeking refinements to everything from small-scale practices (his dress, how to travel) to those that underly the very fabric of society (inter-religious relations; satyagraha, his framework of nonviolent resistance; and the like).&lt;/p&gt;
+
+&lt;p&gt;But perhaps no topic intertwines these two extremes &amp;mdash; the personal and the societal &amp;mdash; as does food. Aptly, diet experimentation was one of Gandhi&amp;rsquo;s favorite endeavors and is notable among them for its longevity; it&amp;rsquo;s a saga that spans his entire life. That he devoted so much bandwidth to it makes sense, all things considered. For all humanity&amp;rsquo;s once-unimaginable progress on many fronts, a huge amount of time and effort, both on a broader societal and day-to-day individual level, goes to the simple act of eating&amp;hellip; and yet eating remains a deeply personal act. There is simply no other aspect of human life that at once occupies half the world&amp;rsquo;s habitable land (an unfathomably large scale) and simultaneously involves something so individual as the incorporation of new molecules into one&amp;rsquo;s own body (a conversely microscopic scale). This is why Gandhi&amp;rsquo;s thoughts on diet are so powerful: he addresses the two elegantly with the same underlying concept of &lt;em&gt;ahimsa&lt;/em&gt;, or nonviolence, and concern for the interconnectedness of all things.&lt;/p&gt;
+
+&lt;p&gt;Gandhi was raised vegetarian out of familial and religious tradition. India is, of course, known for its uniquely high levels of vegetarianism; about thirty percent of its people today don&amp;rsquo;t eat meat. But this would be no Gandhian story without some measure of experimentation. As a teenager, Gandhi started eating meat at a then-friend&amp;rsquo;s behest in what he went on to pithily describe as &amp;ldquo;a tragedy,&amp;rdquo; which gives you an idea of where he ideologically headed from there. In one particularly vivid recollection, he wrote that &amp;ldquo;Every time I dropped off to sleep it would seem as though a live goat were bleating inside me and I would jump up full of remorse.&amp;quot; &lt;/p&gt;
+
+&lt;p&gt;After a year of covertly eating meat on occasions with this friend, he eventually reverted to vegetarianism because he felt so guilty about keeping the secret from his parents &amp;mdash; but, notably, not because of the meat-eating itself. That change-of-heart didn&amp;rsquo;t come until later, until after he&amp;rsquo;d departed India for England: setting off to study law in London, he had sworn to his mother that he would refrain from eating meat. A few weeks into the endeavor, he came upon a vegetarian restaurant in the city and, sitting down to eat, opened Henry Salt&amp;rsquo;s &lt;em&gt;A Plea for Vegetariansim&lt;/em&gt; for the first time.&lt;/p&gt;
+
+&lt;p&gt;From then on, the cause became his own, not just a sub-consequence of another moral obligation but a meaningful thing in and of itself. He joined the burgeoning Vegetarian Society and even briefly led a chapter himself, became close friends with Salt, and went on to continue practicing and advocating for vegetarianism for the rest of his life. For Gandhi, this question of whether it&amp;rsquo;s a good idea to eat meat (or, at minimum, whether it&amp;rsquo;s not a bad idea) came down to, in essence, two things: morals and health.&lt;/p&gt;
+
+&lt;p&gt;To the former, Gandhi sought to practice the concept of &lt;em&gt;ahimsa&lt;/em&gt; &amp;mdash; the idea of nonviolence that&amp;rsquo;s common across Hinduism, Buddhism, Jainism, and Sikhism &amp;mdash; the best he could in all things, and, since it entails nonviolence towards &lt;em&gt;all&lt;/em&gt; life, not eating meat logically followed from that precept. Debate still ensues among philosophers today about the minutiae of this &amp;lsquo;moral vegetarianism&amp;rsquo;: for one, is it the production or consumption of meat that may be morally wrong, or both? But it seems self-evident that there is a case to be had herein: if hurting or mistreating animals is wrong, there is likely &lt;em&gt;something&lt;/em&gt; wrong about meat.&lt;/p&gt;
+
+&lt;p&gt;And besides the colder philosophical means of approaching the issue, there&amp;rsquo;s the psychological-moral aspect, too, that&amp;rsquo;s so viscerally articulated by Gandhi in the goat episode. This is a prime example of what some psychologists term &lt;a href="http://dx.doi.org/10.1111/spc3.12592"&gt;&amp;quot;meat-related cognitive dissonance&amp;rdquo;&lt;/a&gt; (MRCD). Drawing on the framework of cognitive dissonance, first proposed in the 1950s, it posits that meat-eating individuals are faced with two opposing beliefs &amp;mdash; &amp;ldquo;I eat meat&amp;rdquo; vs. &amp;ldquo;compassionate people don&amp;rsquo;t hurt animals,&amp;rdquo; for example. Experiencing the mental turbulence arising from believing two antithetical things, they seek to avoid or reduce that dissonance in a handful of different ways. &lt;/p&gt;
+
+&lt;p&gt;Gandhi felt that disconnect firsthand when he imagined the goat alive inside him, and he eventually forewent it altogether by undertaking the most direct solution: removing its trigger (meat-eating). But if eating meat induces such mental disarray, why does 95% of the US population remain decidedly non-vegetarian? The MRCD framework proposes that one might prevent dissonance in the first place by avoiding or otherwise willfully ignoring disturbing information about meat consumption &amp;mdash; or even by dissociating live animals from meat products, pretending that the meat was never an animal to begin with. Once in the face of dissonance, an individual might engage in some mental acrobatics in an attempt to reduce discomfort: self-identifying as not eating much or only humanely-produced meat, redirection of moral outrage towards others who more directly hurt animals, denial of the existence of animal minds, and justifying meat-eating as &amp;ldquo;natural, normal, and nice&amp;rdquo; are all in the fold. &lt;/p&gt;
+
+&lt;p&gt;The two friends who appear in Gandhi&amp;rsquo;s vegetarian story fit right into this latter concept. In India, that friend who initially convinced Gandhi to try meat did so it by saying that the British ruled India because they ate meat and thus were stronger than the Indians: this is precisely the &amp;ldquo;meat-eating is natural&amp;rdquo; explanation. And later, in England, Gandhi&amp;rsquo;s roommate tries repeatedly to convince him to eat meat on the premise that it is &amp;ldquo;normal&amp;rdquo; in English society, on top of the fact that he deems it &amp;ldquo;natural&amp;rdquo; (nutritionally essential) in light of England&amp;rsquo;s harsher weather. What people say to convince or justify themselves to others provides a window into their inner psychological processes, and it may well be that these friends weren&amp;rsquo;t just trying to convince Gandhi &amp;mdash; they were convincing themselves, too.&lt;/p&gt;
+
+&lt;p&gt;Improving his own personal health, as mentioned, was another primary goal for Gandhi in his dietetic experiments. He saw vegetarianism as plainly healthier than eating meat, taking issue with the presiding medical thought of the day that meat was simply necessary for the functioning of the human body. Like the friend from London who told him as such, he argued in letters against doctors and other experts who advised him that meat was an essential part of a healthy diet. And even as his wife fell ill, he kept her from drinking beef broth, despite her doctors admonishing him vehemently for doing so.&lt;/p&gt;
+
+&lt;p&gt;But at the same time he, notably, took heed of their other recommendations. Even after becoming steadfastly vegetarian, Gandhi continued iterating his diet, from foregoing salt to fruitarianism to much else in between, and when doctors cautioned him that he was only hurting his physical health in some of those endeavors &amp;mdash; we are now completely sure that salt is indeed an essential nutrient and that fruits alone couldn&amp;rsquo;t possibly cover all nutritional groups &amp;mdash; he took their thoughts to heart and scaled back. Speaking to his investment in nutritional science, one of the most striking things about his book &lt;em&gt;The Moral Basis of Vegetarianism&lt;/em&gt; is that it doesn&amp;rsquo;t really broach the title&amp;rsquo;s subject until well into its pages &amp;mdash; Gandhi first approaches dietetics with an exacting, medical view, discussing such minutiae as the detriments of removing the pericarp from rice, the importance of chewing when eating cereals because starches begin to be digested by saliva, and the newly-discovered &amp;ldquo;tissue building substrates&amp;hellip;known as proteins.&amp;rdquo; But even in light of all of this, he remained committed to the benefits of foregoing meat, noting that while &amp;ldquo;there is no fixed dietetic rule for all constitutions,&amp;rdquo; &amp;ldquo;one should eat not in order to please the palate but just to keep the body going&amp;rdquo; &amp;mdash; and he determined meat to fall squarely into that first category while likewise shunning highly-processed foods.  The nuance that he exhibited in constantly adapting his diet manifests an important recurring theme of Gandhi&amp;rsquo;s life: always strikingly measured, particularly in response to confrontation, he sought to understand the opposite party&amp;rsquo;s perspective and empathize before deciding upon a course of action.&lt;/p&gt;
+
+&lt;p&gt;And it seems today like his dietetic course of action may have, it turns out, actually been ahead of his time both in acknowledging the healthfulness of vegetarianism and in anticipating the modern health-foods movement. Sociologist Donna Maurer argues that in the US, &amp;ldquo;vegetarians were often portrayed in popular culture as sallow, wan, and emaciated,&amp;rdquo; especially given that up through the 1970s, &amp;ldquo;many nutritionists characterized vegetarian diets as medically unsound&amp;rdquo; like Gandhi&amp;rsquo;s doctors. But a slow sea change began when the American Dental Association gave credence to vegetarianism as being at least equally healthful as an omnivorous diet. And since then, vegetarianism and personal health have only become more tightly linked &amp;mdash; it may even be that in the public consciousness, vegetarianism is now more readily associated with the health-foods movement than morals.&lt;/p&gt;
+
+&lt;p&gt;These two facets &amp;mdash; the ethical and healthful &amp;mdash; were what defined the basis of Gandhi&amp;rsquo;s vegetarianism and, really, vegetarianism as a whole through the 20th century. They remain very important today. Actually, that&amp;rsquo;s a gross understatement: they&amp;rsquo;re more important today than ever. And yet they are even still overshadowed by the ominous imminence of a new issue &amp;mdash; environmental degradation. All of this is, of course, due to the rise of factory-farming.&lt;/p&gt;
+
+&lt;p&gt;During Gandhi&amp;rsquo;s time, farming was still often a pastoral endeavor, the types of scenes that appear on today&amp;rsquo;s egg cartons and animal-product advertisements. But not long after Gandhi, factory farming quietly conquered the planet, and, in just one more staggering statistic to add to the heap, over 99 percent of meat consumed in the US now comes from such farms. This is how we got to thousands of Sears Towers&amp;rsquo; worth of meat-by-mass. And today, the concerns that underly for many the choice to be vegetarian &amp;mdash; morals and health, like before, and now additionally environmental concern &amp;mdash; have similarly been super-sized, elevated to an entirely new level of consequence.&lt;/p&gt;
+
+&lt;p&gt;Morally, factory-farming meat production is almost an entirely other realm as compared to farming practices of yore, something author Johnathan Safran Foer powerfully articulates in &lt;em&gt;Eating Animals&lt;/em&gt;, a book that spends much time on the practice. There was once an argument to be made for the oft-reminisced-upon husbandry between a farmer and their animals &amp;mdash; that the farmer helped the animals have good lives, even if at the end of those lives their bodies became meat. But no one is arguing now that chickens confined to sixty-seven square inches or pigs specifically bred to suffer cardiovascular failure and broken bones &amp;mdash; because those things just come along with selecting for higher meat yields &amp;mdash; are living good lives. The entirety of their lives &lt;em&gt;is&lt;/em&gt; suffering. For Gandhi and his &lt;em&gt;ahimsa&lt;/em&gt;, this would have been, it&amp;rsquo;s easy to imagine, one of the most evil things possible. How is it, then, that 95% of America continues to qualmlessly eat meat from factory-farms?&lt;/p&gt;
+
+&lt;p&gt;Again, the MRCD framework seems even more pertinent in modern circumstances. The suffering of these animals is so obviously real once exposed, yet it remains veiled before then. Meat companies aren&amp;rsquo;t going around making billboards with photos of their concentrated animal feeding operations. Nor are consumers hoping that they do any time soon: instead, many just don&amp;rsquo;t seek out further information about where their meat comes from, choosing instead to remain oblivious to all of this suffering, the most of what they see only ever the long, plain buildings from the Interstate, never the carnage inside. It&amp;rsquo;s easier to scroll past a link to another exposé than it is to completely change one&amp;rsquo;s eating habits, especially when the normalcy of eating meat is so ingrained within society. One might buy the package of meat which says on its packaging that it&amp;rsquo;s &amp;ldquo;all-natural&amp;rdquo;, or that its animals are raised &amp;ldquo;free-range&amp;rdquo; or &amp;ldquo;cage-free,&amp;rdquo; unaware that those terms are all basically meaningless, that all the animals are sent to the same slaughterhouse and subjected to the same treatment anyway. But why would anyone &lt;em&gt;want&lt;/em&gt; to know at all?&lt;/p&gt;
+
+&lt;p&gt;Foer also discusses at length the health impacts of eating meat produced in this way: Gandhi may have had a point regarding the health benefits of vegetarianism to begin with, but it has, like the moral side of the issue, become an entirely new beast in the wake of factory-farming. Now, individual health is not the only thing at stake &amp;mdash; there is also the health of the entire world, as extremely high rates of antibiotic use in the animal-farming industry contributes to rising occurrences of antibiotic-resistant pathogens (on top of poor sanitary practices contributing to viruses more frequently jumping to humans).&lt;/p&gt;
+
+&lt;p&gt;And finally, the issue of environmental degradation feels even more imminent. Eating meat is intensely polluting and plainly inefficient &amp;mdash; it will always be more efficient to simply eat the plants ourselves as opposed to feeding those plants to animals and then eating the animals. Huge amounts of methane, which has 28 times the effect of CO₂ on global warming, are emitted by livestock just because of their digestive systems. This is also not to mention other forms of air pollution or water pollution (from having that much animal waste accumulate in one location), or inefficient land use (again expounded by needing to grow crops just to feed those animals).&lt;/p&gt;
+
+&lt;p&gt;A particularly salient memory stands out to me now. About a year ago, the teacher for my environmental science class showed us all the now-famous (or infamous, depending on to whom you&amp;rsquo;re talking) documentary &lt;em&gt;Food Inc&lt;/em&gt;. As luck would have it, our lunch period followed immediately thereafter, and I vividly recall standing in the line next to one of my classmates and talking briefly about the movie and all the suffering it portrays. &amp;ldquo;Oh, it doesn&amp;rsquo;t bother me at all,&amp;rdquo; he said, and a couple minutes later took a hamburger without, I presume, much more than a second thought.&lt;/p&gt;
+
+&lt;p&gt;But even though it might be more convenient to just ignore or avoid all these issues, Gandhi&amp;rsquo;s thoughts have something to teach us once more. &lt;em&gt;Ahimsa&lt;/em&gt; is in practice about nonviolence, but in theory it&amp;rsquo;s all related back to the concept of karma &amp;mdash; that one way or another, our actions will come back to us. And it indeed feels as though we may be approaching some sort of precipice, with the suffering of animals now a cornerstone of our economy, with new drug-resistant bacteria now popping up on the regular and viruses once confined to pigs or birds jumping to humans every few years, with our shared environment teetering on the edge as we feel the climate tremble. Perhaps it is time, and has been for a while now, to recall Gandhi&amp;rsquo;s holistic perspective and rethink how the world eats.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>“pinewisped”</title>
+    <link rel="alternate" href="https://jltml.me/blog/pinewisped/"/>
+    <id>https://jltml.me/blog/pinewisped/</id>
+    <published>2021-05-13T04:32:00+00:00</published>
+    <updated>2023-12-19T20:48:30+00:00</updated>
+    <author>
+      <name>Jack MapelLentz</name>
+    </author>
+    <content type="html">&lt;h1&gt;&amp;ldquo;pinewisped&amp;rdquo;&lt;/h1&gt;
+
+&lt;pre class="scroll-x"&gt;
+in my dreams
+there’s this lake
+and i can’t picture it, but i swear it’s the most beautiful thing i’ve ever seen
+g a l l o n s  upon  &lt;i&gt;g a l l o n s&lt;/i&gt;  of strawberries, italicized and everything, just like she wrote
+and there’s this cliff —
+pine trees, lil baldy, a spackling of cedar —
+between the two there’s a little boy
+sitting on the edge
+looking down at the bottom of the lake
+and he can see the sand and the reflection —
+the light in little lines across the ripples they left behind —
+and all at the same time
+it’s beautiful, wondrous even
+and he’s looking at the waves and the gradient; the way the sunlight floats aloft
+and thinking about how distance isn’t really the distance…
+time, my love, it’s time
+
+he picks up a bucket,
+strawberries,
+and he feels &lt;i&gt;everything&lt;/i&gt;.
+&lt;/pre&gt;
+</content>
+  </entry>
+  <entry>
+    <title>A complete guide to making a Minecraft server on a Raspberry Pi</title>
+    <link rel="alternate" href="https://jltml.me/blog/raspberry-pi-minecraft-server/"/>
+    <id>https://jltml.me/blog/raspberry-pi-minecraft-server/</id>
+    <published>2021-03-18T04:05:00+00:00</published>
+    <updated>2023-12-19T20:48:30+00:00</updated>
+    <author>
+      <name>Jack MapelLentz</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;2023 update: this is for the Java Edition of Minecraft, but you can now run Bedrock servers like this too! See &lt;a href="https://github.com/itzg/docker-minecraft-bedrock-server"&gt;this repository&lt;/a&gt; — it functions much the same way as the below.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;My first tutorial! How exciting. I kind of doubt that anyone will read this. Nonetheless, it would&amp;rsquo;ve been helpful to have, so here I go:&lt;/p&gt;
+
+&lt;h2&gt;What you&amp;rsquo;ll need&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;a Raspberry Pi 4 (4GB+ of RAM, probably)
+
+&lt;ul&gt;
+&lt;li&gt;Power supply&lt;/li&gt;
+&lt;li&gt;MicroSD card&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;an Ethernet connection (preferably)&lt;/li&gt;
+&lt;li&gt;a case, if you’d like one&lt;/li&gt;
+&lt;li&gt;I think that’s it…?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I used a Raspberry Pi 4 with 8GB of RAM to be safe — but when running &lt;code&gt;htop&lt;/code&gt; I haven’t ever seen usage go above 2GB, even when I’m connected and playing on the server. I have yet to stress-test it, or even really &lt;em&gt;use&lt;/em&gt; it, though, so it’s better to be safe and get more RAM. But I suspect that 4GB is just fine (2GB might be a little iffy, but if that’s all you have and don’t plan on hosting too many people, go for it).&lt;/p&gt;
+
+&lt;p&gt;Also, an Ethernet connection is almost definitely a good idea — that’s probably something you won’t want to skimp on. I don’t know, maybe if you have some super-fast connection and you’ve got awesome WiFi with no interference, that might be fine, but I’m definitely sticking with a wired connection given our paltry upload speeds (and for ping purposes, too).&lt;/p&gt;
+
+&lt;p&gt;As for the MicroSD card: I had no idea what I’d need, so I totally overshot and &lt;a href="https://www.target.com/p/sandisk-microsdxc-card-128gb-for-nintendo-switch/-/A-78140794"&gt;got one that’s 128GB&lt;/a&gt;. It’s been great, but I’ve also since realized that because of the way the Pi’s filesystem works, bootable backups will be massive (unless I’m missing something, which I probably am?). I’ve used, like, nothing of that storage, so you definitely don’t need one so huge. Even 16GB would probably be barely-utilized. I’m not sure about the necessity of fast read-and-write speeds, so I defaulted to getting a relatively fast one — for example, &lt;a href="https://www.microcenter.com/product/485234/micro-center-64gb-microsdxc-class-10--uhs-1-flash-memory-card"&gt;Micro Center’s MicroSD cards&lt;/a&gt; are ridiculously cheap but also (on paper, at least) very slow, so I avoided them. They could definitely work — I just have no idea.&lt;/p&gt;
+
+&lt;h2&gt;Getting started&lt;/h2&gt;
+
+&lt;p&gt;Ok, so first you’ll have to flash the Pi’s software. And right off the bat we have a lesson I learned: use a 64-bit OS! I was &lt;a href="https://github.com/itzg/docker-minecraft-server/issues/508#issuecomment-797082423"&gt;very confused&lt;/a&gt; as to why I couldn’t set my server to use more than 2GB of RAM without it failing, but turns out there’s a &lt;a href="https://en.wikipedia.org/wiki/2_GB_limit"&gt;whole Wikipedia page about it&lt;/a&gt;. I used the &lt;a href="https://www.raspberrypi.org/forums/viewtopic.php?t=275370"&gt;beta 64-bit Raspberry Pi OS&lt;/a&gt;, which you can &lt;a href="https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2020-08-24/2020-08-20-raspios-buster-arm64.zip"&gt;download by clicking here&lt;/a&gt; (download will start immediately). Also, you’ll need the Raspberry Pi Imager app: &lt;a href="https://www.raspberrypi.org/software/"&gt;download a copy here&lt;/a&gt;, or if you use Homebrew, install it with &lt;code&gt;brew install --cask raspberry-pi-imager&lt;/code&gt;. Once the OS is downloaded, you &lt;em&gt;don’t have to unzip it&lt;/em&gt; — just launch the RPi Imager and click “choose OS” and scroll down to select “custom OS.” Select the &lt;code&gt;.zip&lt;/code&gt; file, select your MicroSD card (insert it if you haven’t already), and then write the image.&lt;/p&gt;
+
+&lt;p&gt;When all of that is done, the application will automatically eject the MicroSD card. Just remove it and plug it back in to remount it — we’ll need to edit something. Because the Pi 4 has MicroHDMI ports, and I couldn’t find the adapter to normal HDMI, I had to figure out a different way to enable SSH &lt;a href="it’s%20turned%20off%20by%20default"&gt;footnote: for those of you who don’t know, &lt;code&gt;ssh&lt;/code&gt; is a way to remotely connect to another computer — it stands for “secure shell.”&lt;/a&gt;… turns out it’s quite simple. All you have to do is create an empty file called &lt;code&gt;ssh&lt;/code&gt; on the MicroSD card — to do this, launch Terminal (I’m on a Mac… sorry Windows people; I have like no idea how your stuff works…) and type &lt;code&gt;cd&lt;/code&gt; — that’s cd with a space after it. Then, just drag your MicroSD card’s icon from your Desktop onto the Terminal window — it’ll fill in the path. You should have something like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="nb"&gt;cd &lt;/span&gt;Volumes/path/to/your/drive
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;in which the &lt;code&gt;/path/to/your/drive&lt;/code&gt; part will obviously be different. Then hit return, and you should be in the MicroSD card’s directory. Now, the command to create the empty file called &lt;code&gt;ssh&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="nb"&gt;touch &lt;/span&gt;ssh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You should be all good to go now! Eject the MicroSD card, put it in the Pi, connect your Ethernet, and plug in the power supply! SSH should be automatically enabled.&lt;/p&gt;
+
+&lt;p&gt;Ok, but now we have to actually connect. That’s also pretty straightforward! I used &lt;a href="https://www.fing.com"&gt;Fing&lt;/a&gt; to find my Pi’s IP address — using the desktop app is likely easiest, since the iPhone app can no longer identify devices by MAC address as well. Find the Raspberry Pi, click on it, and get its IP address. Then, SSH into it:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight shell"&gt;&lt;code&gt;ssh pi@192.168.0.x
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;in which &lt;code&gt;x&lt;/code&gt; will be replaced by your Pi’s specific number. Some routers use different numbering schemes, but I think most are &lt;code&gt;192.168&lt;/code&gt; etc. The &lt;code&gt;pi&lt;/code&gt; refers to the username, which is by default pi.&lt;/p&gt;
+
+&lt;p&gt;If you’ve got the IP address right, it will ask you for a password — the default is &lt;code&gt;raspberry&lt;/code&gt;. Once you’re in, you’ll want to change that right away (it will tell you how onscreen). After you’ve done that, you can adjust other localisation settings by running&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="nb"&gt;sudo &lt;/span&gt;raspi-config
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Docker things&lt;/h2&gt;
+
+&lt;p&gt;Alright, so you’re all logged in and everything now! Congrats. Time for the actual server stuff: we’ll be using the absolutely awesome &lt;a href="https://github.com/itzg/docker-minecraft-server"&gt;docker-minecraft-server by itzg&lt;/a&gt;. Docker is a platform for creating containerized apps/environments/stuff, so you can do multiple things on one computer without worrying about one thing messing the other things up. Clearly I’m not super proficient with it. &lt;a href="https://en.wikipedia.org/wiki/Docker_(software)"&gt;But here, you can read more.&lt;/a&gt; Anyway, we’ll need to install Docker to start. Run these two commands:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight shell"&gt;&lt;code&gt;curl &lt;span class="nt"&gt;-fsSL&lt;/span&gt; https://get.docker.com &lt;span class="nt"&gt;-o&lt;/span&gt; get-docker.sh
+&lt;span class="nb"&gt;sudo &lt;/span&gt;sh get-docker.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;and Docker will install! Then add yourself to the user group so you don’t have to run everything with &lt;code&gt;sudo&lt;/code&gt;, then restart the Pi to make that go into effect:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="nb"&gt;sudo &lt;/span&gt;usermod &lt;span class="nt"&gt;-aG&lt;/span&gt; docker pi
+&lt;span class="nb"&gt;sudo &lt;/span&gt;reboot
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You’ll have to wait a minute, then &lt;code&gt;ssh&lt;/code&gt; again, like before (&lt;code&gt;ssh pi@[your IP]&lt;/code&gt;). Next, we need to install &lt;code&gt;docker-compose&lt;/code&gt;, which makes it much easier to restart your server and stuff — instead of having to type in all your configuration every time you start it, &lt;code&gt;docker-compose&lt;/code&gt; will use a &lt;a href="https://github.com/itzg/docker-minecraft-server/blob/master/examples/docker-compose-autopause.yml"&gt;YAML&lt;/a&gt; file, which is so much easier to read and just generally way better. More commands (I used &lt;a href="https://sanderh.dev/setup-Docker-and-Docker-Compose-on-Raspberry-Pi/"&gt;this guide&lt;/a&gt;):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="nb"&gt;sudo &lt;/span&gt;apt-get &lt;span class="nb"&gt;install&lt;/span&gt; &lt;span class="nt"&gt;-y&lt;/span&gt; libffi-dev libssl-dev
+&lt;span class="nb"&gt;sudo &lt;/span&gt;apt-get &lt;span class="nb"&gt;install&lt;/span&gt; &lt;span class="nt"&gt;-y&lt;/span&gt; python3 python3-pip
+&lt;span class="nb"&gt;sudo &lt;/span&gt;apt-get remove python-configparser
+&lt;span class="nb"&gt;sudo &lt;/span&gt;pip3 &lt;span class="nt"&gt;-v&lt;/span&gt; &lt;span class="nb"&gt;install &lt;/span&gt;docker-compose
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Server time&lt;/h2&gt;
+
+&lt;p&gt;Ah, finally, time for the actual server. Ok, so to begin, let’s make a directory (folder) for our server, so we can keep everything in one place:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="nb"&gt;mkdir &lt;/span&gt;minecraft-server
+&lt;span class="nb"&gt;cd &lt;/span&gt;minecraft-server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;mkdir&lt;/code&gt; is “make directory,” and &lt;code&gt;cd&lt;/code&gt; is “change directory.” Next, make  (and edit) a file called &lt;code&gt;docker-compose.yml&lt;/code&gt; — that’s the one with all the configuration stuff:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight shell"&gt;&lt;code&gt;nano docker-compose.yml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You’ll now be in &lt;code&gt;nano&lt;/code&gt;, a command-line text editor. You can copy and paste the following into &lt;code&gt;nano&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight yaml"&gt;&lt;code&gt;&lt;span class="na"&gt;minecraft-server&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt;
+  &lt;span class="na"&gt;image&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s"&gt;itzg/minecraft-server:multiarch-latest&lt;/span&gt;
+
+  &lt;span class="na"&gt;ports&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt;
+    &lt;span class="pi"&gt;-&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="s"&gt;25565:25565"&lt;/span&gt; &lt;span class="c1"&gt;# Probably don't change this&lt;/span&gt;
+
+  &lt;span class="na"&gt;environment&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt;
+    &lt;span class="na"&gt;EULA&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="s"&gt;TRUE"&lt;/span&gt; &lt;span class="c1"&gt;# Agrees to Mojang EULA (necessary to start server)&lt;/span&gt;
+    &lt;span class="na"&gt;INIT_MEMORY&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="s"&gt;1G"&lt;/span&gt; &lt;span class="c1"&gt;# Initial memory&lt;/span&gt;
+    &lt;span class="na"&gt;MAX_MEMORY&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="s"&gt;6G"&lt;/span&gt; &lt;span class="c1"&gt;# Set this to a little less than your RAM&lt;/span&gt;
+    &lt;span class="na"&gt;DEBUG_MEMORY&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="s"&gt;TRUE"&lt;/span&gt; &lt;span class="c1"&gt;# Shows extra memory stats in logs&lt;/span&gt;
+    &lt;span class="na"&gt;OVERRIDE_SERVER_PROPERTIES&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="s"&gt;TRUE"&lt;/span&gt;
+    &lt;span class="na"&gt;MAX_TICK_TIME&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="s"&gt;-1"&lt;/span&gt; &lt;span class="c1"&gt;# Disables the watchdog server restarter&lt;/span&gt;
+    &lt;span class="na"&gt;ENABLE_AUTOPAUSE&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="s"&gt;TRUE"&lt;/span&gt; &lt;span class="c1"&gt;# Pauses server process when no one's on&lt;/span&gt;
+    &lt;span class="na"&gt;SERVER_NAME&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="s"&gt;Raspberry&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;Pi&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;Server"&lt;/span&gt; &lt;span class="c1"&gt;# Self-explanatory&lt;/span&gt;
+    &lt;span class="na"&gt;OPS&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="s"&gt;player1,player2"&lt;/span&gt; &lt;span class="c1"&gt;# Administrators by username&lt;/span&gt;
+    &lt;span class="na"&gt;MAX_PLAYERS&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="s"&gt;5"&lt;/span&gt; &lt;span class="c1"&gt;# Self-explanatory&lt;/span&gt;
+    &lt;span class="na"&gt;MOTD&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="s"&gt;Message&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;of&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;the&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;day&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;(subtitle)&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;goes&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;here"&lt;/span&gt; &lt;span class="c1"&gt;# Set this&lt;/span&gt;
+    &lt;span class="na"&gt;WHITELIST&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="s"&gt;player1,player2,etc"&lt;/span&gt; &lt;span class="c1"&gt;# Whitelist players here&lt;/span&gt;
+    &lt;span class="na"&gt;SPAWN_PROTECTION&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="s"&gt;0"&lt;/span&gt; &lt;span class="c1"&gt;# radius in chunks around spawn to protect from non-OPs&lt;/span&gt;
+    &lt;span class="na"&gt;OVERRIDE_SERVER_PROPERTIES&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="s"&gt;true"&lt;/span&gt;
+    &lt;span class="na"&gt;OVERRIDE_WHITELIST&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="s"&gt;true"&lt;/span&gt;
+    &lt;span class="na"&gt;OVERRIDE_OPS&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="s"&gt;true"&lt;/span&gt;
+    &lt;span class="c1"&gt;# The above 3 set it to override old parameters upon restart&lt;/span&gt;
+
+  &lt;span class="na"&gt;volumes&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt;
+    &lt;span class="pi"&gt;-&lt;/span&gt; &lt;span class="s"&gt;./data:/data&lt;/span&gt; &lt;span class="c1"&gt;# This stores your world between restarts&lt;/span&gt;
+
+  &lt;span class="na"&gt;tty&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="no"&gt;true&lt;/span&gt;
+  &lt;span class="na"&gt;stdin_open&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="no"&gt;true&lt;/span&gt;
+  &lt;span class="na"&gt;restart&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s"&gt;always&lt;/span&gt;
+  &lt;span class="na"&gt;container_name&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s"&gt;mc&lt;/span&gt; &lt;span class="c1"&gt;# You can change this if you'd like&lt;/span&gt;
+  &lt;span class="na"&gt;privileged&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="no"&gt;true&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Go ahead and change the parameters to suit your own preferences/needs. When you’re all done, do control-X to exit, then follow the onscreen instructions to save (type &lt;code&gt;y&lt;/code&gt; then hit &lt;code&gt;enter&lt;/code&gt; to save as &lt;code&gt;docker-compose.yml&lt;/code&gt;). Now… time to start the server!&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight shell"&gt;&lt;code&gt;docker-compose up &lt;span class="nt"&gt;-d&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The &lt;code&gt;-d&lt;/code&gt; part is for &lt;code&gt;--detached&lt;/code&gt;, which lets it run in the background. But to view the logs, which is probably a good idea, do&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight shell"&gt;&lt;code&gt;docker logs mc &lt;span class="nt"&gt;-f&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;mc&lt;/code&gt; is the name we gave the Docker container, and &lt;code&gt;-f&lt;/code&gt; tells it to follow the logs as they keep coming. Once everything’s downloaded and up and running, you can open up Minecraft on your computer, add a new server, type in your Pi’s IP address, and you should be able to log in (as long as you’ve whitelisted yourself, if you left the whitelist enabled)! Super exciting.&lt;/p&gt;
+
+&lt;h2&gt;Connecting over the Internet&lt;/h2&gt;
+
+&lt;p&gt;So far, you’re able to connect over your local network. But that’s probably not why you’re making this — you’d like to play with people over the whole Internet, otherwise there isn’t much of a point to doing this over just using your computer. There are a few steps to opening the server to the internet — first, sign up for an account at &lt;a href="https://www.duckdns.org"&gt;DuckDNS&lt;/a&gt;. They’re a free &lt;em&gt;dynamic IP&lt;/em&gt; service — so basically, unless you’re a business and you pay your ISP for a static IP address, your outward-facing IP will change from time to time, which would break the server address your friends typed in. You’d have to constantly check your public IP and tell them to type it in. DuckDNS automates that — you put a script on your Pi that runs every 5 minutes or so and tells them your IP address, and then their website points a subdomain (that you choose) to your IP. Add a subdomain with a name you like, and then &lt;a href="https://www.duckdns.org/install.jsp"&gt;follow their installation instructions back on your Pi&lt;/a&gt; (in the Terminal window). Make sure you select “pi” as the operating system, and you can use &lt;code&gt;nano&lt;/code&gt; instead of &lt;code&gt;vi&lt;/code&gt; — it’s a little less complicated and easier to understand. Come back here when you’re done.&lt;/p&gt;
+
+&lt;p&gt;Ok, you’re back? Good job. Now all we have to do is port forwarding. Log into your router’s GUI (probably 192.168.0.1), and find the section about port forwarding (for us it’s under “advanced setup”). Do what it asks for — routers are weird and all very different, but for us, that meant entering the IP address of the Pi, leaving the LAN starting port blank, selecting TCP (only) as the protocol, and setting 25565 to be the only WAN port (I also left “source IP state” as “all IP addresses”). Port 25565 is the default port for Minecraft servers. If you’d like to be able to &lt;code&gt;ssh&lt;/code&gt; from somewhere else, you can also open port 22, which is (you guessed it) the default SSH one. (If you do, just make sure that your password is really strong, and &lt;em&gt;definitely&lt;/em&gt; don’t leave the password as the default &lt;code&gt;raspberry&lt;/code&gt;!!)&lt;/p&gt;
+
+&lt;h2&gt;Joining the world&lt;/h2&gt;
+
+&lt;p&gt;So presumably you’ve made it — congrats(!)&lt;/p&gt;
+
+&lt;p&gt;To join the world on your local network, you’ll need to use the Pi’s local IP address as your server address. To play elsewhere, use the DuckDNS domain. (If you have a VPN on, you can connect using the DuckDNS domain even on your local network, but just do the local IP address because it provides lower (better) ping.) Basically, just add both, and one will be disconnected depending on whether you’re at home or elsewhere. You can just give other people the DuckDNS domain, though, unless they’re at your place. Also — if you’re finicky like me and would rather use a subdomain of a domain that you own, you can just add a CNAME record that points to &lt;code&gt;you.duckdns.org&lt;/code&gt; (replacing &lt;code&gt;you&lt;/code&gt;, of course). If you have no idea what that means, don’t worry at all.&lt;/p&gt;
+
+&lt;h2&gt;🎉 You did it!&lt;/h2&gt;
+
+&lt;p&gt;Congratulations! (If you ran into issues, feel free to leave a comment and I’ll do my best to help.)&lt;/p&gt;
+
+&lt;p&gt;This is where I would say ‘happy crafting’ or something, but that’s exceedingly cringy, so nope… just congratulations.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>“endless time”</title>
+    <link rel="alternate" href="https://jltml.me/blog/endless-time/"/>
+    <id>https://jltml.me/blog/endless-time/</id>
+    <published>2020-05-04T05:00:00+00:00</published>
+    <updated>2023-12-19T20:48:30+00:00</updated>
+    <author>
+      <name>Jack MapelLentz</name>
+    </author>
+    <content type="html">&lt;h1&gt;“endless time”&lt;/h1&gt;
+
+&lt;pre class="scroll-x"&gt;
+When I see the neighbors
+with their TVs’ fake families and careless comfort fallacies
+
+What of that endless time with Caroline and Logan of mine?;
+  was It all just a lie that i left behind?
+the past must’ve passed; my neck hurts from looking —
+  across the street, past the alley, through the walls, over the valley —
+  (now everyone’s gone all along to some other belong; i’m still looking —)
+  towards all its loved lost raindrops, but
+
+What of it? I don’t think I’ll stop.
+&lt;/pre&gt;
+</content>
+  </entry>
+  <entry>
+    <title>“fade/blinks”</title>
+    <link rel="alternate" href="https://jltml.me/blog/fade-blinks/"/>
+    <id>https://jltml.me/blog/fade-blinks/</id>
+    <published>2020-03-01T06:00:00+00:00</published>
+    <updated>2023-12-19T20:48:30+00:00</updated>
+    <author>
+      <name>Jack MapelLentz</name>
+    </author>
+    <content type="html">&lt;h1&gt;“fade/blinks”&lt;/h1&gt;
+
+&lt;p&gt;&lt;p style="font-style: italic; font-size: 12pt; text-indent: 0; color: rgb(120, 120, 120)"&gt;(scroll horizontally if the first line cuts off)&lt;p&gt;&lt;/p&gt;
+
+&lt;pre style="overflow-x: scroll;"&gt;
+If I ever realize that this is not real, does it fade out slowly? Or is it just
+
+longer
+
+
+
+
+
+
+and longer
+
+
+
+
+
+
+
+
+
+
+
+
+
+and
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+longer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+and
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+longer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+between
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+blinks?
+&lt;/pre&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Mini Book Review: &lt;i&gt;The Overstory&lt;/i&gt;</title>
+    <link rel="alternate" href="https://jltml.me/blog/the-overstory-review/"/>
+    <id>https://jltml.me/blog/the-overstory-review/</id>
+    <published>2019-11-07T06:00:00+00:00</published>
+    <updated>2023-12-19T20:48:30+00:00</updated>
+    <author>
+      <name>Jack MapelLentz</name>
+    </author>
+    <content type="html">&lt;h1&gt;Mini Book Review: &lt;em&gt;The Overstory&lt;/em&gt; by Richard Powers&lt;/h1&gt;
+
+&lt;p&gt;Alright, so this one is interesting. It’s entirely about trees — at the beginning, before everything comes together and they all wind up utterly intertwined, the characters seem completely unrelated and independent save for some random connection to trees. It’s almost as well-written as &lt;em&gt;All the Light We Cannot See&lt;/em&gt;, probably the most beautiful book I’ve ever read (and a fellow recipient of the Pulitzer Prize). But the key word is almost. Where &lt;em&gt;ATLWCS&lt;/em&gt;’s sentences float among the clouds, even in the stormiest times, Richard Powers’s in &lt;em&gt;The Overstory&lt;/em&gt; flip-flop between abstract philosophy and brutal honesty. And some can’t decide which subset they belong in. Regardless, though, there’s certainly something to be learned from the novel. Actually, there are far too many things to count that one could learn. Barbra Kingsolver, in &lt;em&gt;The New York Times&lt;/em&gt;, calls the book “a gigantic fable of genuine truths,” which is a perfect description. Perhaps that’s why it’s the quote featured on its cover. Anyway, I had a hard time understanding it while in the midst of the the story, but this is absolutely a fable, albeit a multifaceted and lengthy one. Between the numerous moments of unshielded anger, small victories, and inexplicable defeat, we inch closer to an explanation as to why of all things humans would so ruthlessly destroy such complex and beautiful beings — beings that, some characters argue, are no less consciously alive than we are. This explanation, though, seems too complex to be put into words — in actuality, it’s probably closer to an understanding as opposed to any linear explanation. We can’t explain why we’re so powerless to stop ourselves from cutting these incredible things to the ground. Just like how we can’t explain how we know, deep down, that in the long run these trees will be just fine, while we will not. But we can only seek to understand and comprehend its infinite repercussions. Compared to a tree, though, that’s quite a small infinity.&lt;/p&gt;
+
+&lt;p&gt;Somehow, of all of the thousands of barren miles, a drunken truck driver — one of our own kind — managed to crash into &lt;em&gt;L’Arbre du Ténéré&lt;/em&gt;, alone in the Sahara Desert, the only of &lt;em&gt;its&lt;/em&gt; kind for over 250 miles. Every single minute of each and every day, an whole soccer pitch of trees is slashed, burned, and ground into nonexistence. And that’s only in the Amazon. I don’t know whether we’ve crossed the point of no return, or whether there is even a point of no return. Someday, at least, we won’t be able to go back to the way things are today. But this is terribly unsustainable. It’s a spiral into unraveling. Should we choose to do nothing, I doubt that we’ll realize it. One day, we’ll look back and realize that things aren’t the way they once were.&lt;/p&gt;
+
+&lt;p&gt;So above all else, &lt;em&gt;The Overstory&lt;/em&gt; is indeed a fable, albeit a 502-page one. It is simple — humans are just doing what humans must — yet complex beyond all measure: we should be able to do something, but we are no match against ourselves. It’s a book that must be unpacked over a long time, if not across multiple rereadings. But, as with all fables, at its core lies a pithy central moral:&lt;/p&gt;
+
+&lt;p&gt;Trees are not in need of saving. We are.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Mini Book Review: &lt;i&gt;Little Fires Everywhere&lt;/i&gt;</title>
+    <link rel="alternate" href="https://jltml.me/blog/little-fires-everywhere-review/"/>
+    <id>https://jltml.me/blog/little-fires-everywhere-review/</id>
+    <published>2019-07-05T05:00:00+00:00</published>
+    <updated>2023-12-19T20:48:30+00:00</updated>
+    <author>
+      <name>Jack MapelLentz</name>
+    </author>
+    <content type="html">&lt;h1&gt;Mini Book Review: &lt;em&gt;Little Fires Everywhere&lt;/em&gt; by Celeste Ng&lt;/h1&gt;
+
+&lt;p&gt;So I’ve decided to occasionally review books… here we go, I guess:&lt;/p&gt;
+
+&lt;p&gt;Little Fires Everywhere first somehow flashes its story in your face, letting you catch a glimpse of what’s already happened. But the scene is soon shrouded in darkness again, leaving a negative imprint on your eyes and an innumerable amount of questions in your head. From there, Celeste Ng somehow paints an incredibly vivid picture of a heartwrenching struggle over a single child, upon which the 1970s-suburban ideals of Shaker Heights (which, by the way, is a real place and still exists) somehow stand and are pitted against the the reality of inevitable entropy… and reality itself, in which relationships, despite every bureaucratic effort to pin them apart, wind up tangled and hopelessly intertwined. Every pull on the strings only tightens the knots.&lt;/p&gt;
+
+&lt;p&gt;The book contains a story woven from plain thread into a colorful fabric, but the resulting textile is then ripped in half, after which its fragments are left to burn. It’s simultaneously mind-boggling, captivating, optimistic, and then hopeless. A house of cards is conjured from a messy deck, reaching higher and higher with the utmost precision and perfection - but a single misplaced juncture is tucked in the middle; no one notices, but a slight breeze soon rounds the corner… everything falls apart. That’s what this book is like. It’s all wonderful and beautiful, but then you realize that something must not be right, except before you have a chance to discern what dark cloud might be hanging overhead, everything collapses, the downpour starts, and lightning strikes in the form of Izzy. There will have been a million things that could’ve gone differently - in other universes, everyone would’ve lived happily ever after, but you’ll be left questioning why all the wrong things lined up in this one.&lt;/p&gt;
+
+&lt;p&gt;The answer, at least to me, is still unclear. I think it must exist somewhere. Answers, in general, are very prone to tangles.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Little Fires Everywhere by Celeste Ng - 10/10&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Ode to the Cities 97 Sampler</title>
+    <link rel="alternate" href="https://jltml.me/blog/cities-97-sampler/"/>
+    <id>https://jltml.me/blog/cities-97-sampler/</id>
+    <published>2019-05-04T05:00:00+00:00</published>
+    <updated>2023-12-19T20:48:30+00:00</updated>
+    <author>
+      <name>Jack MapelLentz</name>
+    </author>
+    <content type="html">&lt;h1&gt;Ode to the &lt;em&gt;Cities 97 Sampler&lt;/em&gt;&lt;/h1&gt;
+
+&lt;h2&gt;by Jack MapelLentz &amp;lsquo;22&lt;/h2&gt;
+
+&lt;p&gt;On Tuesday, November 13th, 2018, the iconic Targets of the Twin Cities opened up for another day of business. Their glass doors slid open across the metro, near-simultaneously, to those awaiting outside; on shelves were copies of the &lt;em&gt;Cities 97 Sampler Volume 30&lt;/em&gt;, aptly titled &lt;em&gt;The Final Chapter.&lt;/em&gt; For this day was indeed the conclusion to a beautiful, touching story: over its 30 years of existence, the &lt;em&gt;Sampler&lt;/em&gt; not only compiled unique, heartwarming, and intimate renditions of often-stunning songs; its sales also raised above $13 million for charities across Minnesota.&lt;/p&gt;
+
+&lt;p&gt;Most likely, the majority of you have never heard of the &lt;em&gt;Sampler.&lt;/em&gt; Perhaps you’ve been unknowingly touched by its charitable impact. Alas, a rundown: first released in 1989 (a year the Swifties will recognize), it consisted of seventeen songs, give or take a few, burned onto a CD yearly to be distributed on a crisp November morning at the aforementioned Targets. Some years, especially during the &lt;em&gt;Sampler’s&lt;/em&gt; renaissance, hardy lovers of alternative music would stand for hours in line outside Target’s doors in a freezing sea of snowflakes just to listen to 75-ish minutes of music. Why, you may ask? It’s basically impossible to beat its singularity unique, cozy, and idiosyncratic recordings of (usually well-known) songs. Most[^Some were recorded at Cities 97-sponsored events like the Basilica Block Party, etc] were recorded in front of an audience comprised of only a few people at Cities 97’s St. Louis Park-located Studio C, a name that, for me, instantaneously triggers a landslide of childhood memories: watching Kare 11’s weather channel (11-2!) before school, driving from Mahtomedi on I-694 as the sun rose, the worn gray lightly-patterned fabric seats of our trusty 2006 Saturn Ion. For many listeners, myself included, all these seemingly insignificant songs are inexplicably tied to their very identity as a “true” Minnesotan.&lt;/p&gt;
+
+&lt;p&gt;Every fall, as &lt;em&gt;Sampler&lt;/em&gt; release day inched closer, I’d sit in the left backseat of the black Ion staring out the window as traffic slowed at the Wakota Bridge; as we flowed among the cars, Brian Oake - then the voice of 97.1 - would mention a sample of one of the soon-to-be-released songs, and I’d quickly lose myself in the music. Finally, on the morning of release, after what seemed to me like years of waiting, my dad would rouse my brother and me well before the sun had graced the horizon. Those days, 694 was always empty. Passing from the frigid and dark morning, over snow-covered concrete, and through the automatic doors onto the fluorescent-lit white tiles of Target, the &lt;em&gt;Sampler&lt;/em&gt; always sat ahead in neat rows on the end of an aisle. Crunching through the powder back to the Ion, we would slide it into its now-antiquated CD player, embarking on the year’s musical tale once more.&lt;/p&gt;
+
+&lt;p&gt;Soon after this, at school: “Jack, why are you late?” they’d ask me. “Sorry. We were getting the Cities 97 Sampler,” I’d reply, stated as a fact, as if there was no alternative… and, honestly, there was none. By then, the &lt;em&gt;Sampler&lt;/em&gt; was long ingrained within my identity.&lt;/p&gt;
+
+&lt;p&gt;Between then and now, years passed, life whizzed by, and the &lt;em&gt;Sampler’s&lt;/em&gt; volume number increased without relent. CDs faded into obsolescence, but it remained committed to the medium. I, and probably many other listeners, never considered that a November sans &lt;em&gt;Sampler&lt;/em&gt; would ever come. But come it did; on October 3rd, the station announced that Volume 30 would be its last. CDs, they said, simply weren’t prevalent enough anymore. No one even had devices that could play them, and regulations for digital releases are significantly more byzantine than physical ones. My heart sank.&lt;/p&gt;
+
+&lt;p&gt;Forty-one days later, we entered our garage and climbed my dad’s car, no longer the Ion. I now sat in the passenger seat, not the back, driving to the nearest Target. We passed through the automatic doors from the chilly, gray day into the store. The shelves were empty. They had sold out. Oh well. That’s just how it would have to end.&lt;/p&gt;
+
+&lt;p&gt;A couple of weeks ago, looking through my slightly insane number of tabs on my computer, I clicked on one that I’d left open for months: Target’s page for the &lt;em&gt;Sampler’s&lt;/em&gt; Volume 30. “Add to cart,” it said. Huh. So we did as the button said; days later, it showed up in a little cardboard box in our tattered mailbox. I now hold it in my hand, waiting to pull the old MacBook out from under my bed, the only device in our house equipped to import CDs.&lt;/p&gt;
+
+&lt;p&gt;But before that, I think I’ll listen to the older volumes. You simply can’t beat The Fray and Death Cab for Cutie on Volume 18; The Head and the Heart, Farewell Milwaukee, and Mumford &amp;amp; Sons on Volume 23; Brandi Carlile on Volume 24; or Colbie Caillat, John Mayer, and Guster on Volume 22 - which is perhaps my favorite. On its closing track, Ingrid Michaelson says, introducing the song, “Um, we’re gonna do a Mexican song. Well, it’s a- it’s the song ‘Ode to Mexican Food,’” before launching into a jovial cover of &lt;em&gt;Maybe,&lt;/em&gt; from her own album &lt;em&gt;Everybody&lt;/em&gt;, except the lyrics begin with “I don’t know what I’m gonna eat tonight.” Or Ben Rector on Volume 28, replacing a line in “Brand New” with “I feel like windows rolled down / That’s because it’s hotter than it’s ever been before,” following up with “I feel like for the first time / I am in an oven that’s set to bake / I feel like any sort of baked item,” poking fun at an ongoing heat wave. When paired with their more serious counterparts, songs like these are what give the &lt;em&gt;Cities 97 Samplers&lt;/em&gt; a heart and soul all their own. And while we might not be getting a new disc every year, volumes of the past will undoubtedly live on in memory.&lt;/p&gt;
+
+&lt;p&gt;By now, I know well enough that, when all’s said and done, memories are sometimes the only things we’re left with. As you have most likely discerned, I lament the loss of such a musical staple… but is it really gone? Who knows; in the future, maybe it’ll come back. All in all, I’m simply grateful that I ever had the chance to experience its era. I’m grateful for its charitable aspect and the countless lives impacted. I’m grateful for all the incredibly talented artists that performed at Studio C, and the masterpieces they’ve created. But, above all, I’m grateful for the way that the &lt;em&gt;Cities 97 Sampler&lt;/em&gt; has shaped my musical taste, and, by extension, me, for music is embedded within my consciousness. I think that I can say without doubt that without the &lt;em&gt;Sampler&lt;/em&gt; I would be a noticeably different person. It’s the little things that keep us afloat in this crazy, beautiful river of life. I remind you: realize and acknowledge them while they’re still among you; when they flow away, recall how much you loved them.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>florence</title>
+    <link rel="alternate" href="https://jltml.me/blog/florence/"/>
+    <id>https://jltml.me/blog/florence/</id>
+    <published>2018-10-11T05:00:00+00:00</published>
+    <updated>2023-12-19T20:48:30+00:00</updated>
+    <author>
+      <name>Jack MapelLentz</name>
+    </author>
+    <content type="html">&lt;body&gt;
+
+  &lt;h2&gt;
+    florence
+  &lt;/h2&gt;
+
+  &lt;p&gt;
+
+    &lt;i&gt; Note: I wrote this late at night during a seven-hour car ride. To sum it up, I was bored and sleepy and tired, so I opened iA Writer on my phone and began writing. I don't know whether it's good or not, or if it's even meant to be measured on such a scale, or if it's meant for anything at all. But anyway, I hope that you enjoy it.&lt;/i&gt;
+
+    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;b&gt;Seventy miles per hour.&lt;/b&gt; That was the most that the stationwagon was supposed to be going, but, like many things in this life, stationwagons are not known for their compliance with rules. If it could go faster, it would, and it did indeed. Ninety miles per hour, actually, was the speed its motor decided upon, regardless of whether Florence were to jump on or delicately brush the accelerator. She was alone, sitting in the driver’s seat, back locked and looking directly ahead at a pair of red lights that could easily have been a figment of her imagination. Slowly, the lights grew dimmer, until they were veiled behind a velvet curtain woven of loosely threaded fog. The erratic horizontal jerking of the stationwagon (until then a constant of the trip) eased into a floating sway, as if the tires were replaced by clouds - and where rubber would need friction and inertia to move, the clouds’ thought of going forward was enough for the ground to comply. Florence thought that she could see through the clouds for a moment, to a place beyond the night, where sunlight needed no sun to be born; it simply &lt;i&gt;existed&lt;/i&gt;. A unicorn might have smiled - she would never know for sure - but it was just as beautiful as any horse in this land. And then the red lights gently pushed back from reality, and Florence blinked - even with her eyelids closed, she could feel the darkness wrap around her and her car, but it was not a piercing darkness, it… it was a knowing darkness. And that, she thought, might have been just what she needed. She did not feel relief, nor warmth, but an understanding was enough. To know that not everything was okay, but that someday, it might be. She blinked again; now, a silent tear dropped out of her eye. Florence plunged back into the tumultuous river of life, but this time, she dove elegantly. The lights vanished again, and a wall of rain hit her windshield. The stationwagon bounced a little as if in surprise, but carried on just the same. And, after all, Florence did too.
+
+    &lt;br&gt;
+    &lt;br&gt;
+  &lt;/p&gt;
+&lt;/body&gt;
+</content>
+  </entry>
+  <entry>
+    <title>A semi-condensed synopsis of my lungs</title>
+    <link rel="alternate" href="https://jltml.me/blog/a-semi-condensed-synopsis-of-my-lungs/"/>
+    <id>https://jltml.me/blog/a-semi-condensed-synopsis-of-my-lungs/</id>
+    <published>2018-08-28T05:00:00+00:00</published>
+    <updated>2023-12-19T20:48:30+00:00</updated>
+    <author>
+      <name>Jack MapelLentz</name>
+    </author>
+    <content type="html">&lt;h3&gt;I recently wrote an email to someone summarizing my whole experience (re: my lungs), which I&amp;rsquo;ve been meaning to do for a while. Here it is.&lt;/h3&gt;
+
+&lt;p&gt;• &lt;strong&gt;Early November:&lt;/strong&gt; I got some sort of [rather minimal] cold, which took me a while to recover from, as has always been the case for me (as a little kid, I used to pretty much never go to preschool: when other kids got sick for two days I’d be out for a week). Except when I got better from the cold itself, I continued coughing and wheezing.&lt;/p&gt;
+
+&lt;p&gt;• &lt;strong&gt;December:&lt;/strong&gt; Everything just kept getting worse. I couldn’t breathe without being involuntarily forced into a forced expratory maneuver, which I’d taught myself to do (it involves compressing and squeezing all the air out of your lungs so as to wring out mucus blocking anything. When I first did if for her, my pulmonologist said that she’d never seen someone do it like that without being taught, and even then that it was super impressive)&lt;/p&gt;
+
+&lt;p&gt;• &lt;strong&gt;January:&lt;/strong&gt; I finally saw a pulmonologist, who soon diagnosed me with protracted bacterial bronchitis. I began a course of cefdinir (I think), as studies had shown that and one other antibiotic to be effective against the majority of cases of PBB.&lt;/p&gt;
+
+&lt;p&gt;• &lt;strong&gt;February:&lt;/strong&gt; The cefdinir had greatly improved me, but I slipped back when the three-week course ended, so…&lt;/p&gt;
+
+&lt;p&gt;• &lt;strong&gt;March:&lt;/strong&gt; …on the 6th, I had my first brochoscopy. (sidenote: I had the worst anesthesiologist ever. She kept swearing in front of us, and then she left the IV needle thingy on my bed (thankfully my mom caught it, so I didn’t get hurt). When they put in the IV - not even any medicine - I fainted and kicked off my shoes. It was really, really unpleasant. I have an irrational fear of blood etc, so that was actually the third time I’ve fainted) It found 500,000 colonies/mL of &lt;em&gt;haemophilus influenzae&lt;/em&gt; in my right lower lobe (and hundreds of thousands in my left; I just don’t remember quite how many), plus a few thousand colonies/mL of three other kinds of bacteria. It turns out that the other of the two CBB-treating antibiotics - augmentin, aka amoxicillin/clavulanic acid - actually treats the &lt;em&gt;H. influenzae&lt;/em&gt;. Hence, I began a course of that. It again helped me, even more this time, but I slipped back once again (though I was still better than before).&lt;/p&gt;
+
+&lt;p&gt;• &lt;strong&gt;April:&lt;/strong&gt; I don’t remember the exact date, but sometime around then the fungal culture came back from the bronchoscopy (it takes a few weeks, whereas the bacterial culture takes only days). Instead of the expected negative, it tested positive for aspergillus. I started seeing an infectious-disease doctor, too, and after some debate, I began a medicine called voriconazole.&lt;/p&gt;
+
+&lt;p&gt;• &lt;strong&gt;May:&lt;/strong&gt; I stayed on the voriconazole for five weeks (near the very minimum course) but didn’t experience any impriovement. In addition, I got super sunburnt (which doesn’t really ever happen to me) and began experiencing skin breakdown (taking off a band-aid ripped my skin) and discoloration (my arms got all spotty). It also suppressed my appetite, or so my mom’s told me. Apparently voriconazole is a really intense medicine. Eventually I stopped taking it when I started developing hepatitis and had no positive effects. The aspergillus was, in essence, a red herring.&lt;/p&gt;
+
+&lt;p&gt;• &lt;strong&gt;June:&lt;/strong&gt; I had my second bronchoscopy on June 6, which was incidentially the last day of school (I’d already finished my finals, having moved conflicting ones). It found a variety of other bacteria, which at this point I’ve lost track of. Somewhere in here I did a course of bactrum. Eventually…&lt;/p&gt;
+
+&lt;p&gt;• &lt;strong&gt;July:&lt;/strong&gt; …it got to the point where we’d tried pretty much everything. After a particularily bad day running (throughout this whole thing I kept on doing Nordic skiing and track), we were given two options: another steroid burst of prednisone, or going into the hospital for IV antibiotics. We ended up doing the latter, so I went into the hospital out of nowhere. I actually didn’t know that I’d be going in until the mid-morning, and we came directly from a bookstore. I left with a PICC line, through which I’d take meropenem (also used to treat anthrax!) every eight hours for the next five weeks.&lt;/p&gt;
+
+&lt;p&gt;• &lt;strong&gt;August:&lt;/strong&gt; We started going into the Mayo Clinic, and after some consultation visits, I had my third bronchoscopy done, plus an endoscopy at the same time (I might be micro-aspirating in my sleep and contaminating my lungs in addition to all this). They also placed an impedance probe (a wire that went down my esophagus and came out of my nose), which stayed in for the next 24 hours. That was definetly one of the most miserable experiences of my entire life… they’d said that it would be quite unintrusive, but every time I tried to swallow or move in a certain way, some internal muscle involuntarily contracted, and it felt like it bluntly poked me deep inside the back of my throat. A few weeks later, I got my PICC line out. In total, we did 121 antibiotic doses at home.&lt;/p&gt;
+
+&lt;p&gt;I think that that kind of concludes the story so far! I’ve excluded the not-so-notable doctor visits and other miscellaneous things, but I think I remembered the major points.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>hi!</title>
+    <link rel="alternate" href="https://jltml.me/blog/hi/"/>
+    <id>https://jltml.me/blog/hi/</id>
+    <published>2018-08-27T05:00:00+00:00</published>
+    <updated>2023-12-19T20:48:30+00:00</updated>
+    <author>
+      <name>Jack MapelLentz</name>
+    </author>
+    <content type="html">&lt;h1&gt;Hello!&lt;/h1&gt;
+
+&lt;p&gt;This is more of a test article. Anyways, welcome to my blog&amp;hellip; it&amp;rsquo;s here that I&amp;rsquo;ll post my thoughts and other miscellaneous things.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
